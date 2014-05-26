@@ -1,0 +1,99 @@
+# .gitignore file meant for use with WP + composer
+
+# EXCEPTIONS - custom plugins part of the site
+# Syntax example:
+# !/app/plugins/codelight-plugin
+
+#
+# Wordpress
+#
+
+wp-config.php
+
+wp-content/backup-db
+wp-content/backups
+wp-content/blogs.dir
+wp-content/cache
+wp-content/languages
+wp-content/upgrade
+
+/app/backup-db
+/app/backups
+/app/blogs.dir
+/app/cache
+/app/ewww
+/app/languages
+/app/upgrade
+
+/app/plugins
+/app/uploads
+/vendor
+/wordpress
+/wp
+/index.php
+
+#
+# Wordpress cache
+#
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/db.php
+wp-content/object-cache.php
+wp-content/w3tc-config
+
+/app/advanced-cache.php
+/app/wp-cache-config.php
+/app/db.php
+/app/object-cache.php
+/app/w3tc-config/
+
+#
+# Misc
+#
+.DS_Store
+Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-project
+*.sublime-workspace
+*~
+*.lock
+*.swp
+*.out
+.idea/
+.hg
+.svn
+.CVS
+intermediate
+cache
+*.orig
+node_modules
+*.diff
+*.err
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+cgi-bin/
+/.htaccess
+
+# Sitemap
+sitemap.xml
+sitemap.xml.gz
+
+# Composer
+composer.phar
+
+#Logs
+log
+*.log
+error_log
+
+# Packages
+app/_ide_helpers.php
