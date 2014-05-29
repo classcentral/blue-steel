@@ -93,7 +93,7 @@ if(function_exists("register_field_group"))
         'name' => 'pinned',
         'type' => 'checkbox',
         'choices' => array (
-          'true' => 'Pinned',
+          'pinned' => 'Pinned',
         ),
         'default_value' => '',
         'layout' => 'vertical',

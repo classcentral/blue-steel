@@ -1,4 +1,4 @@
-<?php foreach ( $pinned as $post ) : setup_postdata( $post ); ?>
+<?php foreach ( $pinned_posts as $post ) : setup_postdata( $post ); ?>
   <div class="banner" style="background-image: url('<?php echo $banner['sizes']['blog-banner-full']; ?>');">
     <h1>
       <?php the_title(); ?>
