@@ -10,9 +10,12 @@
         <?php while (have_posts()) : the_post(); ?>
             <div class="col-md-6 col-single-post">
                 <article <?php post_class(); ?>>
-                    <header class="post-header" style="background-image: url('<?php echo $banner['sizes']['blog-thumbnail']; ?>');">
-                        <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-                    </header>
+                    <?php $image = get_field('banner'); ?>
+                    <a href="<?php the_permalink(); ?>">
+                      <header class="post-header" style="background-image: url('<?php echo $image['sizes']['blog-thumbnail']; ?>');">
+                          <h2 class="entry-title"><?php the_title(); ?></h2>
+                      </header>
+                    </a>
                     <div class="entry-summary">
                         <?php the_excerpt(); ?>
                     </div>
@@ -35,7 +38,7 @@
     <?php if ($wp_query->max_num_pages > 1) : ?>
         <nav class="post-nav">
             <ul class="pager">
-                  <li class="next">                    
+                  <li class="next">
                     <?php if ( $prev = get_previous_posts_link( 'Newer posts' ) ): ?>
                         <?php echo $prev; ?>
                     <?php else: ?>
