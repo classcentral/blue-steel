@@ -35,8 +35,20 @@
     <?php if ($wp_query->max_num_pages > 1) : ?>
         <nav class="post-nav">
             <ul class="pager">
-                <li class="previous"><?php next_posts_link(__('&larr; Older posts', 'roots')); ?></li>
-                <li class="next"><?php previous_posts_link(__('Newer posts &rarr;', 'roots')); ?></li>
+                  <li class="next">                    
+                    <?php if ( $prev = get_previous_posts_link( 'Newer posts' ) ): ?>
+                        <?php echo $prev; ?>
+                    <?php else: ?>
+                        <span class="disabled">Newer posts</span>
+                    <?php endif; ?>
+                </li>
+                <li class="previous">
+                    <?php if ( $next = get_next_posts_link( 'Older posts' ) ): ?>
+                        <?php echo $next; ?>
+                    <?php else: ?>
+                        <span class="disabled">Older posts</span>
+                    <?php endif; ?>
+                </li>
             </ul>
         </nav>
     <?php endif; ?>
