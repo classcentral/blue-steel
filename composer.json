@@ -113,12 +113,8 @@
     "wpackagist/user-switching": "*",
     "wpackagist/w3-total-cache": "*",
     "wpackagist/wordfence": "*",
-<<<<<<< HEAD
-    "wpackagist/wp-resized-image-quality": "*"
-=======
     "wpackagist/wp-resized-image-quality": "*",
     "roots/wp-stage-switcher": "1.0.1"
->>>>>>> 391b60ac439f706a0f6b0127d1ee3bf5cad26942
   },
   "extra": {
     "webroot-dir": "wordpress",
