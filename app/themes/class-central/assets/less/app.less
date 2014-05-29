@@ -490,10 +490,6 @@ body {
    =Header Area
    ========================================================================== */
 
-.post-nav {
-  margin: 40px 0 100px 0;
-}
-
 .header-area {
   overflow: hidden;
   background-size: cover;
@@ -758,62 +754,162 @@ body {
   margin-top: 44px;
 }
 
+.post-meta table,
+.post-meta table tbody,
+.post-meta table tr,
+.post-meta table tr td {
+  display: block;
+  width: 100%;
+  border-left: none;
+  border-right: none;
+}
+
+.post-meta table {
+  background: transparent;
+  width: 100%;
+}
+
+.post-meta table td {
+  padding: 14px 5px;
+  text-align: center;
+  border: 1px solid @table-border-color;
+  border-top: none;
+  width: 100%;
+}
+
+.post-meta table td .twitter,
+.post-meta table td .facebook {
+  vertical-align: top;
+}
+
+.post-meta td > ul,
+.post-meta td > ul > li,
+.post-meta td > span,
+.post-meta td > a,
+.post-meta td > div {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.post-meta {
+  overflow: hidden;
+  margin-bottom: 100px;
+  font-family: @font-family-small-text;
+}
+
+.post-meta td > span,
+.post-meta td > span {
+  color: @gray-medium-light;
+  font-size: 11px;
+  margin-right: 10px;
+}
+
+.post-meta td a,
+.post-meta td a {
+  color: @gray-dark;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+@media (min-width: 600px) {
+  .post-meta table {
+    display: table;
+  }
+
+  .post-meta table tbody {
+    display: table-row-group;
+  }
+
+  .post-meta table tr {
+    display: table-row;
+  }
+  .post-meta table tr td {
+    display: table-cell;
+    border: 1px solid @table-border-color;
+    border-top: none;
+    width: 45%;
+  }
+
+  .post-meta table tr td:first-child {
+    border-left: none;
+    width: 27%;
+  }
+
+  .post-meta table tr td:last-child {
+    border-right: none;
+    width: 28%;
+  }
+}
+
 /* ==========================================================================
    =Pagination
    ========================================================================== */
 
-.pager li {
-  width: 50%;
-  float: left;
-  text-align: center;
+.home .post-nav {
+  margin: 40px 0 100px 0;
 }
 
-.pager li a,
-.pager li .disabled {
+.single .post-nav {
+  margin: 40px 0 0 0;
+}
+
+.single .pager {
+  margin-bottom: 0;
+}
+
+.pager {
+  width: 100%;
+  background: transparent;
+}
+
+.pager td {
+  width: 50%;
+  tex-talign: center;
+  border: 1px solid @table-border-color;
+}
+
+.pager td:first-child {
+  border-left: none;
+}
+
+.pager td:last-child {
+  border-right: none;
+}
+
+.pager td a,
+.pager td .disabled {
   display: block;
   text-align: center;
   padding: 15px;
   font-size: 18px;
   color: @gray-pagination;
-  border: 1px solid @table-border-color;
   text-transform: uppercase;
   background-color: transparent;
   float: none !important;
   .border-radius(0);
 }
 
-.pager li .disabled {
+.pager td .disabled {
   color: @gray-disabled;
 }
 
-.pager .next a,
-.pager .next span {
-  border-right: none;
-  border-left: none;
-}
-
-.pager .previous a,
-.pager .previous span {
-  border-right: none;
-}
-
-.pager li > a:hover,
-.pager li > a:focus {
+.pager td > a:hover,
+.pager td > a:focus {
   text-decoration: none;
   background-color: transparent;
 }
 
 @media (min-width: 480px) {
-  .pager li a,
-  .pager li .disabled {
+  .pager td a,
+  .pager td .disabled {
     padding: 30px;
     font-size: 20px;
   }
 }
 
 @media (min-width: 700px) {
-  .pager li a,
-  .pager li .disabled {
+  .pager td a,
+  .pager td .disabled {
     padding: 45px;
     font-size: 28px;
   }
