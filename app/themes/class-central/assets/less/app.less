@@ -10,7 +10,267 @@
 
 body { }
 
+// fix for the chrome font rendering bug
+body {
+  -webkit-animation-delay: 0.1s;
+  -webkit-animation-name: fontfix;
+  -webkit-animation-duration: 0.1s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+}
 
+@-webkit-keyframes fontfix {
+  from { opacity: 1; }
+  to   { opacity: 1; }
+}
+
+
+/* =Icons
+----------------------------------------------------------------------------- */
+.icon-search,
+.icon-star,
+.icon-tick,
+.icon-up,
+.icon-down,
+.icon-check,
+.icon-home,
+.icon-lock,
+.navbar-brand:before {
+  font-family: 'CC Icon Font';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  pointer-events: none;
+}
+
+.icon,
+.icon-plus,
+.icon-minus,
+.icon-facebook,
+.icon-google_follow,
+.icon-twitter,
+.icon-cc-logo7 {
+  pointer-events: none;
+}
+
+.no-svg svg {
+  display: none !important;
+}
+
+
+/* =PNG fallback
+----------------------------------------------------------------------------- */
+
+.no-svg .navbar-default .caret {
+  width: 10px;
+  height: 10px;
+  background-image: url("/app/themes/class-central/assets/img/sprites.png");
+  background-position: -108px 0;
+}
+
+.no-svg .navbar .cc-logo-navbar {
+  display: block;
+  background-image: url("/app/themes/class-central/assets/img/sprites.png");
+  background-position: 0 -50px;
+  width: 220px;
+  height: 22px;
+}
+
+.no-svg .icon-search-png {
+  display: block;
+  float: left;
+  width: 18px;
+  height: 18px;
+  margin: 10px 7px 8px 10px;
+  background-image: url("/app/themes/class-central/assets/img/sprites.png");
+  background-position: -689px 0;
+}
+
+.no-svg .navbar-default .navbar-right > .social-icon a span {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-image: url("/app/themes/class-central/assets/img/sprites.png");
+}
+
+.no-svg .navbar-default .navbar-right > .social-icon .fb-icon-png {
+  background-position: -322px -51px;
+}
+
+.no-svg .navbar-default .navbar-right > .social-icon .twitter-icon-png {
+  background-position: -250px -51px;
+}
+
+.no-svg .navbar-default .navbar-right > .social-icon .gplus-icon-png {
+  background-position: -286px -51px;
+}
+
+.no-svg .icon-lock-png,
+.no-svg .icon-user-png {
+  display: block;
+  width: 17px;
+  height: 17px;
+  background-image: url("/app/themes/class-central/assets/img/sprites.png");
+  float: left;
+  margin: 0 8px 0 0;
+}
+
+.no-svg .icon-lock-png {
+  background-position: -636px -1px;
+}
+
+.no-svg .icon-user-png {
+  background-position: -499px 0;
+}
+
+.no-svg .icon-home-png {
+  display: block;
+  width: 25px;
+  height: 21px;
+  background-image: url("/app/themes/class-central/assets/img/sprites.png");
+  background-position: -360px 0;
+}
+
+.no-svg .active-tab .icon-home-png {
+  background-position: -410px 0;
+}
+
+
+.no-svg .table .add-button span {
+  display: block;
+  width: 26px;
+  height: 26px;
+  background-image: url("/app/themes/class-central/assets/img/sprites.png");
+  background-position: -745px 2px;
+  background-repeat: no-repeat;
+}
+
+.no-svg .sorting-arrows span {
+  background-image: url("/app/themes/class-central/assets/img/sprites.png");
+  background-position: -1px 0;
+  width: 12px;
+  height: 12px;
+}
+
+.no-svg .sorting-arrows span + span {
+  background-position: -37px 0;
+}
+
+.no-svg .headerSortUp .sorting-arrows span:first-child {
+  background: transparent;
+}
+
+.no-svg .headerSortDown .sorting-arrows span + span {
+  background: transparent;
+}
+
+.no-svg .faq-question .arrow-down,
+.no-svg .faq-question .arrow-up,
+.no-svg .filter-nav .arrow-down,
+.no-svg .filter-nav .arrow-up {
+  width: 12px;
+  height: 12px;
+  background-image: url("/app/themes/class-central/assets/img/sprites.png");
+  background-position: -73px 0;
+  top: 28px;
+}
+
+.no-svg .filter-nav .arrow-down,
+.no-svg .filter-nav .arrow-up {
+  margin-top: 21px;
+}
+
+.no-svg .faq-question .arrow-up,
+.no-svg .filter-nav .arrow-up {
+  background-position: -73px -17px;
+}
+
+.no-svg .tick-icon-bg.ticked,
+.no-svg .active > .sort > .tick-icon-bg {
+  background-color: @blue;
+  background-image: url("/app/themes/class-central/assets/img/sprites.png");
+  background-position: -674px -61px;
+}
+
+.no-svg .filter-search-icon {
+  background-image: url("/app/themes/class-central/assets/img/sprites.png");
+  background-position: -438px 15px;
+}
+
+.no-svg .breadcrumbs .arrow-right {
+  width: 10px;
+  height: 10px;
+  background-image: url("/app/themes/class-central/assets/img/sprites.png");
+   background-position: -109px -17px;
+}
+
+.no-svg .course-data-row .course-data-icon {
+  background-image: url("/app/themes/class-central/assets/img/sprites.png");
+}
+
+.no-svg .course-data-row.course-pace .course-data-icon {
+  background-position: -128px 17px;
+}
+
+.no-svg .course-data-row.course-language .course-data-icon {
+  background-position: -169px 18px;
+}
+
+.no-svg .course-data-row.course-provider .course-data-icon {
+  background-position: -308px 17px;
+}
+
+.no-svg .course-data-row.course-institution .course-data-icon {
+  background-position: -258px 13px;
+}
+
+.no-svg .course-data-row.course-sessions .course-data-icon {
+  background-position: -216px 18px;
+}
+
+.no-svg .course-data-row.course-reviews .course-data-icon {
+  background-image: none;
+}
+
+.no-svg .sign-in-with-facebook .icon-facebook2-png {
+  width: 42px;
+  height: 42px;
+  display: block;
+  float: left;
+  margin: 10px 20px 0 0;
+  background-image: url("/app/themes/class-central/assets/img/sprites.png");
+  background-position: -568px -1px ;
+}
+
+.no-svg .cc-form-box .icon-cc-logo-png {
+  width: 62px;
+  height: 62px;
+  position: absolute;
+  margin-left: -31px;
+  left: 50%;
+  top: 39px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 6px solid #fff;
+  background-image: url("/app/themes/class-central/assets/img/sprites.png");
+   background-position: -376px -45px;
+}
+
+.no-svg .col-single-post .time-icon {
+  background-image: url("/app/themes/class-central/assets/img/sprites.png");
+  background-position: -229px -1px;
+}
 
 /* ==========================================================================
    Header
@@ -55,6 +315,160 @@ body { }
   margin-bottom: 20px;
   padding: 0 15px;
   line-height: 44px;
+}
+
+.header-area .read-article {
+   display: block;
+   color: @blue-link;
+   float: left;
+   clear: both;
+   text-transform: uppercase;
+   font-size: 14px;
+}
+
+/* ==========================================================================
+   =Home content
+   ========================================================================== */
+
+.col-single-post {
+   min-height: 400px;
+   margin-bottom: 40px;
+   overflow: hidden;
+}
+
+.col-single-post article {
+   border: 1px solid @table-border-color;
+   -webkit-box-shadow: 0px 0px 3px 1px rgba(232,232,232,1);
+   -moz-box-shadow: 0px 0px 3px 1px rgba(232,232,232,1);
+   box-shadow: 0px 0px 3px 1px rgba(232,232,232,1);
+   max-width: 400px;
+}
+
+.col-single-post article header {
+   background-color: @gray-beige-light;
+   background-size: cover;
+   height: 265px;
+   overflow: hidden;
+   position: relative;
+}
+
+.col-single-post article header h2 {
+   font-size: 14px;
+   font-weight: 400;
+   font-family: @font-family-small-text;
+   color: @white-dark;
+   margin: 0;
+   background: rgba(6,98,161,0.9);
+   position: absolute;
+   width: 100%;
+   bottom: 0;
+   line-height: 1.4;
+   padding: 18px;
+   min-height: 58px;
+}
+
+.col-single-post article .entry-summary p {
+   font-size: 13px;
+   color: @gray-text;
+   margin: 0;
+   padding: 18px;
+   font-family: @font-family-small-text;
+   line-height: 1.6;
+}
+
+.col-single-post article header h2 a {
+   color: @white;
+   font-size: 18px;
+}
+
+.col-single-post .entry-summary,
+.col-single-post footer {
+   background: @white;
+}
+
+.col-single-post footer {
+   border-top: 1px solid @gray-ultra-light;
+   overflow: hidden;
+}
+
+.col-single-post footer .entry-link,
+.col-single-post footer .entry-meta {
+   width: 100%;
+   float: left;
+}
+
+.col-single-post footer .entry-link {
+   border-right: 1px solid @gray-ultra-light;
+   text-align: center;
+}
+
+.col-single-post footer .entry-link a,
+.col-single-post footer .entry-meta {
+   display: block;
+   text-transform: uppercase;
+   font-size: 11px;
+   line-height: 51px;
+}
+
+.col-single-post footer .entry-link a {
+   padding: 0 18px;
+}
+
+.col-single-post footer .entry-meta {
+   color: @gray-sand;
+   border-top: 1px solid @gray-ultra-light;
+   text-align: center;
+}
+
+.col-single-post .icon-calendar-icon {
+   display: block;
+   fill: @gray-sand;
+   width: 18px;
+   height: 18px;
+}
+
+.col-single-post .time-icon {
+   display: inline-block;
+   width: 18px;
+   height: 18px;
+   margin: 16px 10px 16px 0;
+   vertical-align: top;
+}
+
+@media (min-width: 460px) {
+   .col-single-post footer .entry-link,
+   .col-single-post footer .entry-meta {
+      width: 50%;
+   }
+
+   .col-single-post footer .entry-meta {
+      border-top: none;
+   }
+
+}
+
+@media (min-width: @screen-md-min) {
+   .col-single-post footer .entry-link,
+   .col-single-post footer .entry-meta {
+      width: 100%;
+   }
+
+   .col-single-post footer .entry-meta {
+      border-top: 1px solid @gray-ultra-light;
+   }
+
+}
+
+@media (min-width: @screen-lg-min) {
+   .col-single-post footer .entry-link,
+   .col-single-post footer .entry-meta {
+      width: 50%;
+   }
+
+   .col-single-post footer .entry-meta {
+      border-top: none;
+   }
+
 }
 
 /* ==========================================================================
