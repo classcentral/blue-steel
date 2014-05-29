@@ -499,6 +499,10 @@ body {
   background-size: cover;
 }
 
+.single .header-area {
+  border-bottom: 1px solid @gray-dark;
+}
+
 .header-area .header-content {
   position: relative;
   min-height: 440px;
@@ -512,23 +516,23 @@ body {
 }
 
 .header-area h1 {
-  font-size: 60px;
+  font-size: 32px;
   color: @black;
   background: rgba(249, 248, 243, 0.8);
-  margin-top: 160px;
+  margin-top: 80px;
   margin-bottom: 0;
   padding: 15px;
   line-height: 1;
 }
 
 .header-area h2 {
-  font-size: 26px;
+  font-size: 16px;
   color: @white;
   background: rgba(39, 44, 46, 0.6);
   margin-top: 0;
   margin-bottom: 20px;
   padding: 0 15px;
-  line-height: 44px;
+  line-height: 28px;
 }
 
 .header-area .read-article {
@@ -545,6 +549,8 @@ body {
   font-family: @font-family-small-text;
   padding-left: 60px;
   font-size: 13px;
+  position: absolute;
+  bottom: 10px;
 }
 
 .read-icon {
@@ -572,10 +578,36 @@ body {
   color: @gray-dark;
 }
 
+@media (min-width: 660px) {
+  .header-area h1 {
+    font-size: 60px;
+    margin-top: 110px;
+  }
+
+  .header-area h2 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
+@media (min-width: 1259px) {
+  .header-area h1 {
+    margin-top: 160px;
+  }
+
+  .header-area h2 {
+    line-height: 44px;
+    font-size: 26px;
+  }
+}
+
 
 /* ==========================================================================
    =Home content
    ========================================================================== */
+.home .main {
+    margin-top: 90px;
+}
 
 .col-single-post {
    min-height: 400px;
@@ -716,6 +748,14 @@ body {
       border-top: none;
    }
 
+}
+
+/* ==========================================================================
+   =Single content
+   ========================================================================== */
+
+.single .main {
+  margin-top: 44px;
 }
 
 /* ==========================================================================
