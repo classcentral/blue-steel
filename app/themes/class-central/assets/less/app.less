@@ -2,7 +2,7 @@
  * Roots 6.5.2
  */
 
-@import "bootstrap/bootstrap.less";
+@import "bootstrap_custom.less";
 
 /* ==========================================================================
    Base
@@ -16,48 +16,46 @@ body { }
    Header
    ========================================================================== */
 
-.banner { }
-
-
-
 /* ==========================================================================
-   Content
+   =Header Area
    ========================================================================== */
+   
+.header-area {
+  overflow: hidden;
+  background-size: cover;
+}
 
-.content { }
+.header-area .header-content {
+  position: relative;
+  min-height: 440px;
+  font-weight: 500;
+}
 
+.header-area h1,
+.header-area h2 {
+  float: left;
+  clear: both;
+}
 
+.header-area h1 {
+  font-size: 82px;
+  color: @black;
+  background: rgba(249, 248, 243, 0.8);
+  margin-top: 160px;
+  margin-bottom: 0;
+  padding: 15px;
+  line-height: 0.8;
+}
 
-/* ==========================================================================
-   Primary Content
-   ========================================================================== */
-
-.main { }
-
-/* Gallery Shortcode */
-.gallery-row { padding: 15px 0; }
-
-
-
-/* ==========================================================================
-   Sidebar
-   ========================================================================== */
-
-.sidebar { }
-
-
-
-/* ==========================================================================
-   Posts
-   ========================================================================== */
-
-.hentry header { }
-.hentry time { }
-.hentry .byline { }
-.hentry .entry-content { }
-.hentry footer { }
-
-
+.header-area h2 {
+  font-size: 26px;
+  color: @white;
+  background: rgba(39, 44, 46, 0.6);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding: 0 15px;
+  line-height: 44px;
+}
 
 /* ==========================================================================
    Footer
