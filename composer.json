@@ -99,7 +99,6 @@
     "codelight-eu/wp-cleanup": "*",
     "codelight-eu/wp-additional-editor-capabilities": "*",
     "fancyguy/webroot-installer": "1.0.0",
-    "advancedcustomfields/repeater-field": "*",
     "deliciousbrains/wp-migrate-db-pro": "*",
     "deliciousbrains/wp-migrate-db-pro-media-files": "*",
     "wpackagist/advanced-custom-fields": "*",
@@ -113,12 +112,8 @@
     "wpackagist/user-switching": "*",
     "wpackagist/w3-total-cache": "*",
     "wpackagist/wordfence": "*",
-<<<<<<< HEAD
-    "wpackagist/wp-resized-image-quality": "*"
-=======
     "wpackagist/wp-resized-image-quality": "*",
     "roots/wp-stage-switcher": "1.0.1"
->>>>>>> 391b60ac439f706a0f6b0127d1ee3bf5cad26942
   },
   "extra": {
     "webroot-dir": "wordpress",
