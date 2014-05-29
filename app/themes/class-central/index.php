@@ -16,7 +16,7 @@ $args = array(
   )
 );
 
-$pinned_post = get_posts(array_merge($query_args, $args));
+$pinned_posts = get_posts(array_merge($query_args, $args));
 
 if (empty($pinned_posts)) {
   $pinned_posts = $wp_query->get_posts();
@@ -36,5 +36,5 @@ $banner = get_field('banner', $pinned_posts[0]->ID);
     <div class="row">
         <?php include(locate_template('templates/index/index-content.php')); ?>
         <?php include roots_sidebar_path(); ?>
-    </div>  
+    </div>
 </div>
