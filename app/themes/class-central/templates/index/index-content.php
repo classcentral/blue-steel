@@ -1,4 +1,4 @@
-<main class="main col-sm-8" role="main">
+<main class="main col-md-8" role="main">
 
     <?php if (!have_posts()) : ?>
         <div class="alert alert-warning">
@@ -8,7 +8,7 @@
     <?php endif; ?>
     <div class="row">
         <?php while (have_posts()) : the_post(); ?>
-            <div class="col-md-6 col-single-post">
+            <div class="col-sm-6 col-single-post">
                 <article <?php post_class(); ?>>
                     <?php $image = get_field('banner'); ?>
                     <a href="<?php the_permalink(); ?>">

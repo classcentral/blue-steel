@@ -497,6 +497,11 @@ body {
 
 .single .header-area {
   border-bottom: 1px solid @gray-dark;
+  margin-bottom: 44px;
+}
+
+.home .header-area {
+  margin-bottom: 90px;
 }
 
 .header-area .header-content {
@@ -601,9 +606,7 @@ body {
 /* ==========================================================================
    =Home content
    ========================================================================== */
-.home .main {
-    margin-top: 90px;
-}
+
 
 .col-single-post {
    min-height: 400px;
@@ -756,22 +759,20 @@ body {
    =Single content
    ========================================================================== */
 
-.single .main {
-  margin-top: 44px;
-}
-
 .single .entry-content {
   font-family: @font-family-small-text;
+  line-height: 1.7;
+  margin-bottom: 90px;
 }
 
 .single .entry-content > * {
-  padding: 0 80px;
+  padding: 0;
   color: @gray-dark;
 }
 
-.single .entry-content p {
-  font-size: 18px;
-  line-height: 1.4;
+.single .entry-content > p {
+  font-size: 16px;
+  margin: 30px 0;
 }
 
 .single .entry-content a {
@@ -779,7 +780,17 @@ body {
   color: @blue;
 }
 
-.single .entry-content p:first-child {
+.single .entry-content h2 {
+  font-size: 32px;
+  margin: 30px 0 45px 0;
+}
+
+.single .entry-content h3 {
+  font-size: 22px;
+  margin: 30px 0 45px 0;
+}
+
+.single .entry-content > p:first-child {
   font-size: 22px;
 }
 
@@ -868,48 +879,134 @@ body {
     border-right: none;
     width: 28%;
   }
+
+  .single .entry-content > * {
+    padding: 0 50px;
+  }
+
+  .single .entry-content > p {
+    font-size: 18px;
+  }
 }
+
+@media (min-width: @screen-lg-min) {
+  .single .entry-content > * {
+    padding: 0 80px;
+  }
+}
+
 /* =Blockquotes
 ----------------------------------------------------------------------------- */
 
-.entry-content blockquote {
+.cc-blockquote {
   display: block;
   position: relative;
   padding: 20px !important;
-  width: 400px;
+  width: 300px;
+  color: @blue !important;
+  font-family: @font-family-large-text !important;
+  line-height: 1.8;
+  font-size: 18px;
+  border-left: none;
+  margin: 0;
 }
 
-.entry-content blockquote.quote-left {
+.cc-blockquote em {
+  font-style: normal;
+}
+
+.cc-blockquote.quote-left {
   float: left;
 }
 
-.entry-content blockquote.quote-right {
+.cc-blockquote.quote-right {
   float: right;
 }
 
-.entry-content blockquote .quote-border {
+.cc-blockquote .quote-border {
   display: block;
   position: absolute;
   top: 0;
   width: 5px;
   height: 100%;
-  padding: 12px 0;
+  padding: 30px 0;
 }
 
-.entry-content blockquote.quote-left .quote-border {
+.cc-blockquote.quote-left .quote-border {
   left: 0;
 }
 
-.entry-content blockquote.quote-left .quote-border {
+.cc-blockquote.quote-left .quote-border {
   right: 0;
 }
 
-.entry-content blockquote .quote-border:before {
+.cc-blockquote .quote-border:before {
   content: "";
   display: block;
   height: 100%;
   width: 100%;
   background: @blue;
+}
+
+// delete this after
+
+blockquote {
+  display: block;
+  position: relative;
+  padding: 20px !important;
+  width: 300px;
+  color: @blue !important;
+  font-family: @font-family-large-text !important;
+  line-height: 1.8;
+  font-size: 18px;
+  border-left: none;
+  margin: 0;
+}
+
+blockquote em {
+  font-style: normal;
+}
+
+blockquote.quote-left {
+  float: left;
+}
+
+blockquote.quote-right {
+  float: right;
+}
+
+blockquote .quote-border {
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 5px;
+  height: 100%;
+  padding: 30px 0;
+}
+
+blockquote.quote-left .quote-border {
+  left: 0;
+}
+
+blockquote.quote-left .quote-border {
+  right: 0;
+}
+
+blockquote .quote-border:before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: @blue;
+}
+
+@media (min-width: @screen-lg-min) {
+
+  .cc-blockquote,
+  blockquote {
+    font-size: 26px;
+    width: 400px;
+  }
 }
 
 /* ==========================================================================
@@ -1035,7 +1132,7 @@ body {
   min-height: 120px;
 }
 
-@media (min-width: @screen-sm-min ) {
+@media (min-width: @screen-md-min ) {
  .ad-wrap {
    display: block;
  }
