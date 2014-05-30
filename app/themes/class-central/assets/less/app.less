@@ -627,18 +627,24 @@ body {
 }
 
 .col-single-post article header h2 {
+  display: inline;
    font-size: 14px;
    font-weight: 400;
    font-family: @font-family-small-text;
    color: @white-dark;
    margin: 0;
    background: rgba(6,98,161,0.9);
-   position: absolute;
-   width: 100%;
-   bottom: 0;
-   line-height: 1.4;
-   padding: 18px;
-   min-height: 58px;
+   //position: absolute;
+   //width: 100%;
+   //bottom: 0;
+   line-height: 2;
+   padding: 5px;
+   //min-height: 58px;
+}
+
+.post-heading-wrap {
+  position: absolute;
+  bottom: 20px;
 }
 
 .col-single-post article .entry-summary p {
@@ -754,6 +760,29 @@ body {
   margin-top: 44px;
 }
 
+.single .entry-content {
+  font-family: @font-family-small-text;
+}
+
+.single .entry-content > * {
+  padding: 0 80px;
+  color: @gray-dark;
+}
+
+.single .entry-content p {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.single .entry-content a {
+  text-decoration: underline;
+  color: @blue;
+}
+
+.single .entry-content p:first-child {
+  font-size: 22px;
+}
+
 .post-meta table,
 .post-meta table tbody,
 .post-meta table tr,
@@ -839,6 +868,48 @@ body {
     border-right: none;
     width: 28%;
   }
+}
+/* =Blockquotes
+----------------------------------------------------------------------------- */
+
+.entry-content blockquote {
+  display: block;
+  position: relative;
+  padding: 20px !important;
+  width: 400px;
+}
+
+.entry-content blockquote.quote-left {
+  float: left;
+}
+
+.entry-content blockquote.quote-right {
+  float: right;
+}
+
+.entry-content blockquote .quote-border {
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 5px;
+  height: 100%;
+  padding: 12px 0;
+}
+
+.entry-content blockquote.quote-left .quote-border {
+  left: 0;
+}
+
+.entry-content blockquote.quote-left .quote-border {
+  right: 0;
+}
+
+.entry-content blockquote .quote-border:before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: @blue;
 }
 
 /* ==========================================================================
