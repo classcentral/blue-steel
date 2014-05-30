@@ -12,14 +12,16 @@
           <table class="pager">
             <tr>
               <td class="previous">
-                <?php if ( $prev_url = get_permalink( get_adjacent_post(false,'',true)->ID ) ): ?>
+                <?php if ($prev = get_adjacent_post(false, '', true)): ?>
+                  <?php $prev_url = get_permalink($prev->ID); ?>
                   <a href="<?php echo $prev_url ?>">Previous Article</a>
                 <?php else: ?>
                   <span class="disabled">Previous Article</span>
                 <?php endif; ?>
               </td>
               <td class="next">
-                <?php if ( $next_url = get_permalink( get_adjacent_post(false,'',false)->ID ) ): ?>
+                <?php if ($next = get_adjacent_post(false, '', false)): ?>
+                  <?php $next_url = get_permalink($next->ID); ?>
                   <a href="<?php echo $next_url ?>">Next Article</a>
                 <?php else: ?>
                   <span class="disabled">Next Article</span>
