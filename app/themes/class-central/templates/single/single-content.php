@@ -1,4 +1,4 @@
-<main class="main <?php echo roots_main_class(); ?>" role="main">
+<main class="main col-md-8" role="main">
 
     <article <?php post_class(); ?>>
       <header>
