@@ -13,7 +13,9 @@
                     <?php $image = get_field('banner'); ?>
                     <a href="<?php the_permalink(); ?>">
                       <header class="post-header" style="background-image: url('<?php echo $image['sizes']['blog-thumbnail']; ?>');">
-                          <h2 class="entry-title"><?php the_title(); ?></h2>
+                          <div class="post-heading-wrap">
+                            <h2 class="entry-title"><?php the_title(); ?></h2>
+                          </div>
                       </header>
                     </a>
                     <div class="entry-summary">
