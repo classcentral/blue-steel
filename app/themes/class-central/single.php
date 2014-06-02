@@ -1,9 +1,3 @@
-<?php
-
-$banner = get_field('banner', get_queried_object_id());
-
-?>
-
 <?php include(locate_template('templates/single/single-banner.php')); ?>
 
 <div class="container">

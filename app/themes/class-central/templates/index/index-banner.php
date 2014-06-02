@@ -1,5 +1,5 @@
 <?php foreach ( $pinned_posts as $post ) : setup_postdata( $post ); ?>
-    <section class="header-area" style="background-image: url('<?php echo $banner['sizes']['blog-banner-full']; ?>');">
+    <section class="header-area" style="<?php echo cc_get_banner_styles(get_the_ID()); ?>">
         <div class="container">
             <div class="header-content">
                 <h1>
