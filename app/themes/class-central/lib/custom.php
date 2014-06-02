@@ -32,3 +32,14 @@ function cc_get_author_name() {
     $author_id = get_post_field('post_author', get_queried_object_id());
     return get_the_author_meta('display_name', $author_id);
 }
+
+function cc_get_banner_styles($id) {
+    $banner = get_field('banner', $id);
+    if (isset($banner) && !empty($banner)) {
+        $styles = "background-image: url('{$banner['sizes']['blog-banner-full']}');";
+    } else {
+        $color = get_field('background_color', $id);
+        $styles = "background-color: {$color};";
+    }
+    return $styles;
+}

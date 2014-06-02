@@ -1,8 +1,8 @@
-<section class="header-area" style="background-image: url('<?php echo $banner['sizes']['blog-banner-full']; ?>');">
+<section class="header-area" style="<?php echo cc_get_banner_styles(get_queried_object_id()); ?>">
     <div class="container">
         <div class="header-content">
             <h1><?php echo roots_title(); ?></h1>
-            <?php if ($subtitle = get_field('subtitle')): ?>
+            <?php if ($subtitle = get_field('subtitle', get_queried_object_id())): ?>
               <h2>
                 <?php echo $subtitle; ?>
               </h2>

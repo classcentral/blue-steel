@@ -63,6 +63,13 @@ if(function_exists("register_field_group"))
         'preview_size' => 'thumbnail',
         'library' => 'all',
       ),
+      array (
+        'key' => 'field_538cee3424c99',
+        'label' => 'Background color',
+        'name' => 'background_color',
+        'type' => 'color_picker',
+        'default_value' => '',
+      ),
     ),
     'location' => array (
       array (
