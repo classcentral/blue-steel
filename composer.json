@@ -108,6 +108,7 @@
     "wpackagist/debug-bar-hook-log": "*",
     "wpackagist/ewww-image-optimizer": "*",
     "wpackagist/google-sitemap-generator": "*",
+    "wpackagist/post-reading-time": "*",
     "wpackagist/timber-library": "*",
     "wpackagist/user-switching": "*",
     "wpackagist/w3-total-cache": "*",
