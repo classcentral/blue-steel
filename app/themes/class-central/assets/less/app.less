@@ -916,13 +916,22 @@ body {
   display: block;
   position: relative;
   padding: 20px !important;
-  width: 300px;
+  width: auto;
   color: @blue !important;
   font-family: @font-family-large-text !important;
   line-height: 1.8;
   font-size: 18px;
   border-left: none;
   margin: 0;
+}
+
+.cc-blockquote p > * {
+  color: @blue !important;
+}
+
+.cc-blockquote.quote-left,
+.cc-blockquote.quote-right {
+  width: 300px;
 }
 
 .cc-blockquote em {
@@ -935,6 +944,7 @@ body {
 
 .cc-blockquote.quote-right {
   float: right;
+  text-align: right;
 }
 
 .cc-blockquote .quote-border {
@@ -944,14 +954,12 @@ body {
   width: 5px;
   height: 100%;
   padding: 30px 0;
-}
-
-.cc-blockquote.quote-left .quote-border {
   left: 0;
 }
 
-.cc-blockquote.quote-left .quote-border {
+.cc-blockquote.quote-right .quote-border {
   right: 0;
+  left: auto;
 }
 
 .cc-blockquote .quote-border:before {
@@ -961,6 +969,28 @@ body {
   width: 100%;
   background: @blue;
 }
+
+.image-quote {
+  text-align: center;
+  width: auto !important;
+}
+
+.image-quote.quote-left {
+  text-align: left;
+}
+
+.image-quote.quote-right {
+  text-align: right;
+}
+
+.image-quote.quote-left img {
+  border-left: 5px solid @blue;
+}
+
+.image-quote.quote-right img {
+  border-right: 5px solid @blue;
+}
+
 
 // delete this after
 
@@ -1019,6 +1049,9 @@ blockquote .quote-border:before {
   .cc-blockquote,
   blockquote {
     font-size: 26px;
+  }
+  .cc-blockquote.quote-left,
+  .cc-blockquote.quote-right {
     width: 400px;
   }
 }
