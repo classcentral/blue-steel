@@ -1,4 +1,7 @@
 <main class="main col-md-8" role="main">
+  <h3 class="section-heading">
+    <span>The Blog</span>
+  </h3>
 
     <h3 class="page-title-bar"><?php echo roots_title(); ?></h3>
 

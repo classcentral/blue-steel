@@ -30,6 +30,25 @@ body {
   font-size: 18px;
 }
 
+.section-heading {
+  display: block;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  color: @white;
+  font-size: 11px;
+  font-weight: 500;
+  border-bottom: 1px solid @purple;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+.section-heading span {
+  background: @purple;
+  display: block;
+  float: left;
+  padding: 5px 12px;
+}
+
 /* =Icons
 ----------------------------------------------------------------------------- */
 .icon-search,
@@ -661,7 +680,7 @@ body {
    padding: 18px;
    font-family: @font-family-small-text;
    line-height: 1.6;
-   min-height: 160px;
+   min-height: 130px;
 }
 
 .col-single-post article a header h2 {
@@ -745,6 +764,10 @@ body {
       border-top: 1px solid @gray-ultra-light;
    }
 
+   .col-single-post article .entry-summary p {
+      min-height: 170px;
+    }
+
 }
 
 @media (min-width: @screen-lg-min) {
@@ -757,6 +780,9 @@ body {
       border-top: none;
    }
 
+   .col-single-post article .entry-summary p {
+      min-height: 130px;
+    }
 }
 
 /* ==========================================================================
