@@ -1,4 +1,7 @@
 <main class="main col-md-8" role="main">
+  <h3 class="section-heading">
+    <span>The Blog</span>
+  </h3>
 
     <?php if (!have_posts()) : ?>
         <div class="alert alert-warning">
