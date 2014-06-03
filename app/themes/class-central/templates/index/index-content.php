@@ -3,6 +3,8 @@
     <span>The Blog</span>
   </h3>
 
+    <h3 class="page-title-bar"><?php echo roots_title(); ?></h3>
+
     <?php if (!have_posts()) : ?>
         <div class="alert alert-warning">
             <?php _e('Sorry, no results were found.', 'roots'); ?>
