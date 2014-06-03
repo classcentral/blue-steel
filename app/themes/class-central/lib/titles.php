@@ -7,7 +7,7 @@ function roots_title() {
     if (get_option('page_for_posts', true)) {
       return get_the_title(get_option('page_for_posts', true));
     } else {
-      return __('Latest Posts', 'roots');
+      return __('The Blog', 'roots');
     }
   } elseif (is_archive()) {
     $term = get_term_by('slug', get_query_var('term'), get_query_var('taxonomy'));
