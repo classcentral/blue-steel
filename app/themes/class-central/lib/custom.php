@@ -43,3 +43,8 @@ function cc_get_banner_styles($id) {
     }
     return $styles;
 }
+
+function cc_excerpt_length( $length ) {
+    return 25;
+}
+add_filter( 'excerpt_length', 'cc_excerpt_length', 999 );
