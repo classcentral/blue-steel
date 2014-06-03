@@ -3,9 +3,29 @@
  */
 
 @import "bootstrap_custom.less";
+/*
+
+  Index
+
+  1. =Base
+    1.1 =Icons
+    1.2 =PNG fallback
+  2. =Navbar
+  3. =Header Area
+  4. =Home Content
+  5. =Single Content
+    5.1 =Blockquotes
+  6. =Pagination
+  7. =Ads
+  8. =Footer
+    8.1 =Link columns
+    8.2 =Newsletter
+
+*/
+
 
 /* ==========================================================================
-   Base
+   =Base
    ========================================================================== */
 
 body { }
@@ -532,6 +552,7 @@ body {
   position: relative;
   min-height: 440px;
   font-weight: 500;
+  overflow: hidden;
 }
 
 .header-area h1,
@@ -545,7 +566,7 @@ body {
   color: @black;
   background: rgba(249, 248, 243, 0.8);
   margin-top: 80px;
-  margin-bottom: 0;
+  margin-bottom: 70px;
   padding: 15px;
   line-height: 1;
 }
@@ -572,7 +593,7 @@ body {
 .post-header-info {
   overflow: hidden;
   font-family: @font-family-small-text;
-  padding-left: 60px;
+  padding-left: 15px;
   font-size: 13px;
   position: absolute;
   bottom: 10px;
@@ -603,6 +624,12 @@ body {
   color: @gray-dark;
 }
 
+@media (min-width: 600px) {
+  .post-header-info {
+    padding-left: 65px;
+  }
+}
+
 @media (min-width: 660px) {
   .header-area h1 {
     font-size: 60px;
@@ -612,6 +639,13 @@ body {
   .header-area h2 {
     font-size: 18px;
     line-height: 30px;
+  }
+}
+
+
+@media (min-width: @screen-lg-min) {
+  .post-header-info {
+    padding-left: 95px;
   }
 }
 
@@ -800,7 +834,9 @@ body {
   color: @gray-dark;
 }
 
-
+.single .entry-content img {
+  max-width: 100%;
+}
 
 .single .entry-content > p {
   font-size: 16px;
@@ -1018,58 +1054,6 @@ body {
 }
 
 
-// delete this after
-
-blockquote {
-  display: block;
-  position: relative;
-  padding: 20px !important;
-  width: 300px;
-  color: @blue !important;
-  font-family: @font-family-large-text !important;
-  line-height: 1.8;
-  font-size: 18px;
-  border-left: none;
-  margin: 0;
-}
-
-blockquote em {
-  font-style: normal;
-}
-
-blockquote.quote-left {
-  float: left;
-}
-
-blockquote.quote-right {
-  float: right;
-}
-
-blockquote .quote-border {
-  display: block;
-  position: absolute;
-  top: 0;
-  width: 5px;
-  height: 100%;
-  padding: 30px 0;
-}
-
-blockquote.quote-left .quote-border {
-  left: 0;
-}
-
-blockquote.quote-left .quote-border {
-  right: 0;
-}
-
-blockquote .quote-border:before {
-  content: "";
-  display: block;
-  height: 100%;
-  width: 100%;
-  background: @blue;
-}
-
 @media (min-width: @screen-lg-min) {
 
   .cc-blockquote,
@@ -1136,7 +1120,7 @@ blockquote .quote-border:before {
 
 .pager td > a:hover,
 .pager td > a:focus {
-  text-decoration: none;
+  text-decoration: underline;
   background-color: transparent;
 }
 
