@@ -39,7 +39,7 @@
       "package": {
         "name": "codelight-eu/tinymce-advanced-blockquote",
         "type": "wordpress-plugin",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "dist": {
           "type": "zip",
           "url": "https://github.com/codelight-eu/tinymce-advanced-blockquote/archive/master.zip"
