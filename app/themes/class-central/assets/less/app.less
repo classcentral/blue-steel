@@ -975,7 +975,7 @@ body {
 /* =Blockquotes
 ----------------------------------------------------------------------------- */
 
-.cc-blockquote {
+.cc-blockquote-text {
   display: block;
   position: relative;
   padding: 20px !important;
@@ -988,29 +988,29 @@ body {
   margin: 0;
 }
 
-.cc-blockquote p > * {
+.cc-blockquote-text p > * {
   color: @blue !important;
 }
 
-.cc-blockquote.quote-left,
-.cc-blockquote.quote-right {
+.cc-blockquote-text.cc-blockquote-left,
+.cc-blockquote-text.cc-blockquote-right {
   width: 300px;
 }
 
-.cc-blockquote em {
+.cc-blockquote-text em {
   font-style: normal;
 }
 
-.cc-blockquote.quote-left {
+.cc-blockquote-text.cc-blockquote-left {
   float: left;
 }
 
-.cc-blockquote.quote-right {
+.cc-blockquote-text.cc-blockquote-right {
   float: right;
   text-align: right;
 }
 
-.cc-blockquote .quote-border {
+.cc-blockquote-text .cc-blockquote-border {
   display: block;
   position: absolute;
   top: 0;
@@ -1020,12 +1020,12 @@ body {
   left: 0;
 }
 
-.cc-blockquote.quote-right .quote-border {
+.cc-blockquote-text.cc-blockquote-right .cc-blockquote-border {
   right: 0;
   left: auto;
 }
 
-.cc-blockquote .quote-border:before {
+.cc-blockquote-text .cc-blockquote-border:before {
   content: "";
   display: block;
   height: 100%;
@@ -1033,31 +1033,31 @@ body {
   background: @blue;
 }
 
-.image-quote {
+.cc-blockquote-image {
   text-align: center;
   width: auto !important;
 }
 
-.image-quote.quote-left {
+.cc-blockquote-image.cc-blockquote-left {
   text-align: left;
 }
 
-.image-quote.quote-right {
+.cc-blockquote-image.cc-blockquote-right {
   text-align: right;
 }
 
-.image-quote.quote-left img {
+.cc-blockquote-image.cc-blockquote-left img {
   border-left: 5px solid @blue;
 }
 
-.image-quote.quote-right img {
+.cc-blockquote-image.cc-blockquote-right img {
   border-right: 5px solid @blue;
 }
 
 
 @media (min-width: @screen-lg-min) {
 
-  .cc-blockquote,
+  .cc-blockquote-text,
   blockquote {
     font-size: 26px;
   }
