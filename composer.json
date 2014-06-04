@@ -37,12 +37,12 @@
     {
       "type": "package",
       "package": {
-        "name": "codelight-eu/wp-additional-editor-capabilities",
+        "name": "codelight-eu/tinymce-advanced-blockquote",
         "type": "wordpress-plugin",
         "version": "1.0.0",
         "dist": {
           "type": "zip",
-          "url": "https://github.com/codelight-eu/wp-additional-editor-capabilities/archive/master.zip"
+          "url": "https://github.com/codelight-eu/tinymce-advanced-blockquote/archive/master.zip"
         },
         "require" : {
           "fancyguy/webroot-installer": "1.*"
