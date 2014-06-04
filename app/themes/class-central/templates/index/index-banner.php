@@ -3,7 +3,7 @@
         <div class="container">
             <div class="header-content">
                 <h1>
-                    <?php the_title(); ?>
+                    <a class="read-article" href="<?php the_permalink(); ?>" class="link-read-article"><?php the_title(); ?></a>
                 </h1>
                 <?php if ($subtitle = get_field('subtitle')): ?>
                 <h2>
@@ -12,7 +12,7 @@
                 <?php endif; ?>
                 <a class="read-article" href="<?php the_permalink(); ?>" class="link-read-article">
                     Read article
-                </a>
+                >
             </div>
         </div>
     </section>
