@@ -11,8 +11,8 @@
                 </h2>
                 <?php endif; ?>
                 <a class="read-article" href="<?php the_permalink(); ?>" class="link-read-article">
-                    Read article
-                >
+                    Read article >
+                </a>
             </div>
         </div>
     </section>
