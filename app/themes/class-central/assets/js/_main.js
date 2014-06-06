@@ -6,7 +6,7 @@
  * replace the dash with an underscore when adding it to the object below.
  *
  * .noConflict()
- * The routing is enclosed within an anonymous function so that you can 
+ * The routing is enclosed within an anonymous function so that you can
  * always reference jQuery with $, even when in .noConflict() mode.
  *
  * Google CDN, Latest jQuery
@@ -16,13 +16,14 @@
 
 (function($) {
 
-// Use this variable to set up the common and page specific functions. If you 
+// Use this variable to set up the common and page specific functions. If you
 // rename this variable, you will also need to rename the namespace below.
 var Roots = {
   // All pages
   common: {
     init: function() {
       // JavaScript to be fired on all pages
+
     }
   },
   // Home page

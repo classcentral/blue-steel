@@ -556,18 +556,14 @@ body {
   padding-bottom: 70px;
 }
 
-.header-area h1 {
-  overflow: hidden;
-  margin: 0;
-}
-
 .header-area h1 .read-article,
 .header-area h2 {
   float: left;
   clear: both;
 }
 
-.header-area h1 .read-article {
+.header-area h1 {
+  overflow: hidden;
   font-size: 32px;
   color: @black;
   background: rgba(249, 248, 243, 0.8);
@@ -575,8 +571,13 @@ body {
   margin-bottom: 0;
   padding: 15px;
   line-height: 1;
+}
+
+.header-area h1 .read-article {
+  font-size: 32px;
   text-decoration: none;
   text-transform: none;
+  color: @black;
 }
 
 .header-area h2 {
@@ -640,9 +641,13 @@ body {
 }
 
 @media (min-width: 660px) {
-  .header-area h1 .read-article {
+  .header-area h1 {
     font-size: 60px;
     margin-top: 110px;
+  }
+
+  .header-area h1 .read-article {
+    font-size: 60px;
   }
 
   .header-area h2 {
@@ -659,7 +664,7 @@ body {
 }
 
 @media (min-width: 1259px) {
-  .header-area h1 .read-article {
+  .header-area h1 {
     margin-top: 160px;
   }
 
