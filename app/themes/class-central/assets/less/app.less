@@ -859,6 +859,15 @@ body {
   padding-right: 0;
 }
 
+.single .entry-content > .video-description {
+  padding: 10px 30px;
+  margin-top: 0;
+  background: @gray-dark;
+  color: @white;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
 .single .entry-content img {
   max-width: 100%;
 }
@@ -986,6 +995,13 @@ body {
   }
 }
 
+@media (min-width: @screen-md-min) {
+  .single .entry-content > .video-description {
+    font-size: 16px;
+  }
+}
+
+
 @media (min-width: @screen-lg-min) {
   .single .entry-content > * {
     padding: 0 80px;
@@ -1104,6 +1120,15 @@ body {
   height: 100%;
   position: absolute;
   z-index: 1000;
+}
+
+.cc-youtube-wrapper .youtube-thumbnail:before {
+  content:"";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(39, 44, 46, 0.5);
 }
 
 .cc-youtube-wrapper .youtube-thumbnail:hover {

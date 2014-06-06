@@ -4,26 +4,26 @@
       <div class="ad-content">
 
         <a class="ad-title" href="#">
-        Learn Data Science
+        Lorem ipsum dolor
         </a>
 
         <a class="ad-link" href="#">
-          www.udacity.com/data-science
+          https://loremipsumdolor.lorem
         </a>
-        <p class="ad-text">Advance your tech career with Udacity.</p>
+        <p class="ad-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
       </div>
       <span class="ad-note">Advertisement</span>
     </div>
     <div class="ad-wrap">
       <div class="ad-content">
         <a class="ad-title" href="#">
-        Raising Startup Capital
+          Lorem ipsum dolor
         </a>
 
         <a class="ad-link" href="#">
-            https://novoed.com/startupcapital
+            https://loremipsumdolor.lorem
         </a>
-        <p class="ad-text">Learn from Experienced Silicon Valley Entrepreneurs and Investors</p>
+        <p class="ad-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
       </div>
       <span class="ad-note">Advertisement</span>
     </div>
