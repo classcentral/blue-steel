@@ -15,6 +15,7 @@
   4. =Home Content
   5. =Single Content
     5.1 =Blockquotes
+    5.2 =Youtube video overlay
   6. =Pagination
   7. =Ads
   8. =Footer
@@ -506,15 +507,20 @@ body {
   .navbar-default > .container {
     padding-right: 0;
   }
+
+  .navbar-default .navbar-right {
+    padding-left: 20px;
+  }
+
+  .navbar-default .navbar-right > .social-icon {
+    display: block;
+  }
+
 }
 
 @media (min-width: @screen-lg-min) {
   #nav-search-form .cc-search-box {
     width: 284px;
-  }
-
-  .navbar-default .navbar-right > .social-icon {
-    display: block;
   }
 
   .user-menu-wrap a {
@@ -524,9 +530,6 @@ body {
     padding-left: 24px;
   }
 
-  .navbar-default .navbar-right {
-    padding-left: 20px;
-  }
 }
 
 
@@ -851,6 +854,11 @@ body {
   color: @gray-dark;
 }
 
+.single .entry-content > .cc-youtube-wrapper {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .single .entry-content img {
   max-width: 100%;
 }
@@ -1082,6 +1090,50 @@ body {
   .cc-blockquote-text.cc-blockquote-right {
     width: 400px;
   }
+}
+
+/* =Youtube video overlay
+----------------------------------------------------------------------------- */
+
+.cc-youtube-wrapper {
+  position: relative;
+}
+
+.cc-youtube-wrapper .youtube-thumbnail {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1000;
+}
+
+.cc-youtube-wrapper .youtube-thumbnail:hover {
+  cursor: pointer;
+}
+
+.cc-youtube-wrapper .cc-play-button {
+  display: block;
+  width: 100px;
+  height: 100px;
+  .border-radius(50%);
+  border: 3px solid @white;
+  margin-top: -50px;
+  margin-left: -50px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.cc-youtube-wrapper .cc-play-button:before {
+  content: "";
+  display: block;
+  border: 30px solid transparent;
+  border-left: 30px solid @white;
+  margin-top: 20px;
+  margin-left: 37px;
+}
+
+.cc-youtube-wrapper .entry-content-asset {
+  //visibility: hidden;
 }
 
 /* ==========================================================================

@@ -23,7 +23,16 @@ var Roots = {
   common: {
     init: function() {
       // JavaScript to be fired on all pages
-
+        // Target your .container, .wrapper, .post, etc.
+        $(".cc-youtube-wrapper").fitVids();
+        $(".youtube-thumbnail").click(function() {
+          $this = $(this);
+          var iframe = $this.closest(".cc-youtube-wrapper").find("iframe");
+          var origSrc = iframe.attr('src');
+          var newSrc = origSrc + "&autoplay=1";
+          iframe.attr('src', newSrc);
+          $this.hide();
+        });
     }
   },
   // Home page
