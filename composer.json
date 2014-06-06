@@ -1,0 +1,78 @@
+{
+  "repositories": [
+    {
+      "type":"composer",
+      "url":"http://wpackagist.org"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "wordpress",
+        "type": "webroot",
+        "version": "3.9.1",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/WordPress/WordPress/archive/3.9.1.zip"
+        },
+        "require" : {
+          "fancyguy/webroot-installer": "1.0.0"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "codelight-eu/wp-cleanup",
+        "type": "wordpress-plugin",
+        "version": "1.0.0",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/codelight-eu/wp-cleanup/archive/master.zip"
+        },
+        "require" : {
+          "fancyguy/webroot-installer": "1.*"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "codelight-eu/tinymce-advanced-blockquote",
+        "type": "wordpress-plugin",
+        "version": "1.0.1",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/codelight-eu/tinymce-advanced-blockquote/archive/master.zip"
+        },
+        "require" : {
+          "fancyguy/webroot-installer": "1.*"
+        }
+      }
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "wordpress": "3.9.*",
+    "composer/installers": "v1.0.7",
+    "codelight-eu/wp-cleanup": "*",
+    "codelight-eu/tinymce-advanced-blockquote": "*",
+    "fancyguy/webroot-installer": "1.0.0",
+    "wpackagist/advanced-custom-fields": "*",
+    "wpackagist/debug-bar": "*",
+    "wpackagist/ewww-image-optimizer": "*",
+    "wpackagist/google-sitemap-generator": "*",
+    "wpackagist/w3-total-cache": "*",
+    "wpackagist/wordfence": "*",
+    "wpackagist/wp-resized-image-quality": "*",
+    "roots/wp-stage-switcher": "1.0.1"
+  },
+  "extra": {
+    "webroot-dir": "wordpress",
+    "webroot-package": "wordpress",
+    "installer-paths": {
+        "app/plugins/{$name}/": ["type:wordpress-plugin"],
+        "app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+        "app/themes/{$name}/": ["type:wordpress-theme"]
+    }
+  }
+}
