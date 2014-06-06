@@ -47,4 +47,21 @@ function cc_get_banner_styles($id) {
 function cc_excerpt_length( $length ) {
     return 25;
 }
+
 add_filter( 'excerpt_length', 'cc_excerpt_length', 999 );
+
+function cc_oembed_wrapper( $html, $url, $args ) {
+  if (strpos($url,'youtube.com/watch') !== false || strpos($url,'youtu.be/') !== false ) {
+    // break the URL into its components
+    $parts = parse_url($url);
+    // parse variables into key=>value array
+    $query = array();
+    parse_str($parts['query'], $query);
+
+    return '<div class="cc-youtube-wrapper"><div class="youtube-thumbnail" style="background-size: 100% auto; background-position: center; background-image: url(http://img.youtube.com/vi/' . $query['v'] . '/sddefault.jpg);"><div class="cc-play-button"></div></div>' . $html .  '</div>';
+  } else {
+    return $html;
+  }
+}
+
+add_filter('embed_oembed_html', 'cc_oembed_wrapper', 10, 3);
