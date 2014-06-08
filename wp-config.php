@@ -17,6 +17,8 @@ $envs = array(
 );
 define('ENVIRONMENTS', serialize($envs));
 
+define('PARENT_DOMAIN','https://www.class-central.com');
+
 /**
  * Site-specific information such as secret keys, database access, etc
  * Should be kept out of public_html
