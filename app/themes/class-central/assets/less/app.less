@@ -1032,9 +1032,11 @@ body {
   color: @blue !important;
 }
 
+.cc-blockquote-image.cc-blockquote-left,
+.cc-blockquote-image.cc-blockquote-right,
 .cc-blockquote-text.cc-blockquote-left,
 .cc-blockquote-text.cc-blockquote-right {
-  width: 280px;
+  width: 100%;
 }
 
 .cc-blockquote-text em {
@@ -1094,6 +1096,18 @@ body {
 
 .cc-blockquote-image.cc-blockquote-right img {
   border-right: 5px solid @blue;
+}
+
+@media (min-width: 560px) {
+  .cc-blockquote-text.cc-blockquote-left,
+  .cc-blockquote-text.cc-blockquote-right {
+    width: 280px;
+  }
+
+  .cc-blockquote-image.cc-blockquote-left,
+  .cc-blockquote-image.cc-blockquote-right {
+    width: auto;
+  }
 }
 
 
