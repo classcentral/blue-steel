@@ -8,6 +8,11 @@
 # Wordpress
 #
 
+<<<<<<< HEAD
+=======
+wp-config.php
+
+>>>>>>> a9601a02ed020dbd89d9c045cf83762fb55b8fea
 wp-content/backup-db
 wp-content/backups
 wp-content/blogs.dir
@@ -28,6 +33,10 @@ wp-content/upgrade
 /vendor
 /wordpress
 /wp
+<<<<<<< HEAD
+=======
+/index.php
+>>>>>>> a9601a02ed020dbd89d9c045cf83762fb55b8fea
 
 #
 # Wordpress cache
@@ -91,9 +100,6 @@ composer.phar
 log
 *.log
 error_log
-
-# Packages
-app/_ide_helpers.php
 
 # Packages
 app/_ide_helpers.php

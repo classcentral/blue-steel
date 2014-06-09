@@ -94,6 +94,3 @@ error_log
 
 # Packages
 app/_ide_helpers.php
-
-# Packages
-app/_ide_helpers.php

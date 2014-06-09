@@ -76,3 +76,47 @@
     }
   }
 }
+        }
+      }
+    },
+    {
+        "type": "package",
+        "package": {
+            "name": "advancedcustomfields/repeater-field",
+              "type": "wordpress-plugin",
+            "version": "3.1.7",
+            "dist": {
+                "url": "http://admin:araccooncame@codelight.eu/private/wordpress/plugins/acf-repeater.zip",
+                "type": "zip"
+            }
+        }
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "wordpress": "3.9.*",
+    "composer/installers": "v1.0.7",
+    "codelight-eu/wp-cleanup": "*",
+    "codelight-eu/tinymce-advanced-blockquote": "*",
+    "fancyguy/webroot-installer": "1.0.0",
+    "deliciousbrains/wp-migrate-db-pro": "*",
+    "deliciousbrains/wp-migrate-db-pro-media-files": "*",
+    "wpackagist/advanced-custom-fields": "*",
+    "wpackagist/debug-bar": "*",
+    "wpackagist/ewww-image-optimizer": "*",
+    "wpackagist/google-sitemap-generator": "*",
+    "wpackagist/w3-total-cache": "*",
+    "wpackagist/wordfence": "*",
+    "wpackagist/wp-resized-image-quality": "*",
+    "roots/wp-stage-switcher": "1.0.1"
+  },
+  "extra": {
+    "webroot-dir": "wordpress",
+    "webroot-package": "wordpress",
+    "installer-paths": {
+        "app/plugins/{$name}/": ["type:wordpress-plugin"],
+        "app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+        "app/themes/{$name}/": ["type:wordpress-theme"]
+    }
+  }
+}
