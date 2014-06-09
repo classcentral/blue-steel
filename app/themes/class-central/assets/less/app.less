@@ -1032,8 +1032,6 @@ body {
   color: @blue !important;
 }
 
-.cc-blockquote-image.cc-blockquote-left,
-.cc-blockquote-image.cc-blockquote-right,
 .cc-blockquote-text.cc-blockquote-left,
 .cc-blockquote-text.cc-blockquote-right {
   width: 100%;
@@ -1082,12 +1080,10 @@ body {
 
 .cc-blockquote-image.cc-blockquote-left {
   text-align: left;
-  float: left;
 }
 
 .cc-blockquote-image.cc-blockquote-right {
   text-align: right;
-  float: right;
 }
 
 .cc-blockquote-image.cc-blockquote-left img {
@@ -1104,9 +1100,12 @@ body {
     width: 280px;
   }
 
-  .cc-blockquote-image.cc-blockquote-left,
+  .cc-blockquote-image.cc-blockquote-left {
+    float: left;
+  }
+
   .cc-blockquote-image.cc-blockquote-right {
-    width: auto;
+    float: right;
   }
 }
 
