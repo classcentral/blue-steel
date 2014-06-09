@@ -58,6 +58,7 @@ nbproject
 *.sublime-project
 *.sublime-workspace
 *~
+*.lock
 *.swp
 *.out
 .idea/
