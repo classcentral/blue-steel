@@ -8,8 +8,6 @@
 # Wordpress
 #
 
-wp-config.php
-
 wp-content/backup-db
 wp-content/backups
 wp-content/blogs.dir
@@ -30,7 +28,6 @@ wp-content/upgrade
 /vendor
 /wordpress
 /wp
-/index.php
 
 #
 # Wordpress cache
