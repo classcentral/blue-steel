@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="https://www.class-central.com/" title="MOOC aggregator">
+            <a class="navbar-brand" href="<?php echo PARENT_DOMAIN ?>" title="MOOC aggregator">
                 <span class="cc-logo-navbar"></span>
                 <svg role="logo" aria-label="class central logo" viewBox="0 0 332 32" class="class-central-logo">
                     <use xlink:href="#icon-cc-logo"></use>

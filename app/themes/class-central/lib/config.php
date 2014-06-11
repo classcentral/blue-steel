@@ -11,8 +11,16 @@ add_theme_support('jquery-cdn');            // Enable to load jQuery from the Go
 /**
  * Configuration values
  */
-define('GOOGLE_ANALYTICS_ID', ''); // UA-XXXXX-Y (Note: Universal Analytics only, not Classic Analytics)
+if (!defined('GOOGLE_ANALYTICS_ID'))
+{
+    define('GOOGLE_ANALYTICS_ID', ''); // UA-XXXXX-Y (Note: Universal Analytics only, not Classic Analytics)
+}
 define('POST_EXCERPT_LENGTH', 40); // Length in words for excerpt_length filter (http://codex.wordpress.org/Plugin_API/Filter_Reference/excerpt_length)
+if ( !defined('PARENT_DOMAIN') )
+{
+    define('PARENT_DOMAIN','https://www.class-central.com');
+}
+
 
 /**
  * .main classes
