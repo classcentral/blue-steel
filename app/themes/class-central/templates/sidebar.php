@@ -1,3 +1,4 @@
+<?php /*
 <?php if (roots_display_sidebar()) : ?>
   <aside class="sidebar col-sm-4">
     <div class="ad-wrap">
@@ -29,3 +30,4 @@
     </div>
   </aside><!-- /.sidebar -->
 <?php endif; ?>
+ */ ?>
