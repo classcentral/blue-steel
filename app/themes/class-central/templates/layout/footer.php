@@ -3,7 +3,7 @@
   <div class="container">
       <div class="row">
           <div class="col-md-2 col-sm-4 col-xs-4 link-column">
-              <h5 class="list-heading">Browse courses by</h5>
+              <h5 class="list-heading">Browse</h5>
               <ul>
                   <li><a href="/subjects" onmousedown="_gaq.push(['_trackEvent', 'Footer', 'Browse by - Subjects'])">Subjects</a></li>
                   <li><a href="/languages" onmousedown="_gaq.push(['_trackEvent', 'Footer', 'Browse by - Languages'])">Languages</a></li>
