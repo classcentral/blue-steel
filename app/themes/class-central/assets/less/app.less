@@ -468,6 +468,10 @@ body {
   background: transparent;
 }
 
+.headroom {position: fixed;top: 0;left: 0;right: 0;transition: all .2s ease-in-out;}
+.headroom--unpinned {top: -100px;}
+.headroom--pinned {top: 0;}
+
 @media (min-width: @screen-md-min) {
   .navbar-default:after {
     content: "";
