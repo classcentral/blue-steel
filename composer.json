@@ -60,6 +60,18 @@
                   "url": "http://downloads.wordpress.org/plugin/clicky.1.4.2.4.zip"
               }
           }
+      },
+      {
+          "type": "package",
+          "package": {
+              "name": "disqus/disqus",
+              "version": "2.75",
+              "type": "wordpress-plugin",
+              "dist": {
+                  "type": "zip",
+                  "url": "http://downloads.wordpress.org/plugin/disqus-comment-system.zip"
+              }
+          }
       }
   ],
   "require": {
@@ -77,7 +89,8 @@
     "wpackagist/wordfence": "*",
     "wpackagist/wp-resized-image-quality": "*",
     "roots/wp-stage-switcher": "1.0.1",
-    "yoast/clicky" : "1.4.2.4"
+    "yoast/clicky" : "1.4.2.4",
+    "disqus/disqus" : "2.75"
   },
   "extra": {
     "webroot-dir": "wordpress",

@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8cb30d7b377d89e13c4d8ea377c524b0",
+    "hash": "fe0ef178bafa0d7136cae043a5d2c10b",
     "packages": [
         {
             "name": "codelight-eu/tinymce-advanced-blockquote",
@@ -107,6 +107,17 @@
                 "zend"
             ],
             "time": "2013-10-24 16:13:49"
+        },
+        {
+            "name": "disqus/disqus",
+            "version": "2.75",
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/disqus-comment-system.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "fancyguy/webroot-installer",
@@ -310,15 +321,15 @@
         },
         {
             "name": "wpackagist/wordfence",
-            "version": "5.1.1",
+            "version": "5.1.2",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/wordfence/",
-                "reference": "tags/5.1.1"
+                "reference": "tags/5.1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/wordfence.5.1.1.zip",
+                "url": "http://downloads.wordpress.org/plugin/wordfence.5.1.2.zip",
                 "reference": null,
                 "shasum": null
             },
