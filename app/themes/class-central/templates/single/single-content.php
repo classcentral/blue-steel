@@ -59,6 +59,7 @@
             </tr>
           </table>
         </section>
+        <?php comments_template(); ?>
       </footer>
     </article>
 
