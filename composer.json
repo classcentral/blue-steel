@@ -109,6 +109,7 @@
     "wpackagist/wordfence": "*",
     "wpackagist/wp-resized-image-quality": "*",
     "wpackagist/wordpress-importer": "*",
+    "wpackagist/disqus-comment-system": "*",
     "roots/wp-stage-switcher": "1.0.1"
   },
   "extra": {
