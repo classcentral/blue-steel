@@ -10,10 +10,10 @@
  */
 
 $envs = array(
-  'local' => 'http://cc.dev/',
-  'development' => 'http://cc.codelight.eu/',
-  'staging'     => 'http://cc-dev2.dhawal.me/blog/',
-  'production'  => 'http://class-central.com/blog/'
+  'local' => 'http://ccdev.local/report',
+  'development' => 'http://ccdev.local/report',
+  'staging'     => 'http://ccdev.local/report/',
+  'production'  => 'https://www.class-central.com/report/'
 );
 define('ENVIRONMENTS', serialize($envs));
 
