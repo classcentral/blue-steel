@@ -16,6 +16,7 @@
                   <li><a href="/report" onmousedown="_gaq.push(['_trackEvent', 'Footer', 'MOOC Report'])">MOOC Report</a></li>
                   <li><a href="/faq" title="Frequently asked questions about MOOCs" onmousedown="_gaq.push(['_trackEvent', 'Footer', 'FAQ'])">FAQ</a></li>
                   <li><a href="/privacy-policy" onmousedown="_gaq.push(['_trackEvent', 'Footer', 'Privacy Policy'])"> Privacy Policy</a></li>
+                  <li><a href="https://www.class-central.com/report/mooc-tracker/" onmousedown="_gaq.push(['_trackEvent', 'Footer', 'What is MOOC Tracker?'])">What is MOOC Tracker?</a></li>
               </ul>
           </div>
           <div class="col-md-2 col-sm-4 col-xs-4 link-column">
