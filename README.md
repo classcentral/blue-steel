@@ -1,4 +1,9 @@
 # Blue Steel
+
+**Is there more to a blog than being really really really ridiculously good looking?**
+
+Of course not. Introducing Blue Steel.
+
 ### Responsive Wordpress theme using Roots - Inspired by The Verge
 Blue steel is a minimalist wordpress theme made by [Class Central](https://www.class-central.com/) and built on top of [Roots](http://roots.io/). The blog post pages are inspired by [The Verge](http://www.theverge.com/)
 
