@@ -9,6 +9,9 @@ add_image_size( 'blog-banner-full', 1600, 600, true );
 // Thumbnail image sizes
 add_image_size( 'blog-thumbnail', 400, 265, true );
 
+// Sidebar thumbnail image sizes
+add_image_size( 'blog-thumbnail-sidebar', 85, 58, true );
+
 
 function cc_get_reading_time() {
 
@@ -65,3 +68,12 @@ function cc_oembed_wrapper( $html, $url, $args ) {
 }
 
 add_filter('embed_oembed_html', 'cc_oembed_wrapper', 10, 3);
+
+
+/**
+ * Wrap widget title inside a span
+ */
+function cc_wrap_widget_title($title) {
+  return '<span>' . $title . '</span>';
+}
+add_filter('widget_title', 'cc_wrap_widget_title');

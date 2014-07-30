@@ -75,11 +75,7 @@
                 {
                     "name": "Kyle Robinson Young",
                     "email": "kyle@dontkry.com",
-<<<<<<< HEAD
                     "homepage": "https://github.com/shama",
-=======
-                    "homepage": "http://dontkry.com",
->>>>>>> test
                     "role": "Developer"
                 }
             ],
@@ -113,20 +109,7 @@
             "time": "2013-10-24 16:13:49"
         },
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "name": "disqus/disqus",
-            "version": "2.75",
-            "dist": {
-                "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/disqus-comment-system.zip",
-                "reference": null,
-                "shasum": null
-            },
-=======
-=======
->>>>>>> test
-            "name": "deliciousbrains/wp-migrate-db-pro",
+           "name": "deliciousbrains/wp-migrate-db-pro",
             "version": "1.3.6",
             "dist": {
                 "type": "zip",
@@ -151,11 +134,7 @@
             "require": {
                 "composer/installers": "v1.0.7"
             },
-<<<<<<< HEAD
->>>>>>> test!
-=======
->>>>>>> test
-            "type": "wordpress-plugin"
+           "type": "wordpress-plugin"
         },
         {
             "name": "fancyguy/webroot-installer",
@@ -351,6 +330,7 @@
         },
         {
             "name": "wpackagist/ewww-image-optimizer",
+<<<<<<< HEAD
             "version": "1.9.2",
             "source": {
                 "type": "svn",
@@ -364,6 +344,17 @@
 >>>>>>> test!
 =======
 >>>>>>> test
+=======
+            "version": "1.9.3",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/ewww-image-optimizer/",
+                "reference": "tags/1.9.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/ewww-image-optimizer.1.9.3.zip",
+>>>>>>> Added recent posts and featured post custom widgets, modified post footer nav to display post titles
                 "reference": null,
                 "shasum": null
             },
@@ -372,6 +363,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/ewww-image-optimizer/"
+        },
+        {
+            "name": "wpackagist/force-regenerate-thumbnails",
+            "version": "2.0.3",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/force-regenerate-thumbnails/",
+                "reference": "tags/2.0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/force-regenerate-thumbnails.2.0.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/force-regenerate-thumbnails/"
         },
         {
             "name": "wpackagist/google-sitemap-generator",
@@ -417,6 +428,9 @@
             "name": "wpackagist/wordfence",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Added recent posts and featured post custom widgets, modified post footer nav to display post titles
             "version": "5.1.6",
             "source": {
                 "type": "svn",
@@ -426,6 +440,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://downloads.wordpress.org/plugin/wordfence.5.1.6.zip",
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> test
@@ -442,6 +457,8 @@
 >>>>>>> test!
 =======
 >>>>>>> test
+=======
+>>>>>>> Added recent posts and featured post custom widgets, modified post footer nav to display post titles
                 "reference": null,
                 "shasum": null
             },
@@ -544,13 +561,6 @@
     "stability-flags": [
 
     ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "prefer-stable": false,
-=======
->>>>>>> test!
-=======
->>>>>>> test
     "platform": {
         "php": ">=5.3.0"
     },
@@ -558,10 +568,3 @@
 
     ]
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> test!
-=======
->>>>>>> test

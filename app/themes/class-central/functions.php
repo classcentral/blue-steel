@@ -2,6 +2,11 @@
 /**
  * Roots includes
  */
+
+// Custom widgets
+require_once locate_template('/lib/widgets/featured-post.php');
+require_once locate_template('/lib/widgets/recent-posts.php');
+
 require_once locate_template('/lib/utils.php');           // Utility functions
 require_once locate_template('/lib/init.php');            // Initial theme setup and constants
 require_once locate_template('/lib/wrapper.php');         // Theme wrapper class
