@@ -1244,6 +1244,50 @@ body {
   background-color: transparent;
 }
 
+.single-post .post-nav a {
+  font-size: 16px;
+  color: #747474;
+  text-transform: none;
+  position: relative;
+  text-align: left;
+}
+
+.single-post .post-nav .next a:before {
+  content: "";
+  display: block;
+  border: 25px solid transparent;
+  border-left-color: #f0efe8;
+  position: absolute;
+  right: -25px;
+  top: 50%;
+  margin-top: -25px;
+}
+
+.single-post .post-nav .next a:hover:before,
+.single-post .post-nav .next a:focus:before {
+  border-left-color: #CFCFCF;
+}
+
+.single-post .post-nav .previous a:before {
+  content: "";
+  display: block;
+  border: 25px solid transparent;
+  border-right-color: #f0efe8;
+  position: absolute;
+  left: -25px;
+  top: 50%;
+  margin-top: -25px;
+}
+
+.single-post .post-nav .previous a:hover:before,
+.single-post .post-nav .previous a:focus:before {
+  border-right-color: #CFCFCF;
+}
+
+.single-post .pager a {
+  padding: 30px;
+}
+
 @media (min-width: 480px) {
   .pager td a,
   .pager td .disabled {
@@ -1253,11 +1297,16 @@ body {
 }
 
 @media (min-width: 700px) {
-  .pager td a,
-  .pager td .disabled {
+  .post-nav .pager td a,
+  .post-nav .pager td .disabled {
     padding: 45px;
     font-size: 28px;
   }
+
+  .single-post .post-nav .pager a {
+    font-size: 20px;
+  }
+
 }
 
 /* ==========================================================================
