@@ -109,6 +109,7 @@
             "time": "2013-10-24 16:13:49"
         },
         {
+<<<<<<< HEAD
             "name": "disqus/disqus",
             "version": "2.75",
             "dist": {
@@ -117,6 +118,33 @@
                 "reference": null,
                 "shasum": null
             },
+=======
+            "name": "deliciousbrains/wp-migrate-db-pro",
+            "version": "1.3.6",
+            "dist": {
+                "type": "zip",
+                "url": "https://deliciousbrains.com/?wc-api=delicious-brains&request=download&licence_key=be584e9b-9486-4e43-ad1f-7efba1dd03df&site_url=http://codelight.eu",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "v1.0.7"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "deliciousbrains/wp-migrate-db-pro-media-files",
+            "version": "1.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://deliciousbrains.com/?wc-api=delicious-brains&request=download&licence_key=be584e9b-9486-4e43-ad1f-7efba1dd03df&slug=wp-migrate-db-pro-media-files&site_url=http://codelight.eu",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "v1.0.7"
+            },
+>>>>>>> test!
             "type": "wordpress-plugin"
         },
         {
@@ -220,6 +248,7 @@
             "type": "webroot"
         },
         {
+<<<<<<< HEAD
             "name": "wp-buddy/gplus-author",
             "version": "0.75",
             "dist": {
@@ -231,6 +260,8 @@
             "type": "wordpress-plugin"
         },
         {
+=======
+>>>>>>> test!
             "name": "wpackagist/advanced-custom-fields",
             "version": "4.3.8",
             "source": {
@@ -271,6 +302,7 @@
             "homepage": "http://wordpress.org/plugins/debug-bar/"
         },
         {
+<<<<<<< HEAD
             "name": "wpackagist/ewww-image-optimizer",
             "version": "1.9.3",
             "source": {
@@ -281,6 +313,38 @@
             "dist": {
                 "type": "zip",
                 "url": "http://downloads.wordpress.org/plugin/ewww-image-optimizer.1.9.3.zip",
+=======
+            "name": "wpackagist/disqus-comment-system",
+            "version": "2.77",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/disqus-comment-system/",
+                "reference": "tags/2.77"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/disqus-comment-system.2.77.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/disqus-comment-system/"
+        },
+        {
+            "name": "wpackagist/ewww-image-optimizer",
+            "version": "1.9.2",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/ewww-image-optimizer/",
+                "reference": "tags/1.9.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/ewww-image-optimizer.1.9.2.zip",
+>>>>>>> test!
                 "reference": null,
                 "shasum": null
             },
@@ -332,6 +396,7 @@
         },
         {
             "name": "wpackagist/wordfence",
+<<<<<<< HEAD
             "version": "5.1.6",
             "source": {
                 "type": "svn",
@@ -341,6 +406,17 @@
             "dist": {
                 "type": "zip",
                 "url": "http://downloads.wordpress.org/plugin/wordfence.5.1.6.zip",
+=======
+            "version": "5.1.4",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/wordfence/",
+                "reference": "tags/5.1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/wordfence.5.1.4.zip",
+>>>>>>> test!
                 "reference": null,
                 "shasum": null
             },
@@ -369,6 +445,7 @@
             },
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/wp-resized-image-quality/"
+<<<<<<< HEAD
         },
         {
             "name": "yoast/clicky",
@@ -391,6 +468,8 @@
                 "shasum": null
             },
             "type": "wordpress-plugin"
+=======
+>>>>>>> test!
         }
     ],
     "packages-dev": [
@@ -403,7 +482,10 @@
     "stability-flags": [
 
     ],
+<<<<<<< HEAD
     "prefer-stable": false,
+=======
+>>>>>>> test!
     "platform": {
         "php": ">=5.3.0"
     },
@@ -411,3 +493,7 @@
 
     ]
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> test!
