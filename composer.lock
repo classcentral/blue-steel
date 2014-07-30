@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fe0ef178bafa0d7136cae043a5d2c10b",
+    "hash": "818fdd6b4c354c35174711fa8551026c",
     "packages": [
         {
             "name": "codelight-eu/tinymce-advanced-blockquote",
@@ -220,6 +220,17 @@
             "type": "webroot"
         },
         {
+            "name": "wp-buddy/gplus-author",
+            "version": "0.75",
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/google-author-information-in-search-results-wordpress-plugin.0.7.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "wordpress-plugin"
+        },
+        {
             "name": "wpackagist/advanced-custom-fields",
             "version": "4.3.8",
             "source": {
@@ -381,6 +392,7 @@
     "stability-flags": [
 
     ],
+    "prefer-stable": false,
     "platform": {
         "php": ">=5.3.0"
     },
