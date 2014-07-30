@@ -30,7 +30,7 @@ wp-content/upgrade
 /vendor
 /wordpress
 /wp
-/index.php
+
 
 #
 # Wordpress cache
