@@ -30,7 +30,7 @@ wp-content/upgrade
 /vendor
 /wordpress
 /wp
-
+/index.php
 
 #
 # Wordpress cache
@@ -61,7 +61,6 @@ nbproject
 *.sublime-project
 *.sublime-workspace
 *~
-*.lock
 *.swp
 *.out
 .idea/
@@ -94,6 +93,9 @@ composer.phar
 log
 *.log
 error_log
+
+# Packages
+app/_ide_helpers.php
 
 # Packages
 app/_ide_helpers.php

@@ -68,6 +68,13 @@ var UTIL = {
   }
 };
 
+
+
 $(document).ready(UTIL.loadEvents);
+
+$(document).ready( function(){
+    $(".navbar-fixed-top").headroom();
+});
+
 
 })(jQuery); // Fully reference jQuery after this point.
