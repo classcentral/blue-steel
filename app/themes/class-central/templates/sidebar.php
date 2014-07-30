@@ -4,7 +4,7 @@
     <?php if (is_home()) : ?>
 
     <?php else : ?>
-      <?php //dynamic_sidebar('sidebar-primary'); ?>
+      <?php dynamic_sidebar('sidebar-primary'); ?>
 
       <section class="widget">
         <h3 class="section-heading">

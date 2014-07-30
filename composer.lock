@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fe0ef178bafa0d7136cae043a5d2c10b",
+    "hash": "d8e09517cc88c7ad794d40147eb100fd",
     "packages": [
         {
             "name": "codelight-eu/tinymce-advanced-blockquote",
@@ -75,7 +75,7 @@
                 {
                     "name": "Kyle Robinson Young",
                     "email": "kyle@dontkry.com",
-                    "homepage": "https://github.com/shama",
+                    "homepage": "http://dontkry.com",
                     "role": "Developer"
                 }
             ],
@@ -261,15 +261,15 @@
         },
         {
             "name": "wpackagist/ewww-image-optimizer",
-            "version": "1.9.1",
+            "version": "1.9.3",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/ewww-image-optimizer/",
-                "reference": "tags/1.9.1"
+                "reference": "tags/1.9.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/ewww-image-optimizer.1.9.1.zip",
+                "url": "http://downloads.wordpress.org/plugin/ewww-image-optimizer.1.9.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -280,16 +280,36 @@
             "homepage": "http://wordpress.org/plugins/ewww-image-optimizer/"
         },
         {
-            "name": "wpackagist/google-sitemap-generator",
-            "version": "4.0.6",
+            "name": "wpackagist/force-regenerate-thumbnails",
+            "version": "2.0.3",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/google-sitemap-generator/",
-                "reference": "tags/4.0.6"
+                "url": "http://plugins.svn.wordpress.org/force-regenerate-thumbnails/",
+                "reference": "tags/2.0.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/google-sitemap-generator.4.0.6.zip",
+                "url": "http://downloads.wordpress.org/plugin/force-regenerate-thumbnails.2.0.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/force-regenerate-thumbnails/"
+        },
+        {
+            "name": "wpackagist/google-sitemap-generator",
+            "version": "4.0.7",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/google-sitemap-generator/",
+                "reference": "tags/4.0.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/google-sitemap-generator.4.0.7.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -321,15 +341,15 @@
         },
         {
             "name": "wpackagist/wordfence",
-            "version": "5.1.2",
+            "version": "5.1.6",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/wordfence/",
-                "reference": "tags/5.1.2"
+                "reference": "tags/5.1.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/wordfence.5.1.2.zip",
+                "url": "http://downloads.wordpress.org/plugin/wordfence.5.1.6.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -381,6 +401,7 @@
     "stability-flags": [
 
     ],
+    "prefer-stable": false,
     "platform": {
         "php": ">=5.3.0"
     },
