@@ -46,6 +46,8 @@ module.exports = function(grunt) {
             'assets/js/plugins/bootstrap/tab.js',
             'assets/js/plugins/bootstrap/affix.js',
             'assets/js/plugins/*.js',
+            'assets/js/vendor/headroom.min.js',
+            'assets/js/vendor/jQuery.headroom.min.js',
             'assets/js/_*.js'
           ]
         },

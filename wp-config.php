@@ -9,16 +9,6 @@
  * @package WordPress
  */
 
-$envs = array(
-  'local' => 'http://cc.dev/',
-  'development' => 'http://cc.codelight.eu/',
-  'staging'     => 'http://cc-dev2.dhawal.me/blog/',
-  'production'  => 'http://class-central.com/blog/'
-);
-define('ENVIRONMENTS', serialize($envs));
-
-define('PARENT_DOMAIN','https://www.class-central.com');
-
 /**
  * Site-specific information such as secret keys, database access, etc
  * Should be kept out of public_html
