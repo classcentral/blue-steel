@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <?php wp_head(); ?>
+  <script type="text/javascript" src="//use.typekit.net/gdf6zoz.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
   <link rel="alternate" type="application/rss+xml" title="<?php echo get_bloginfo('name'); ?> Feed" href="<?php echo esc_url(get_feed_link()); ?>">
 </head>

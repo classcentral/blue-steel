@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default" role="navigation">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="https://www.class-central.com/" title="MOOC aggregator">
+            <a class="navbar-brand" href="/" title="MOOC aggregator">
                 <span class="cc-logo-navbar"></span>
                 <svg role="logo" aria-label="class central logo" viewBox="0 0 332 32" class="class-central-logo">
                     <use xlink:href="#icon-cc-logo"></use>
@@ -28,14 +28,14 @@
                         </b>
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a href="<?php echo PARENT_DOMAIN ?>/courses/recent" title="Recently started or starting soon - MOOCs" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Courses', 'recent'])">Recently started or starting soon</a></li>
-                        <li><a href="<?php echo PARENT_DOMAIN ?>/courses/ongoing" title="Courses in Progress - MOOCs" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Courses', 'ongoing'])">Courses in Progress</a></li>
-                        <li><a href="<?php echo PARENT_DOMAIN ?>/courses/upcoming" title="Future courses - MOOCs" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Courses', 'upcoming'])">Future courses</a></li>
-                        <li><a href="<?php echo PARENT_DOMAIN ?>/courses/selfpaced" title="Self Paced - MOOCs" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Courses', 'selfpaced'])">Self Paced</a></li>
-                        <li><a href="<?php echo PARENT_DOMAIN ?>/courses/past" title="Finished courses - MOOCs" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Courses', 'past'])">Finished courses</a></li>
+                      <li><a href="/courses/recent" title="Recently started or starting soon - MOOCs" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Courses', 'recent'])">Recently started or starting soon</a></li>
+                        <li><a href="/courses/ongoing" title="Courses in Progress - MOOCs" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Courses', 'ongoing'])">Courses in Progress</a></li>
+                        <li><a href="/courses/upcoming" title="Future courses - MOOCs" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Courses', 'upcoming'])">Future courses</a></li>
+                        <li><a href="/courses/selfpaced" title="Self Paced - MOOCs" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Courses', 'selfpaced'])">Self Paced</a></li>
+                        <li><a href="/courses/past" title="Finished courses - MOOCs" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Courses', 'past'])">Finished courses</a></li>
                     </ul>
                 </li>
-
+                <?php /*
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle nav-title" title="Browser MOOCs by Initiatives" data-toggle="dropdown">
                         Providers
@@ -73,8 +73,11 @@
                       </li>
                     </ul>
                 </li>
+             */
+             ?>
 
-                                <li><a href="<?php echo PARENT_DOMAIN ?>/subjects" class="nav-title" title="Subjects" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Subjects'])">Subjects</a></li>
+                <li><a href="/subjects" class="nav-title" title="Subjects" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Subjects'])">Subjects</a></li>
+                <li><a href="/report" class="nav-title" title="MOOC News, Interviews, and Analysis" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'MOOC Report'])">MOOC Report</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li class="social-icon">

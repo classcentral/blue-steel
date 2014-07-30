@@ -14,7 +14,7 @@
         <?php while (have_posts()) : the_post(); ?>
             <div class="col-sm-6 col-single-post">
                 <article <?php post_class(); ?>>
-                    <?php $image = get_field('banner'); ?>
+                    <?php $image = get_field('thumbnail'); ?>
                     <a href="<?php the_permalink(); ?>">
                       <header class="post-header" style="background-image: url('<?php echo $image['sizes']['blog-thumbnail']; ?>');">
                           <div class="post-heading-wrap">
