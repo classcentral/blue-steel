@@ -107,6 +107,5 @@
     -->
 
   </aside><!-- /.sidebar -->
-  
 <?php endif; ?>
 
