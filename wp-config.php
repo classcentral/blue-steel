@@ -9,14 +9,6 @@
  * @package WordPress
  */
 
-$envs = array(
-  'local' => 'http://ccdev.local/report',
-  'development' => 'http://ccdev.local/report',
-  'staging'     => 'http://ccdev.local/report/',
-  'production'  => 'https://www.class-central.com/report/'
-);
-define('ENVIRONMENTS', serialize($envs));
-
 /**
  * Site-specific information such as secret keys, database access, etc
  * Should be kept out of public_html

@@ -8,8 +8,6 @@
 # Wordpress
 #
 
-wp-config.php
-
 wp-content/backup-db
 wp-content/backups
 wp-content/blogs.dir
@@ -61,6 +59,8 @@ nbproject
 *.sublime-project
 *.sublime-workspace
 *~
+*.lock
+!composer.lock
 *.swp
 *.out
 .idea/
