@@ -17,7 +17,9 @@
     5.1 =Blockquotes
     5.2 =Youtube video overlay
   6. =Pagination
-  7. =Ads
+  7. =Sidebar
+    7.1 =Base
+    7.2 =Ads
   8. =Footer
     8.1 =Link columns
     8.2 =Newsletter
@@ -471,6 +473,10 @@ body {
   height: 24px;
   background: transparent;
 }
+
+.headroom {position: fixed;top: 0;left: 0;right: 0;transition: all .2s ease-in-out;}
+.headroom--unpinned {top: -100px;}
+.headroom--pinned {top: 0;}
 
 @media (min-width: @screen-md-min) {
   .navbar-default:after {
@@ -1255,8 +1261,87 @@ body {
 }
 
 /* ==========================================================================
-   =Ads
+   =Sidebar
    ========================================================================== */
+
+
+/* =Base
+----------------------------------------------------------------------------- */
+
+.sidebar {
+  display: none;
+}
+
+.widget {
+  margin-bottom: 50px;
+  font-family: @font-family-small-text;
+}
+
+.widget .section-heading {
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+
+.widget ul > li a {
+  color: @gray-dark;
+  font-size: 13px;
+  display: block;
+}
+
+.widget .post-date {
+  color: #a4a6a7;
+  font-size: 12px;
+}
+
+.widget ul {
+  list-style: none;
+  padding: 0;
+}
+
+.widget ul > li {
+  margin-bottom: 25px;
+  line-height: 1.2;
+  overflow: hidden;
+}
+
+.widget .post-info-wrap {
+  margin-left: 112px;
+}
+
+.widget .crop-wrap {
+  width: 85px;
+  height: 58px;
+  float: left;
+  overflow: hidden;
+}
+
+.widget .crop-wrap img {
+  width: 100%;
+}
+
+.widget_categories ul > li {
+  margin-bottom: 20px;
+  position: relative;
+  padding-left: 15px;
+}
+
+.widget_categories ul > li:before {
+  content: '» ';
+  position: absolute;
+  left: 0;
+  top: -2px;
+}
+
+@media (min-width: @screen-md-min) {
+  .sidebar {
+    display: block;
+    float: right;
+    padding-left: 0;
+  }
+}
+
+/* =Ads
+----------------------------------------------------------------------------- */
 
 .ad-wrap {
   display: none;

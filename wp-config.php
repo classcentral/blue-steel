@@ -9,14 +9,6 @@
  * @package WordPress
  */
 
-$envs = array(
-  'local' => 'http://cc.dev/',
-  'development' => 'http://cc.codelight.eu/',
-  'staging'     => 'http://cc-dev2.dhawal.me/blog/',
-  'production'  => 'http://class-central.com/blog/'
-);
-define('ENVIRONMENTS', serialize($envs));
-
 /**
  * Site-specific information such as secret keys, database access, etc
  * Should be kept out of public_html
@@ -26,11 +18,11 @@ require_once(dirname(__FILE__) . '/../wp-config-local.php');
 /**
  * Debug options
  */
-if (ENVIRONMENTS == 'development' || ENVIRONMENTS == 'staging' || ENVIRONMENTS == 'local') {
+if (WP_ENV == 'development' || WP_ENV == 'staging' || WP_ENV == 'local') {
     // Do not display errors, but log them in debug.log
     define( 'WP_DEBUG', true );
     define( 'WP_DEBUG_LOG', true );
-    define( 'WP_DEBUG_DISPLAY', false );
+    define( 'WP_DEBUG_DISPLAY', true );
     define( 'SAVEQUERIES', true );
     @ini_set( 'display_errors', 0 );
 } else {
