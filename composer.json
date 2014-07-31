@@ -84,8 +84,19 @@
                   "url": "http://downloads.wordpress.org/plugin/google-author-information-in-search-results-wordpress-plugin.0.7.5.zip"
               }
           }
+      },
+      {
+          "type": "package",
+          "package": {
+              "name": "yoast/wordpress-seo",
+              "version": "1.5.4.2",
+              "type": "wordpress-plugin",
+              "dist": {
+                  "type": "zip",
+                  "url": "http://downloads.wordpress.org/plugin/wordpress-seo.1.5.4.2.zip"
+              }
+          }
       }
-
   ],
   "require": {
     "php": ">=5.3.0",
@@ -103,6 +114,7 @@
     "wpackagist/wp-resized-image-quality": "*",
     "roots/wp-stage-switcher": "1.0.1",
     "yoast/clicky" : "1.4.2.4",
+    "yoast/wordpress-seo" : "1.5.4.2",
     "disqus/disqus" : "2.75",
     "wp-buddy/gplus-author": "0.75"
   },
@@ -114,5 +126,5 @@
         "app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
         "app/themes/{$name}/": ["type:wordpress-theme"]
     }
-  }
+	  }
 }
