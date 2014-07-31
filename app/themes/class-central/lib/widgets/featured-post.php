@@ -74,7 +74,8 @@ class CC_Widget_Featured_Post extends WP_Widget {
         <li>
           <div class="crop-wrap">
             <a href="<?php the_permalink(); ?>">
-              <?php echo get_the_post_thumbnail( get_the_ID(), 'blog-thumbnail-sidebar', array('alt' => 'post thumbnail') ); ?>
+                <?php $image = get_field('thumbnail'); ?>
+                <img src="<?php echo $image['sizes']['blog-thumbnail-sidebar']; ?>" alt="<?php get_the_title() ? the_title() : the_ID(); ?>"/>
             </a>
           </div>
           <div class="post-info-wrap">
