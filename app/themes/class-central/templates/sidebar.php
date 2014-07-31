@@ -6,6 +6,7 @@
     <?php else : ?>
       <?php dynamic_sidebar('sidebar-primary'); ?>
     <?php endif; ?>
+    
     <!--
     <div class="ad-wrap">
       <div class="ad-content">
