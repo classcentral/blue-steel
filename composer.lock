@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0e97e9cf1eff16a6bdc62df47d9308f5",
+    "hash": "d7ae5963867f80c5064513c85141ce9a",
     "packages": [
         {
             "name": "codelight-eu/tinymce-advanced-blockquote",
@@ -109,32 +109,15 @@
             "time": "2013-10-24 16:13:49"
         },
         {
-           "name": "deliciousbrains/wp-migrate-db-pro",
-            "version": "1.3.6",
+            "name": "disqus/disqus",
+            "version": "2.75",
             "dist": {
                 "type": "zip",
-                "url": "https://deliciousbrains.com/?wc-api=delicious-brains&request=download&licence_key=be584e9b-9486-4e43-ad1f-7efba1dd03df&site_url=http://codelight.eu",
+                "url": "http://downloads.wordpress.org/plugin/disqus-comment-system.zip",
                 "reference": null,
                 "shasum": null
-            },
-            "require": {
-                "composer/installers": "v1.0.7"
             },
             "type": "wordpress-plugin"
-        },
-        {
-            "name": "deliciousbrains/wp-migrate-db-pro-media-files",
-            "version": "1.1",
-            "dist": {
-                "type": "zip",
-                "url": "https://deliciousbrains.com/?wc-api=delicious-brains&request=download&licence_key=be584e9b-9486-4e43-ad1f-7efba1dd03df&slug=wp-migrate-db-pro-media-files&site_url=http://codelight.eu",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "v1.0.7"
-            },
-           "type": "wordpress-plugin"
         },
         {
             "name": "fancyguy/webroot-installer",
@@ -237,8 +220,6 @@
             "type": "webroot"
         },
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
             "name": "wp-buddy/gplus-author",
             "version": "0.75",
             "dist": {
@@ -250,10 +231,6 @@
             "type": "wordpress-plugin"
         },
         {
-=======
->>>>>>> test!
-=======
->>>>>>> test
             "name": "wpackagist/advanced-custom-fields",
             "version": "4.3.8",
             "source": {
@@ -294,8 +271,6 @@
             "homepage": "http://wordpress.org/plugins/debug-bar/"
         },
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
             "name": "wpackagist/ewww-image-optimizer",
             "version": "1.9.3",
             "source": {
@@ -306,55 +281,6 @@
             "dist": {
                 "type": "zip",
                 "url": "http://downloads.wordpress.org/plugin/ewww-image-optimizer.1.9.3.zip",
-=======
-=======
->>>>>>> test
-            "name": "wpackagist/disqus-comment-system",
-            "version": "2.77",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/disqus-comment-system/",
-                "reference": "tags/2.77"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/disqus-comment-system.2.77.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/disqus-comment-system/"
-        },
-        {
-            "name": "wpackagist/ewww-image-optimizer",
-<<<<<<< HEAD
-            "version": "1.9.2",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/ewww-image-optimizer/",
-                "reference": "tags/1.9.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/ewww-image-optimizer.1.9.2.zip",
-<<<<<<< HEAD
->>>>>>> test!
-=======
->>>>>>> test
-=======
-            "version": "1.9.3",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/ewww-image-optimizer/",
-                "reference": "tags/1.9.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/ewww-image-optimizer.1.9.3.zip",
->>>>>>> Added recent posts and featured post custom widgets, modified post footer nav to display post titles
                 "reference": null,
                 "shasum": null
             },
@@ -363,26 +289,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/ewww-image-optimizer/"
-        },
-        {
-            "name": "wpackagist/force-regenerate-thumbnails",
-            "version": "2.0.3",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/force-regenerate-thumbnails/",
-                "reference": "tags/2.0.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/force-regenerate-thumbnails.2.0.3.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/force-regenerate-thumbnails/"
         },
         {
             "name": "wpackagist/google-sitemap-generator",
@@ -426,11 +332,6 @@
         },
         {
             "name": "wpackagist/wordfence",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> Added recent posts and featured post custom widgets, modified post footer nav to display post titles
             "version": "5.1.6",
             "source": {
                 "type": "svn",
@@ -440,25 +341,6 @@
             "dist": {
                 "type": "zip",
                 "url": "http://downloads.wordpress.org/plugin/wordfence.5.1.6.zip",
-<<<<<<< HEAD
-=======
-=======
->>>>>>> test
-            "version": "5.1.4",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wordfence/",
-                "reference": "tags/5.1.4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/wordfence.5.1.4.zip",
-<<<<<<< HEAD
->>>>>>> test!
-=======
->>>>>>> test
-=======
->>>>>>> Added recent posts and featured post custom widgets, modified post footer nav to display post titles
                 "reference": null,
                 "shasum": null
             },
@@ -469,7 +351,6 @@
             "homepage": "http://wordpress.org/plugins/wordfence/"
         },
         {
-<<<<<<< HEAD
             "name": "wpackagist/wp-resized-image-quality",
             "version": "2.1.2",
             "source": {
@@ -480,18 +361,6 @@
             "dist": {
                 "type": "zip",
                 "url": "http://downloads.wordpress.org/plugin/wp-resized-image-quality.2.1.2.zip",
-=======
-            "name": "wpackagist/wordpress-importer",
-            "version": "0.6.1",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wordpress-importer/",
-                "reference": "tags/0.6.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/wordpress-importer.0.6.1.zip",
->>>>>>> test
                 "reference": null,
                 "shasum": null
             },
@@ -499,9 +368,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-<<<<<<< HEAD
             "homepage": "http://wordpress.org/plugins/wp-resized-image-quality/"
-<<<<<<< HEAD
         },
         {
             "name": "yoast/clicky",
@@ -524,31 +391,6 @@
                 "shasum": null
             },
             "type": "wordpress-plugin"
-=======
->>>>>>> test!
-=======
-            "homepage": "http://wordpress.org/plugins/wordpress-importer/"
-        },
-        {
-            "name": "wpackagist/wp-resized-image-quality",
-            "version": "2.1.2",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wp-resized-image-quality/",
-                "reference": "tags/2.1.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/wp-resized-image-quality.2.1.2.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/wp-resized-image-quality/"
->>>>>>> test
         }
     ],
     "packages-dev": [
@@ -561,6 +403,7 @@
     "stability-flags": [
 
     ],
+    "prefer-stable": false,
     "platform": {
         "php": ">=5.3.0"
     },
