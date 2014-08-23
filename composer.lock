@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d8e09517cc88c7ad794d40147eb100fd",
+    "hash": "d7ae5963867f80c5064513c85141ce9a",
     "packages": [
         {
             "name": "codelight-eu/tinymce-advanced-blockquote",
@@ -75,7 +75,7 @@
                 {
                     "name": "Kyle Robinson Young",
                     "email": "kyle@dontkry.com",
-                    "homepage": "http://dontkry.com",
+                    "homepage": "https://github.com/shama",
                     "role": "Developer"
                 }
             ],
@@ -220,6 +220,17 @@
             "type": "webroot"
         },
         {
+            "name": "wp-buddy/gplus-author",
+            "version": "0.75",
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/google-author-information-in-search-results-wordpress-plugin.0.7.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "wordpress-plugin"
+        },
+        {
             "name": "wpackagist/advanced-custom-fields",
             "version": "4.3.8",
             "source": {
@@ -278,26 +289,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/ewww-image-optimizer/"
-        },
-        {
-            "name": "wpackagist/force-regenerate-thumbnails",
-            "version": "2.0.3",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/force-regenerate-thumbnails/",
-                "reference": "tags/2.0.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/force-regenerate-thumbnails.2.0.3.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/force-regenerate-thumbnails/"
         },
         {
             "name": "wpackagist/google-sitemap-generator",
@@ -385,6 +376,17 @@
             "dist": {
                 "type": "zip",
                 "url": "http://downloads.wordpress.org/plugin/clicky.1.4.2.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "yoast/wordpress-seo",
+            "version": "1.5.4.2",
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/wordpress-seo.1.5.4.2.zip",
                 "reference": null,
                 "shasum": null
             },

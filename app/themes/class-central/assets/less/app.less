@@ -1392,6 +1392,85 @@ body {
 /* =Ads
 ----------------------------------------------------------------------------- */
 
+
+/* =Base
+----------------------------------------------------------------------------- */
+
+.sidebar {
+  display: none;
+}
+
+.widget {
+  margin-bottom: 50px;
+  font-family: @font-family-small-text;
+}
+
+.widget .section-heading {
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.widget ul > li a {
+  color: @gray-dark;
+  font-size: 13px;
+  display: block;
+}
+
+.widget .post-date {
+  color: #a4a6a7;
+  font-size: 12px;
+}
+
+.widget ul {
+  list-style: none;
+  padding: 0;
+}
+
+.widget ul > li {
+  margin-bottom: 25px;
+  line-height: 1.2;
+  overflow: hidden;
+}
+
+.widget .post-info-wrap {
+  margin-left: 112px;
+}
+
+.widget .crop-wrap {
+  width: 85px;
+  height: 58px;
+  float: left;
+  overflow: hidden;
+}
+
+.widget .crop-wrap img {
+  width: 100%;
+}
+
+.widget_categories ul > li {
+  margin-bottom: 20px;
+  position: relative;
+  padding-left: 15px;
+}
+
+.widget_categories ul > li:before {
+  content: '» ';
+  position: absolute;
+  left: 0;
+  top: -2px;
+}
+
+@media (min-width: @screen-md-min) {
+  .sidebar {
+    display: block;
+    float: right;
+    padding-left: 0;
+  }
+}
+
+/* =Ads
+----------------------------------------------------------------------------- */
+
 .ad-wrap {
   display: none;
   font-family: @font-family-small-text;
@@ -1681,5 +1760,3 @@ footer ul > li > a {
 .alignleft { float: left; }
 .alignright { float: right; }
 figure.alignnone { margin-left: 0; margin-right: 0; }
-
-
