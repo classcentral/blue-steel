@@ -564,7 +564,7 @@ body {
 .header-wrap {
   position: relative;
   display: table;
-  min-height: 600px;
+  min-height: 474px;
 }
 
 .single .header-area {
@@ -579,12 +579,21 @@ body {
 
 .header-area .header-content {
   position: relative;
-  min-height: 600px;
+  min-height: 474px;
   font-weight: 500;
   overflow: hidden;
-  padding-bottom: 85px;
+  padding-bottom: 70px;
   display: table-cell;
   vertical-align: bottom;
+}
+
+.single-post .header-area .header-content {
+  padding-bottom: 85px;
+}
+
+.single-post .header-wrap,
+.single-post .header-area .header-content {
+  min-height: 600px;
 }
 
 .header-area h1 .read-article,
