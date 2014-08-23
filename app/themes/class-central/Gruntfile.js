@@ -73,13 +73,19 @@ module.exports = function(grunt) {
           'assets/less/*.less',
           'assets/less/bootstrap/*.less'
         ],
-        tasks: ['less', 'version']
+        tasks: ['less', 'version'],
+        options: {
+          spawn: false
+        }
       },
       js: {
         files: [
           '<%= jshint.all %>'
         ],
-        tasks: ['jshint', 'uglify', 'version']
+        tasks: ['jshint', 'uglify', 'version'],
+        options: {
+          spawn: false
+        }
       },
       livereload: {
         // Browser live reloading

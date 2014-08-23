@@ -5,6 +5,14 @@
         <?php get_template_part('templates/entry-meta'); ?>
       </header>
       <div class="entry-content">
+        <div class="post-header-info">
+          <span class="read-icon">
+            <svg class="icon icon-read-icon" viewBox="0 0 26 32"><use xlink:href="#icon-read-icon"></use></svg>
+          </span>
+          <span class="read-length"><?php echo cc_get_reading_time(); ?> read&nbsp;</span>
+          <span class="written-by">written by&nbsp;</span>
+          <a href="#" class="cc-post-author"><?php echo cc_get_author_name(); ?></a>
+        </div>
         <?php the_content(); ?>
       </div>
       <footer>

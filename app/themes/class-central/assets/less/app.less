@@ -548,13 +548,28 @@ body {
    ========================================================================== */
 
 .header-area {
-  overflow: hidden;
   background-size: cover;
+  position: relative;
+}
+
+.photo-credit {
+  display: block;
+  position: absolute;
+  right: 18px;
+  bottom: -25px;
+  font-size: 11px;
+  color: #707476;
+}
+
+.header-wrap {
+  position: relative;
+  display: table;
+  min-height: 600px;
 }
 
 .single .header-area {
   border-bottom: 1px solid @gray-dark;
-  margin-bottom: 44px;
+  margin-bottom: 35px;
 }
 
 .home .header-area {
@@ -563,10 +578,12 @@ body {
 
 .header-area .header-content {
   position: relative;
-  min-height: 440px;
+  min-height: 600px;
   font-weight: 500;
   overflow: hidden;
-  padding-bottom: 70px;
+  padding-bottom: 85px;
+  display: table-cell;
+  vertical-align: bottom;
 }
 
 .header-area h1 .read-article,
@@ -581,7 +598,7 @@ body {
   font-size: 32px;
   color: @black;
   background: rgba(249, 248, 243, 0.8);
-  margin-top: 80px;
+  margin-top: 30px;
   margin-bottom: 0;
   padding: 15px;
   line-height: 1;
@@ -618,10 +635,11 @@ body {
 .post-header-info {
   overflow: hidden;
   font-family: @font-family-small-text;
-  padding-left: 15px;
   font-size: 13px;
-  position: absolute;
-  bottom: 10px;
+}
+
+.single .entry-content > .post-header-info {
+  padding-bottom: 20px;
 }
 
 .read-icon {
@@ -629,14 +647,18 @@ body {
   height: 20px;
   width: 13px;
   float: left;
-  margin-right: 15px;
+  margin-right: 10px;
 }
 
 .icon-read-icon {
   display: block;
   height: 20px;
   width: 13px;
-  fill: @white;
+  fill: @gray-dark;
+}
+
+.post-header-info {
+  line-height: 19px;
 }
 
 .post-header-info .read-length {
@@ -649,16 +671,19 @@ body {
   color: @gray-dark;
 }
 
-@media (min-width: 600px) {
-  .post-header-info {
-    padding-left: 65px;
+.single .post-header-info .cc-post-author {
+  color: @gray-dark;
+  font-weight: 700;
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    text-decoration: underline;
   }
 }
 
 @media (min-width: 660px) {
   .header-area h1 {
     font-size: 60px;
-    margin-top: 110px;
   }
 
   .header-area h1 .read-article {
@@ -671,18 +696,7 @@ body {
   }
 }
 
-
-@media (min-width: @screen-lg-min) {
-  .post-header-info {
-    padding-left: 95px;
-  }
-}
-
 @media (min-width: 1259px) {
-  .header-area h1 {
-    margin-top: 160px;
-  }
-
   .header-area h2 {
     line-height: 44px;
     font-size: 26px;
@@ -993,7 +1007,7 @@ body {
   }
 
   .single .entry-content > * {
-    padding: 0 50px;
+    padding: 0 40px;
   }
 
   .single .entry-content > iframe {
@@ -1014,7 +1028,7 @@ body {
 
 @media (min-width: @screen-lg-min) {
   .single .entry-content > * {
-    padding: 0 80px;
+    padding: 0 60px;
   }
 
   .single .entry-content > iframe {
@@ -1388,10 +1402,6 @@ body {
     padding-left: 0;
   }
 }
-
-/* =Ads
------------------------------------------------------------------------------ */
-
 
 /* =Base
 ----------------------------------------------------------------------------- */
