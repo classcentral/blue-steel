@@ -33,7 +33,6 @@
    =Base
    ========================================================================== */
 
-body { }
 
 // fix for the chrome font rendering bug
 body {
@@ -902,7 +901,8 @@ body {
   color: @gray-dark;
 }
 
-.single .entry-content > .cc-youtube-wrapper {
+.single .entry-content > .cc-youtube-wrapper,
+.single .entry-content > .wideBlock {
   padding-left: 0;
   padding-right: 0;
 }
@@ -1041,12 +1041,19 @@ body {
   .single .entry-content > p {
     font-size: 18px;
   }
+
+  .single .entry-content > .wideBlock {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
 }
 
 @media (min-width: @screen-md-min) {
   .single .entry-content > .video-description {
     font-size: 16px;
   }
+
 }
 
 
@@ -1054,6 +1061,12 @@ body {
   .single .entry-content > * {
     padding: 0 60px;
   }
+
+  .single .entry-content > .wideBlock {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
 
   .single .entry-content > iframe {
     margin: 0 80px !important;
