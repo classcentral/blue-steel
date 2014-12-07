@@ -77,3 +77,43 @@ function cc_wrap_widget_title($title) {
   return '<span>' . $title . '</span>';
 }
 add_filter('widget_title', 'cc_wrap_widget_title');
+
+/**
+ * Function to display date using a short code
+ * @param $attr
+ * @return string
+ */
+function get_course_date( $attr ) {
+
+    $defaultDate = 'TBA';
+    if(empty($attr) || empty($attr['id']) )
+    {
+        return $defaultDate;
+    }
+
+    $cacheId = 'cc_course_'. $attr['id'];
+    $date = get_transient($cacheId);
+    if($date) return $date;
+
+    // Query the api
+    $date = 'TBA';
+    $apiResponse = wp_remote_get('https://www.class-central.com/maestro/course/'. $attr['id']);
+    if( !$apiResponse|| $apiResponse['response']['code'] != 200 ) {
+        $date = 'TBA';
+    }
+    else
+    {
+        // Check if the response is valid
+        $response = json_decode($apiResponse['body'],true);
+        if( empty($response['success'])) {
+            $date = $defaultDate;
+        } else
+        {
+            $date = $response['message']['displayDate'];
+        }
+    }
+    set_transient( $cacheId, $date, DAY_IN_SECONDS);
+    return $date;
+}
+
+add_shortcode('course_date', 'get_course_date');

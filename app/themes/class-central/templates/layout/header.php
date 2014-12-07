@@ -28,53 +28,15 @@
                         </b>
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a href="/courses/recent" title="Recently started or starting soon - MOOCs" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Courses', 'recent'])">Recently started or starting soon (42)</a></li>
-                        <li><a href="/courses/ongoing" title="Courses in Progress - MOOCs" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Courses', 'ongoing'])">Courses in Progress (201)</a></li>
-                        <li><a href="/courses/upcoming" title="Future courses - MOOCs" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Courses', 'upcoming'])">Future courses (224)</a></li>
-                        <li><a href="/courses/selfpaced" title="Self Paced - MOOCs" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Courses', 'selfpaced'])">Self Paced (71)</a></li>
-                        <li><a href="/courses/past" title="Finished courses - MOOCs" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Courses', 'past'])">Finished courses (923)</a></li>
+                      <li><a href="/courses/recent" title="Recently started or starting soon - MOOCs" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Courses', 'recent'])">Recently started or starting soon</a></li>
+                        <li><a href="/courses/ongoing" title="Courses in Progress - MOOCs" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Courses', 'ongoing'])">Courses in Progress</a></li>
+                        <li><a href="/courses/upcoming" title="Future courses - MOOCs" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Courses', 'upcoming'])">Future courses</a></li>
+                        <li><a href="/courses/selfpaced" title="Self Paced - MOOCs" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Courses', 'selfpaced'])">Self Paced</a></li>
+                        <li><a href="/courses/past" title="Finished courses - MOOCs" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Courses', 'past'])">Finished courses</a></li>
                     </ul>
                 </li>
-
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle nav-title" title="Browser MOOCs by Initiatives" data-toggle="dropdown">
-                        Providers
-                        <b class="caret">
-                            <svg class="icon icon-cc-logo7" viewBox="0 0 32 32"><use xlink:href="#icon-cc-logo7"></use></svg>
-                        </b>
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li>
-                        <a href="/provider/coursera" title="List of Coursera MOOCs" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Initiative', 'coursera'])">Coursera (644)</a>
-                      </li>
-                      <li>
-                        <a href="/provider/udacity" title="List of Udacity MOOCs" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Initiative', 'udacity'])">Udacity (33)</a>
-                      </li>
-                      <li>
-                        <a href="/provider/edx" title="List of EdX MOOCs" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Initiative', 'edx'])">EdX (131)</a>
-                      </li>
-                      <li>
-                        <a href="/provider/novoed" title="List of NovoED MOOCs" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Initiative', 'novoed'])">NovoED (25)</a>
-                      </li>
-                      <li>
-                        <a href="/provider/canvas" title="List of Canvas.net MOOCs" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Initiative', 'canvas'])">Canvas.net (104)</a>
-                      </li>
-                      <li>
-                        <a href="/provider/open2study" title="List of Open2Study MOOCs" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Initiative', 'open2study'])">Open2Study (50)</a>
-                      </li>
-                      <li>
-                        <a href="/provider/iversity" title="List of iversity MOOCs" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Initiative', 'iversity'])">iversity (28)</a>
-                      </li>
-                      <li>
-                        <a href="/provider/futurelearn" title="List of FutureLearn MOOCs" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Initiative', 'futurelearn'])">FutureLearn (44)</a>
-                      </li>
-                      <li>
-                        <a href="/provider/others" title="List of Others MOOCs" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Initiative', 'others'])">Others (389)</a>
-                      </li>
-                    </ul>
-                </li>
-
-                                <li><a href="/subjects" class="nav-title" title="Subjects" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Subjects'])">Subjects</a></li>
+                <li><a href="/subjects" class="nav-title" title="Subjects" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Subjects'])">Subjects</a></li>
+                <li><a href="/report" class="nav-title" title="MOOC News, Interviews, and Analysis" onClick="_gaq.push(['_trackEvent', 'navbar-clicks', 'MOOC Report'])">MOOC Report</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li class="social-icon">
