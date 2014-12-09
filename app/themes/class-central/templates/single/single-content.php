@@ -15,7 +15,7 @@
         </div>
         <?php the_content(); ?>
 
-
+        <!-- review widget -->
         <div class="wideBlock">
           <div class="reviewWidget">
 
@@ -53,13 +53,13 @@
                 </div>
                 <div class="reviewWidget_info_block reviewWidget_info_block-intensity">
                   <div class="reviewWidget_info_icon">
-                    <svg class="icon icon-calendar-icon" viewBox="0 0 32 32"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-calendar-icon"></use></svg>
+                    <svg class="icon icon-clock-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-clock"></use></svg>
                   </div>
                   <div class="reviewWidget_info_text">5-8 hpw</div>
                 </div>
                 <div class="reviewWidget_info_block reviewWidget_info_block-difficulty">
                   <div class="reviewWidget_info_icon">
-                    <svg class="icon icon-calendar-icon" viewBox="0 0 32 32"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-calendar-icon"></use></svg>
+                    <svg class="icon icon-bargraph-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-bargraph"></use></svg>
                   </div>
                   <div class="reviewWidget_info_text">Hard</div>
                 </div>
@@ -224,13 +224,11 @@
               </div>
 
               <a href="#" class="reviewWidget_footer_button">Go To Class</a>
-
-
-
             </div>
-
           </div>
         </div>
+
+        <!-- review widget end -->
 
 
       </div>

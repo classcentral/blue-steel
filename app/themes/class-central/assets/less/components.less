@@ -237,6 +237,7 @@
 @media (min-width: 530px) {
   .reviewWidget_topBar .class-central-logo {
     float: left;
+    margin-top: 1px;
   }
 
   .reviewWidget_topBar_title {
@@ -260,13 +261,13 @@
   display: block;
   margin: 0;
   font-size: 34px;
-  font-weight: 200;
+  font-weight: 300;
   color: #7150b8;
   -webkit-text-fill-color: transparent;
   background: -webkit-linear-gradient(left, rgba(140,67,183,1) 0%,rgba(34,144,219,1) 100%);
   background: -o-linear-gradient(left, rgba(140,67,183,1) 0%,rgba(34,144,219,1) 100%);
   -webkit-background-clip: text;
-  line-height: 1.2;
+  line-height: 1.3;
   font-family: @font-family-large-text;
 }
 
@@ -280,12 +281,13 @@
   color: #d2d1ca;
   font-size: 15px;
   font-weight: 400;
-  padding: 0 @reviewWidget-padding 44px @reviewWidget-padding;
+  line-height: 1.95;
+  padding: 0 @reviewWidget-padding 37px @reviewWidget-padding;
 }
 
 .reviewWidget_info {
   .clearfix;
-  padding: 35px @reviewWidget-padding 27px @reviewWidget-padding;
+  padding: 35px @reviewWidget-padding 18px @reviewWidget-padding;
 }
 
  .reviewWidget_info_text {
@@ -307,15 +309,16 @@
 
 .reviewWidget_info_icon .icon {
   fill: #716f68;
+  display: block;
 }
 
 .reviewWidget_info_icon .icon-provider-icon {
-  width: 15px;
-  height: 13px;
+  height: 16px;
+  width: 19px;
 }
 
 .reviewWidget_info_icon .icon-institution-icon {
-  height: 17px;
+  height: 16px;
   width: 12px;
 }
 
@@ -324,18 +327,33 @@
   width: 16px;
 }
 
+.reviewWidget_info_icon .icon-clock-icon {
+  height: 16px;
+  width: 16px;
+}
+
+.reviewWidget_info_icon .icon-bargraph-icon {
+  height: 16px;
+  width: 18px;
+}
+
 .reviewWidget_info_block-provider .reviewWidget_info_text {
-  margin-left: 15px;
+  margin-left: 19px;
 }
 
 .reviewWidget_info_block-institution .reviewWidget_info_text {
   margin-left: 12px;
 }
 
-.reviewWidget_info_block-duration .reviewWidget_info_text,
-.reviewWidget_info_block-intensity .reviewWidget_info_text,
-.reviewWidget_info_block-difficulty .reviewWidget_info_text {
+.reviewWidget_info_block-duration .reviewWidget_info_text {
   margin-left: 16px;
+}
+
+.reviewWidget_info_block-intensity .reviewWidget_info_text {
+  margin-left: 16px;
+}
+.reviewWidget_info_block-difficulty .reviewWidget_info_text {
+  margin-left: 18px;
 }
 
 .reviewWidget_footer {
@@ -393,6 +411,7 @@
   background-color: #33da72;
   text-align: center;
   padding: 23px 0 20px 0;
+  font-weight: 600;
   &:hover,
   &:focus {
     background-color: darken(#33da72, 10%);
