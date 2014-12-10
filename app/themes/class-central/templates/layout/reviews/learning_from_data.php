@@ -219,7 +219,7 @@
 
 <!-- review widget end -->
 <p>
-    <i><b>Editors Note</b>: Review by <a href="http://p00gz.github.io/" target="_blank">Bobby Brady</a>. Bob is a MOOC and online learning consultant, library technology associate, Stanford Advanced Computer Security Professional and DevOps hobbyist. He's completed or audited over 70 online courses from over 15 different platforms and is an advocate for non-traditional alternative education as a credential. <a href="">Bob's transcript</a> </i>
+    <i><b>Editors Note</b>: Review by <a href="http://p00gz.github.io/" target="_blank">Bobby Brady</a>. Bob is a MOOC and online learning consultant, library technology associate, Stanford Advanced Computer Security Professional and DevOps hobbyist. He's completed or audited over 70 online courses from over 15 different platforms and is an advocate for non-traditional alternative education as a credential. <a href="https://www.class-central.com/@bob">Bob's transcript</a> </i>
 </p>
 
 <p>
