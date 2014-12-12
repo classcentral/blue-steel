@@ -18,8 +18,8 @@
 
         <?php if (is_single(59066)) : ?>
           <?php get_template_part('templates/layout/reviews/learning_from_data'); ?>
-        <?php elseif (is_single(57702)) : ?>
-          <?php get_template_part('templates/layout/widget2'); ?>
+        <?php elseif (is_single(59102)) : ?>
+          <?php get_template_part('templates/layout/reviews/surveillance_law'); ?>
         <?php elseif (is_single(57734)) : ?>
           <?php get_template_part('templates/layout/widget3'); ?>
         <?php endif ?>
