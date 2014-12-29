@@ -20,8 +20,8 @@
           <?php get_template_part('templates/layout/reviews/learning_from_data'); ?>
         <?php elseif (is_single(59102)) : ?>
           <?php get_template_part('templates/layout/reviews/surveillance_law'); ?>
-        <?php elseif (is_single(57734)) : ?>
-          <?php get_template_part('templates/layout/widget3'); ?>
+        <?php elseif (is_single(59214)) : ?>
+          <?php get_template_part('templates/layout/reviews/learning_how_to_learn'); ?>
         <?php endif ?>
 
 
