@@ -22,6 +22,8 @@
           <?php get_template_part('templates/layout/reviews/surveillance_law'); ?>
         <?php elseif (is_single(59214)) : ?>
           <?php get_template_part('templates/layout/reviews/learning_how_to_learn'); ?>
+         <?php elseif (is_single(59279)) : ?>
+          <?php get_template_part('templates/layout/reviews/solution_and_innovation_skills'); ?>
         <?php endif ?>
 
 
