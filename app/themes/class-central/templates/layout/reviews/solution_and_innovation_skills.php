@@ -221,7 +221,7 @@
 
 <!-- review widget end -->
 <p>
-    <i><b>Editors Note</b>: Review by <a href="https://twitter.com/bhawnavij" target="_blank">Bhawna Viz</a> - Lifelong learner, Jewellery designer and design teacher based in India. She has taught design full-time for over six years as in the National Institute of Fashion Technology, Delhi as an Associate Professor. She loves to travel and has lived in four states of India in the last five years and is currently based in Mumbai. </i>
+    <i><b>Editors Note</b>: Review by <a href="https://twitter.com/bhawnavij" target="_blank">Bhawna Vij</a> - Lifelong learner, Jewellery designer and design teacher based in India. She has taught design full-time for over six years in the National Institute of Fashion Technology, Delhi as an Associate Professor. She loves to travel and has lived in four states of India in the last five years and is currently based in Mumbai. </i>
 </p>
 
 <p>
