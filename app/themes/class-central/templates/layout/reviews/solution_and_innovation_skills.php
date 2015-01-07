@@ -53,7 +53,7 @@
         -->
     </div>
     <div class="reviewWidget_text"  itemprop="description">
-        “Solution and Innovation Skills” was a ten week intensive MOOC offered by Prof. Peer Ederer of  Zeppellin university, along Harvard and MIT amongst the partner universities, through Leuphana Digital School. It doesn’t just give knowledge; it strives to give solution skills to handle complex problems.
+        “Solution and Innovation Skills” was a ten week intensive MOOC offered by Prof. Peer Ederer of Zeppelin university in cooperation with Leuphana digital School, along Harvard and MIT amongst the partner universities. It doesn’t just give knowledge; it strives to give solution skills to handle complex problems.
     </div>
 </div>
 
