@@ -4,8 +4,19 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d7ae5963867f80c5064513c85141ce9a",
+    "hash": "155a778d3da63825c07fc43ae0f74449",
     "packages": [
+        {
+            "name": "DesignsAndCode/forget-about-shortcode-buttons",
+            "version": "1.1.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/forget-about-shortcode-buttons.1.1.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "wordpress-plugin"
+        },
         {
             "name": "codelight-eu/tinymce-advanced-blockquote",
             "version": "1.0.1",
@@ -207,10 +218,10 @@
         },
         {
             "name": "wordpress",
-            "version": "3.9.1",
+            "version": "4.1",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/WordPress/WordPress/archive/3.9.1.zip",
+                "url": "https://github.com/WordPress/WordPress/archive/4.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -393,21 +404,14 @@
             "type": "wordpress-plugin"
         }
     ],
-    "packages-dev": [
-
-    ],
-    "aliases": [
-
-    ],
+    "packages-dev": [],
+    "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": [],
     "prefer-stable": false,
+    "prefer-lowest": false,
     "platform": {
         "php": ">=5.3.0"
     },
-    "platform-dev": [
-
-    ]
+    "platform-dev": []
 }
