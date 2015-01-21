@@ -26,6 +26,8 @@
           <?php get_template_part('templates/layout/reviews/solution_and_innovation_skills'); ?>
          <?php elseif (is_single(59308)) : ?>
           <?php get_template_part('templates/layout/reviews/science_of_happiness'); ?>
+         <?php elseif (is_single(59347)) : ?>
+          <?php get_template_part('templates/layout/reviews/mining_massive_datasets'); ?>
         <?php endif ?>
 
 
