@@ -28,6 +28,8 @@
           <?php get_template_part('templates/layout/reviews/science_of_happiness'); ?>
          <?php elseif (is_single(59347)) : ?>
           <?php get_template_part('templates/layout/reviews/mining_massive_datasets'); ?>
+         <?php elseif (is_single(59457)) : ?>
+          <?php get_template_part('templates/layout/reviews/algorithms_design_and_analysis_part_1'); ?>
         <?php endif ?>
 
 
