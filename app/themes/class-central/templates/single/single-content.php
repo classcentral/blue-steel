@@ -30,6 +30,8 @@
           <?php get_template_part('templates/layout/reviews/mining_massive_datasets'); ?>
          <?php elseif (is_single(59457)) : ?>
           <?php get_template_part('templates/layout/reviews/algorithms_design_and_analysis_part_1'); ?>
+         <?php elseif (is_single(59514)) : ?>
+          <?php get_template_part('templates/layout/reviews/bioinformatics_algorithms_part_1'); ?>
         <?php endif ?>
 
 
