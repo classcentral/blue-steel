@@ -23,3 +23,4 @@ require_once locate_template('/lib/widgets.php');         // Sidebars and widget
 require_once locate_template('/lib/scripts.php');         // Scripts and stylesheets
 require_once locate_template('/lib/fields.php');          // Custom functions
 require_once locate_template('/lib/custom.php');          // Custom functions
+require_once locate_template('/lib/shortcodes.php');      // Shortcodes
