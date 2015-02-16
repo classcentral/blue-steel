@@ -39,7 +39,9 @@
     -->
 
     <?php if (get_field('sidebar_widget_course_id')) : ?>
-      <div class="sidebarWidgetContainer" data-courseid="<?php the_field('sidebar_widget_course_id') ?>"></div>
+      <div class="sidebarWidgetContainer" data-courseid="<?php the_field('sidebar_widget_course_id') ?>">
+        <!-- widget code -->
+      </div>
     <?php endif; ?>
 
   </aside><!-- /.sidebar -->
