@@ -591,4 +591,41 @@ if(function_exists("register_field_group"))
     ),
     'menu_order' => 0,
   ));
+
+  register_field_group(array (
+    'id' => 'acf_sidebar-widget',
+    'title' => 'Sidebar widget',
+    'fields' => array (
+      array (
+        'key' => 'field_54e1e395cd5c8',
+        'label' => 'Sidebar widget course id',
+        'name' => 'sidebar_widget_course_id',
+        'type' => 'text',
+        'default_value' => '',
+        'placeholder' => '',
+        'prepend' => '',
+        'append' => '',
+        'formatting' => 'html',
+        'maxlength' => '',
+      ),
+    ),
+    'location' => array (
+      array (
+        array (
+          'param' => 'post_type',
+          'operator' => '==',
+          'value' => 'post',
+          'order_no' => 0,
+          'group_no' => 0,
+        ),
+      ),
+    ),
+    'options' => array (
+      'position' => 'side',
+      'layout' => 'no_box',
+      'hide_on_screen' => array (
+      ),
+    ),
+    'menu_order' => 0,
+  ));
 }
