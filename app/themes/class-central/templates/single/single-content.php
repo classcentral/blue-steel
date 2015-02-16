@@ -16,8 +16,6 @@
 
         <?php the_content(); ?>
 
-        <?php get_template_part('templates/layout/review_widget'); ?>
-
         <?php if (is_single(59066)) : ?>
           <?php get_template_part('templates/layout/reviews/learning_from_data'); ?>
         <?php elseif (is_single(59102)) : ?>
