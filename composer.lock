@@ -4,8 +4,19 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "155a778d3da63825c07fc43ae0f74449",
+    "hash": "7fe701c8a7671515bef891d268897106",
     "packages": [
+        {
+            "name": "AddThis/addThis",
+            "version": "4.0.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/addthis.4.0.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "wordpress-plugin"
+        },
         {
             "name": "DesignsAndCode/forget-about-shortcode-buttons",
             "version": "1.1.0",
