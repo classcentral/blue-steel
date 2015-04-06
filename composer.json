@@ -108,6 +108,18 @@
                   "url": "https://downloads.wordpress.org/plugin/forget-about-shortcode-buttons.1.1.0.zip"
               }
           }
+      },
+      {
+          "type": "package",
+          "package": {
+              "name": "AddThis/addThis",
+              "version": "4.0.5",
+              "type": "wordpress-plugin",
+              "dist": {
+                  "type": "zip",
+                  "url": "https://downloads.wordpress.org/plugin/addthis.4.0.5.zip"
+              }
+          }
       }
   ],
   "require": {
@@ -129,7 +141,8 @@
     "yoast/wordpress-seo" : "1.5.4.2",
     "disqus/disqus" : "2.75",
     "wp-buddy/gplus-author": "0.75",
-    "DesignsAndCode/forget-about-shortcode-buttons" : "1.1.0"
+    "DesignsAndCode/forget-about-shortcode-buttons" : "1.1.0",
+    "AddThis/addThis" : "4.0.5"
   },
   "extra": {
     "webroot-dir": "wordpress",

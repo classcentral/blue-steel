@@ -209,8 +209,8 @@ if(function_exists("register_field_group"))
       ),
       array (
         'key' => 'field_54e1c1533cc71',
-        'label' => 'Topbar title',
-        'name' => 'widget_topbar_title',
+        'label' => 'Reviewer Name',
+        'name' => 'widget_reviewer_name',
         'type' => 'text',
         'conditional_logic' => array (
           'status' => 1,
@@ -224,52 +224,6 @@ if(function_exists("register_field_group"))
           'allorany' => 'all',
         ),
         'default_value' => 'Review',
-        'placeholder' => '',
-        'prepend' => '',
-        'append' => '',
-        'formatting' => 'html',
-        'maxlength' => '',
-      ),
-      array (
-        'key' => 'field_54e1c2250ed7d',
-        'label' => 'Topbar title link text',
-        'name' => 'widget_topbar_title_link_text',
-        'type' => 'text',
-        'conditional_logic' => array (
-          'status' => 1,
-          'rules' => array (
-            array (
-              'field' => 'field_54e1c4714e5f1',
-              'operator' => '==',
-              'value' => 'Add widget',
-            ),
-          ),
-          'allorany' => 'all',
-        ),
-        'default_value' => 'class-central.com',
-        'placeholder' => '',
-        'prepend' => '',
-        'append' => '',
-        'formatting' => 'html',
-        'maxlength' => '',
-      ),
-      array (
-        'key' => 'field_54e1c1f30ed7c',
-        'label' => 'Topbar title link',
-        'name' => 'widget_topbar_title_link',
-        'type' => 'text',
-        'conditional_logic' => array (
-          'status' => 1,
-          'rules' => array (
-            array (
-              'field' => 'field_54e1c4714e5f1',
-              'operator' => '==',
-              'value' => 'Add widget',
-            ),
-          ),
-          'allorany' => 'all',
-        ),
-        'default_value' => 'https://www.class-central.com',
         'placeholder' => '',
         'prepend' => '',
         'append' => '',
@@ -353,7 +307,7 @@ if(function_exists("register_field_group"))
       ),
       array (
         'key' => 'field_54e1c2d76bf3e',
-        'label' => 'Duration',
+        'label' => 'Duration (in Weeks)',
         'name' => 'widget_duration',
         'type' => 'text',
         'conditional_logic' => array (
@@ -376,7 +330,7 @@ if(function_exists("register_field_group"))
       ),
       array (
         'key' => 'field_54e1c2eb6bf3f',
-        'label' => 'Intensity',
+        'label' => 'Effort ( Hours/Week)',
         'name' => 'widget_intensity',
         'type' => 'text',
         'conditional_logic' => array (
@@ -399,7 +353,7 @@ if(function_exists("register_field_group"))
       ),
       array (
         'key' => 'field_54e1c2fe6bf40',
-        'label' => 'Difficulty',
+        'label' => 'Difficulty (Easy/Medium/Hard)',
         'name' => 'widget_difficulty',
         'type' => 'text',
         'conditional_logic' => array (
@@ -539,18 +493,6 @@ if(function_exists("register_field_group"))
         'key' => 'field_54e1c7e0f4888',
         'label' => 'Rating bubble link',
         'name' => 'rating_bubble_link',
-        'type' => 'text',
-        'default_value' => '',
-        'placeholder' => '',
-        'prepend' => '',
-        'append' => '',
-        'formatting' => 'html',
-        'maxlength' => '',
-      ),
-      array (
-        'key' => 'field_54e1caa286fc7',
-        'label' => 'Go to class link text',
-        'name' => 'go_to_class_link_text',
         'type' => 'text',
         'default_value' => '',
         'placeholder' => '',

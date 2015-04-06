@@ -219,7 +219,7 @@
 
 <!-- review widget end -->
 <p>
-    <i><b>Editors Note</b>: Review by <a href="https://www.linkedin.com/in/kensellers2.">Ken Sellers</a>. Ken is a journeyman electrical engineer who currently develops software for a start-up.  In addition to taking MOOC’s, he enjoys exploring ghost towns with his family in Colorado. </i>
+    <i><b>Editors Note</b>: Review by <a href="https://www.linkedin.com/in/kensellers2">Ken Sellers</a>. Ken is a journeyman electrical engineer who currently develops software for a start-up.  In addition to taking MOOC’s, he enjoys exploring ghost towns with his family in Colorado. </i>
 </p>
 
 <p>

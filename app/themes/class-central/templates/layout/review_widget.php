@@ -1,8 +1,8 @@
 <!-- review widget -->
 <?php if (get_field('add_review_widget')) : ?>
 <div class="wideBlock" itemprop="review" itemscope itemtype="http://schema.org/Review">
-<meta itemprop="author" content = "Henrik Warne"/>
-<meta itemprop="name" content="Course Review: Algorithms, Design and Analysis, Part 1 offered by Stanford on Coursera">
+<meta itemprop="author" content = "<?php the_field('widget_reviewer_name') ?>"/>
+<meta itemprop="name" content="Course Review: <?php the_field('widget_review_title') ?> offered by <?php the_field('widget_institution') ?> on <?php the_field('widget_provider') ?>">
 
 <div class="reviewWidget">
 
@@ -10,8 +10,8 @@
     <svg role="logo" aria-label="class central logo" viewBox="0 0 332 32" class="class-central-logo">
         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-cc-logo"></use>
     </svg>
-    <span class="reviewWidget_topBar_title"><?php the_field('widget_topbar_title') ?></span>
-    <a href="<?php the_field('widget_topbar_title_link') ?>" class="reviewWidget_topBar_link"><?php the_field('widget_topbar_title_link_text') ?></a>
+    <span class="reviewWidget_topBar_title">Review</span>
+    <a href="https://www.class-central.com" class="reviewWidget_topBar_link">class-central.com</a>
 </div>
 
 <div class="reviewWidget_header">
@@ -36,13 +36,13 @@
             <div class="reviewWidget_info_icon">
                 <svg class="icon icon-calendar-icon" viewBox="0 0 32 32"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-calendar-icon"></use></svg>
             </div>
-            <div class="reviewWidget_info_text"><?php the_field('widget_duration') ?></div>
+            <div class="reviewWidget_info_text"><?php the_field('widget_duration') ?> weeks</div>
         </div>
         <div class="reviewWidget_info_block reviewWidget_info_block-intensity">
             <div class="reviewWidget_info_icon">
                 <svg class="icon icon-clock-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-clock"></use></svg>
             </div>
-            <div class="reviewWidget_info_text"><?php the_field('widget_intensity') ?></div>
+            <div class="reviewWidget_info_text"><?php the_field('widget_intensity') ?> hours/week</div>
         </div>
         <div class="reviewWidget_info_block reviewWidget_info_block-difficulty">
             <div class="reviewWidget_info_icon">
@@ -58,7 +58,7 @@
 
 <div class="reviewWidget_footer">
     <div class="reviewWidget_footer_ccRating" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
-        <meta itemprop="ratingValue" content="5">
+        <meta itemprop="ratingValue" content="<?php the_field('widget_cc_rating') ?>">
         <meta itemprop="worstRating" content = "1"/>
         <meta itemprop="bestRating" content = "5"/>
         <svg class="icon icon-cc-logo-circle" viewBox="0 0 32 32"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-cc-logo-circle"></use></svg>
@@ -213,7 +213,7 @@
         <a href="<?php the_field('rating_bubble_link') ?>" class="number-of-ratings-bubble"><?php the_field('rating_bubble_count') ?></a>
     </div>
 
-    <a href="<?php the_field('go_to_class_link') ?>" target="_blank" class="reviewWidget_footer_button"><?php the_field('go_to_class_link_text') ?></a>
+    <a href="<?php the_field('go_to_class_link') ?>" target="_blank" class="reviewWidget_footer_button">Go To Class</a>
 </div>
 </div>
 </div>
