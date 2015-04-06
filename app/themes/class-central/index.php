@@ -38,3 +38,4 @@ $banner = get_field('banner', $pinned_posts[0]->ID);
         <?php include roots_sidebar_path(); ?>
     </div>
 </div>
+
