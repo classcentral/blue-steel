@@ -16,7 +16,7 @@ function btn_go_to_class ($attr) {
         return '';
     }
     $url = $attr['url'];
-    return "<div class='course-register-button'><a class='register-button' target='_blank' href='{$url}'>Go to Class</a></div>";
+    return "<div class='course-register-button' style='float:right;'><a class='register-button'  style='margin: 0 auto' target='_blank' href='{$url}'>Go to Class</a></div>";
 }
 
 
