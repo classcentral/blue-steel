@@ -944,6 +944,39 @@ body {
   font-size: 22px;
 }
 
+// Go To Class Button
+.entry-content .course-register-button {
+  padding: 18px 24px;
+  text-align: center;
+  .border-bottom-radius();
+}
+
+.entry-content .course-register-button a {
+  display: block;
+  color: @white;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 15px;
+  background: @green-light;
+  border-bottom: 4px solid @green;
+  border-radius: 5px;
+  max-width: 240px;
+  text-decoration: none;
+}
+
+.entry-content .course-register-button a:hover,
+.entry-content .course-register-button a:focus {
+  color: @white;
+  text-decoration: none;
+  background: @green-lighter;
+}
+
+.entry-content .course-register-button a:active {
+  border-bottom: none;
+  background: @green;
+  margin-top: 4px;
+}
+
 .post-meta table,
 .post-meta table tbody,
 .post-meta table tr,

@@ -7,3 +7,17 @@ function add_review_widget( $atts ){
 }
 
 add_shortcode( 'review_widget', 'add_review_widget' );
+
+
+function btn_go_to_class ($attr) {
+
+    if( !isset($attr['url']))
+    {
+        return '';
+    }
+    $url = $attr['url'];
+    return "<div class='course-register-button'><a class='register-button' target='_blank' href='{$url}'>Go to Class</a></div>";
+}
+
+
+add_shortcode('btn_go_to_class', 'btn_go_to_class');
