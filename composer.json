@@ -120,6 +120,18 @@
                   "url": "https://downloads.wordpress.org/plugin/addthis.4.0.5.zip"
               }
           }
+      },
+      {
+          "type": "package",
+          "package": {
+              "name": "sumome/sumome",
+              "type": "wordpress-plugin",
+              "version": "1.10",
+              "dist": {
+                  "url": "https://downloads.wordpress.org/plugin/sumome.zip",
+                  "type": "zip"
+              }
+          }
       }
   ],
   "require": {
@@ -142,7 +154,8 @@
     "disqus/disqus" : "2.75",
     "wp-buddy/gplus-author": "0.75",
     "DesignsAndCode/forget-about-shortcode-buttons" : "1.1.0",
-    "AddThis/addThis" : "4.0.5"
+    "AddThis/addThis" : "4.0.5",
+    "sumome/sumome": "1.10"
   },
   "extra": {
     "webroot-dir": "wordpress",
