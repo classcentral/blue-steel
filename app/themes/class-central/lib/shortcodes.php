@@ -21,3 +21,17 @@ function btn_go_to_class ($attr) {
 
 
 add_shortcode('btn_go_to_class', 'btn_go_to_class');
+
+function btn_go_to ($attr) {
+
+    if( !isset($attr['url']) && !isset($attr['text']) )
+    {
+        return '';
+    }
+    $url = $attr['url'];
+    $text = $attr['text'];
+    return "<div class='course-register-button'><a class='register-button'  style='margin: 0 auto' target='_blank' href='{$url}'>$text</a></div>";
+}
+
+
+add_shortcode('btn_go_to', 'btn_go_to');
