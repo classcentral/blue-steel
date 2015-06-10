@@ -9,7 +9,7 @@
 
                 <div class="classcentral-review" lang="en" data-courseid="<?php the_field('sidebar_widget_course_id') ?>"> </div>
                 <script async src="https://d3f1iyfxxz8i1e.cloudfront.net/reviews/widget.min.js" charset="utf-8"></script>
-           
+                <br/><br/>
         <?php endif; ?>
       <?php dynamic_sidebar('sidebar-primary'); ?>
     <?php endif; ?>
