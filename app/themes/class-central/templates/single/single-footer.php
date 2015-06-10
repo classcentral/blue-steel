@@ -14,7 +14,7 @@
           <?php $next_url = get_permalink($next->ID); ?>
           <a href="<?php echo $next_url ?>"><?php echo get_the_title($next->ID); ?></a>
         <?php else: ?>
-          <span class="disabled">Next Article</span>
+          <span class="disabled">Viewing the Latest Article</span>
         <?php endif; ?>
       </td>
     </tr>
