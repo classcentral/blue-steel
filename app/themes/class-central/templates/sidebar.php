@@ -5,6 +5,12 @@
     <?php if (is_home()) : ?>
       <?php dynamic_sidebar('sidebar-home'); ?>
     <?php else : ?>
+        <?php if (get_field('sidebar_widget_course_id')) : ?>
+
+                <div class="classcentral-review" lang="en" data-courseid="<?php the_field('sidebar_widget_course_id') ?>"> </div>
+                <script async src="https://d3f1iyfxxz8i1e.cloudfront.net/reviews/widget.min.js" charset="utf-8"></script>
+           
+        <?php endif; ?>
       <?php dynamic_sidebar('sidebar-primary'); ?>
     <?php endif; ?>
 
@@ -38,11 +44,7 @@
     </div>
     -->
 
-    <?php if (get_field('sidebar_widget_course_id')) : ?>
-      <div class="sidebarWidgetContainer" data-courseid="<?php the_field('sidebar_widget_course_id') ?>">
-        <!-- widget code -->
-      </div>
-    <?php endif; ?>
+
 
   </aside><!-- /.sidebar -->
 <?php endif; ?>
