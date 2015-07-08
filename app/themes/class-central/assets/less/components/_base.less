@@ -1,0 +1,42 @@
+// fix for the chrome font rendering bug
+body {
+  -webkit-animation-delay: 0.1s;
+  -webkit-animation-name: fontfix;
+  -webkit-animation-duration: 0.1s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes fontfix {
+  from { opacity: 1; }
+  to   { opacity: 1; }
+}
+
+.cc-404 {
+  min-height: 600px;
+  margin-top: 70px;
+  font-size: 18px;
+}
+
+.section-heading {
+  display: block;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  color: @white;
+  font-size: 11px;
+  font-weight: 500;
+  border-bottom: 1px solid @purple;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+.section-heading span {
+  background: @purple;
+  display: block;
+  float: left;
+  padding: 5px 12px;
+}
+
+#disqus_thread {
+   margin-bottom: 100px;
+}

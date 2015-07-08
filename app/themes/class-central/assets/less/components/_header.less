@@ -1,0 +1,169 @@
+/* ==========================================================================
+   =Header Area
+   ========================================================================== */
+
+.header-area {
+  background-size: cover;
+  position: relative;
+}
+
+.photo-credit {
+  display: block;
+  position: absolute;
+  right: 18px;
+  bottom: -25px;
+  font-size: 11px;
+  color: #707476;
+}
+
+.header-wrap {
+  position: relative;
+  display: table;
+  min-height: 474px;
+}
+
+.single .header-area {
+  border-bottom: 1px solid @gray-dark;
+  margin-bottom: 35px;
+}
+
+.home .header-area,
+.archive .header-area {
+  margin-bottom: 90px;
+}
+
+.header-area .header-content {
+  position: relative;
+  min-height: 474px;
+  font-weight: 500;
+  overflow: hidden;
+  padding-bottom: 70px;
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+.single-post .header-area .header-content {
+  padding-bottom: 85px;
+}
+
+.single-post .header-wrap,
+.single-post .header-area .header-content {
+  min-height: 600px;
+}
+
+.header-area h1 .read-article,
+.header-area h1,
+.header-area h2 {
+  float: left;
+  clear: both;
+}
+
+.header-area h1 {
+  overflow: hidden;
+  font-size: 32px;
+  color: @black;
+  background: rgba(249, 248, 243, 0.8);
+  margin-top: 30px;
+  margin-bottom: 0;
+  padding: 15px;
+  line-height: 1;
+}
+
+.header-area h1 .read-article {
+  font-size: 32px;
+  margin: 0;
+  text-decoration: none;
+  text-transform: none;
+  color: @black;
+}
+
+.header-area h2 {
+  font-size: 16px;
+  color: @white;
+  background: rgba(39, 44, 46, 0.6);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0 15px;
+  line-height: 28px;
+}
+
+.header-area .read-article {
+  display: block;
+  color: @blue-link;
+  float: left;
+  clear: both;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.post-header-info {
+  overflow: hidden;
+  font-family: @font-family-small-text;
+  font-size: 13px;
+}
+
+.single .entry-content > .post-header-info {
+  padding-bottom: 20px;
+}
+
+.read-icon {
+  display: block;
+  height: 20px;
+  width: 13px;
+  float: left;
+  margin-right: 10px;
+}
+
+.icon-read-icon {
+  display: block;
+  height: 20px;
+  width: 13px;
+  fill: @gray-dark;
+}
+
+.post-header-info {
+  line-height: 19px;
+}
+
+.post-header-info .read-length {
+  font-weight: 700;
+}
+
+.post-header-info span,
+.post-header-info a {
+  float: left;
+  color: @gray-dark;
+}
+
+.single .post-header-info .cc-post-author {
+  color: @gray-dark;
+  font-weight: 700;
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
+
+@media (min-width: 660px) {
+  .header-area h1 {
+    font-size: 60px;
+  }
+
+  .header-area h1 .read-article {
+    font-size: 60px;
+  }
+
+  .header-area h2 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
+@media (min-width: 1259px) {
+  .header-area h2 {
+    line-height: 44px;
+    font-size: 26px;
+  }
+}

@@ -1,0 +1,28 @@
+/* =number-of-ratings-bubble
+----------------------------------------------------------------------------- */
+
+.number-of-ratings-bubble {
+  display: block;
+  position: relative;
+  min-width: 14px;
+  padding: 0 3px;
+  font-size: 10px !important;
+  font-weight: 400 !important;
+  background-color: #0662a1 !important;
+  color: #fff !important;
+  text-align: center;
+  text-decoration: none !important;
+  display: inline-block;
+}
+
+.number-of-ratings-bubble:after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 4px;
+  border-width: 5px 5px 0 0;
+  border-style: solid;
+  border-color: #0662a1 transparent transparent transparent;
+  display: block;
+  width: 0;
+}
