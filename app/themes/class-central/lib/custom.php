@@ -63,7 +63,7 @@ function cc_oembed_wrapper( $html, $url, $args ) {
 
     return '<div class="cc-youtube-wrapper"><div class="youtube-thumbnail" style="background-size: 100% auto; background-position: center; background-image: url(http://img.youtube.com/vi/' . $query['v'] . '/sddefault.jpg);"><div class="cc-play-button"></div></div>' . $html .  '</div>';
   } else {
-    return $html;
+    return '<div class="cc-video-wrapper">' . $html .  '</div>';
   }
 }
 

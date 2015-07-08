@@ -25,6 +25,8 @@ var Roots = {
       // JavaScript to be fired on all pages
         // Target your .container, .wrapper, .post, etc.
         $(".cc-youtube-wrapper").fitVids();
+        $(".cc-video-wrapper").fitVids({customSelector: 'iframe[src*="dailymotion.com"]'});
+
         $(".youtube-thumbnail").click(function() {
           $this = $(this);
           var iframe = $this.closest(".cc-youtube-wrapper").find("iframe");
