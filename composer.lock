@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7fe701c8a7671515bef891d268897106",
+    "hash": "e82f068bfc19c354c74cf28a8509250e",
     "packages": [
         {
             "name": "AddThis/addThis",
@@ -23,6 +23,17 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/forget-about-shortcode-buttons.1.1.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "codecanyon/easy-social-share-buttons",
+            "version": "2.0.5",
+            "dist": {
+                "type": "zip",
+                "url": "http://admin:araccooncame@codelight.eu/private/wordpress/plugins/easy-social-share-buttons.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -226,6 +237,17 @@
                 "wordpress"
             ],
             "time": "2014-04-07 23:12:11"
+        },
+        {
+            "name": "sumome/sumome",
+            "version": "1.10",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/sumome.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "wordpress",

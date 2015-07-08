@@ -1,0 +1,218 @@
+/* ==========================================================================
+   =Navbar
+   ========================================================================== */
+
+.navbar-default {
+  position: relative;
+  border: 0;
+  margin-bottom: 0;
+}
+
+.navbar-toggle {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.navbar-brand {
+  .hide-text;
+  overflow: hidden;
+  padding: 29px 15px;
+  width: 250px;
+  height: 80px;
+}
+
+.class-central-logo {
+  width: 220px;
+  height: 21px;
+  fill: @white;
+}
+
+.navbar-default > .container {
+  position: relative;
+  background-color: @blue;
+  z-index: 990;
+}
+
+.navbar-default .caret {
+  border: 0;
+  height: auto;
+  margin-left: 5px;
+}
+
+.navbar-default .caret .icon-cc-logo7 {
+  width: 10px;
+  height: 10px;
+  display: block;
+  fill: @gray-dark;
+}
+
+.user-menu-wrap a {
+  text-transform: uppercase;
+}
+
+.icon-lock,
+.icon-user {
+  width: 17px;
+  height: 17px;
+  fill: @white;
+  float: left;
+  margin: 0 8px 0 0;
+}
+
+
+.user-menu-wrap a:hover .icon-lock,
+.user-menu-wrap a:hover .icon-user {
+  fill: @gray-dark;
+}
+
+.icon-search {
+  width: 18px;
+  height: 18px;
+  fill: @white;
+  float: left;
+  margin: 10px 7px 8px 10px;
+}
+
+.navbar-default .nav-title,
+.navbar-default .user-menu-wrap > a {
+  padding-left: 24px;
+}
+
+.navbar-default {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: @font-family-small-text;
+}
+
+.cc-search-box::-webkit-input-placeholder {
+  font-style: italic;
+}
+
+.cc-search-box:-moz-placeholder { /* Firefox 18- */
+  font-style: italic;
+}
+
+.cc-search-box::-moz-placeholder {  /* Firefox 19+ */
+  font-style: italic;
+}
+
+.cc-search-box:-ms-input-placeholder {
+  font-style: italic;
+}
+
+#nav-search-form {
+  padding: 15px 0;
+}
+
+#navbar-search-form {
+  overflow: hidden;
+  float: left;
+}
+
+#nav-search-form .cc-search-box {
+  width: 190px;
+  height: 36px;
+  border: none;
+  .border-right-radius();
+  padding: 0 15px 0 20px;
+}
+
+#nav-search-form .cc-search-box:focus {
+  outline: none;
+}
+
+#nav-search-form .search-button {
+  display: block;
+  float: left;
+  width: 35px;
+  height: 36px;
+  background: @gray-dark;
+  .border-left-radius();
+}
+
+.navbar-default .navbar-right > .social-icon {
+  display: none;
+}
+
+.navbar-default .navbar-right > .social-icon a {
+  .hide-text;
+  display: block;
+  padding: 28px 5px;
+}
+
+.navbar-default .navbar-right .icon-facebook,
+.navbar-default .navbar-right .icon-twitter,
+.navbar-default .navbar-right .icon-google_follow {
+  width: 24px;
+  height: 24px;
+  background: transparent;
+}
+
+.headroom {position: fixed;top: 0;left: 0;right: 0;transition: all .2s ease-in-out;}
+.headroom--unpinned {top: -100px;}
+.headroom--pinned {top: 0;}
+
+@media (min-width: @screen-md-min) {
+  .navbar-default:after {
+    content: "";
+    display: block;
+    width: 50%;
+    background: @gray-dark;
+    min-height: 80px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+  }
+
+  .navbar-default .navbar-right {
+    background: @gray-dark;
+    padding-right: 15px;
+  }
+
+  .icon-lock,
+  .icon-user {
+    fill: @white;
+  }
+
+  .user-menu-wrap a:hover .icon-lock,
+  .user-menu-wrap a:hover .icon-user {
+    fill: @blue;
+  }
+
+  .navbar-default .navbar-nav > li.user-menu-wrap > a:hover {
+    color: @blue;
+  }
+
+  #nav-search-form {
+    padding: 22px 15px;
+  }
+
+  .navbar-default > .container {
+    padding-right: 0;
+  }
+
+  .navbar-default .navbar-right {
+    padding-left: 20px;
+  }
+
+  .navbar-default .navbar-right > .social-icon {
+    display: block;
+  }
+
+}
+
+@media (min-width: @screen-lg-min) {
+  #nav-search-form .cc-search-box {
+    width: 284px;
+  }
+
+  .user-menu-wrap a {
+    border-left: 1px solid @black;
+  }
+  .navbar-default .user-menu-wrap {
+    padding-left: 24px;
+  }
+
+}

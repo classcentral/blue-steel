@@ -1,0 +1,383 @@
+/* ==========================================================================
+   =Single content
+   ========================================================================== */
+
+.single .entry-content {
+  font-family: @font-family-small-text;
+  line-height: 1.7;
+  margin-bottom: 90px;
+}
+
+.single .entry-content > * {
+  padding: 0;
+  color: @gray-dark;
+}
+
+.single .entry-content > .cc-youtube-wrapper,
+.single .entry-content > .wideBlock {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.single .entry-content > .video-description {
+  padding: 10px 30px;
+  margin-top: 0;
+  background: @gray-dark;
+  color: @white;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.single .entry-content img {
+  max-width: 100%;
+}
+
+.single .entry-content > p {
+  font-size: 16px;
+  margin: 30px 0;
+}
+
+.single .entry-content a {
+  text-decoration: underline;
+  color: @blue;
+}
+
+.single .entry-content h2 {
+  font-size: 32px;
+  margin: 30px 0 45px 0;
+}
+
+.single .entry-content h3 {
+  font-size: 22px;
+  margin: 30px 0 45px 0;
+}
+
+.single .entry-content > p:first-child {
+  font-size: 22px;
+}
+
+// Go To Class Button
+.entry-content .course-register-button {
+  padding: 18px 24px;
+  text-align: center;
+  .border-bottom-radius();
+}
+
+.entry-content .course-register-button a {
+  display: block;
+  color: @white;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 15px;
+  background: @green-light;
+  border-bottom: 4px solid @green;
+  border-radius: 5px;
+  width: 240px;
+  text-decoration: none;
+}
+
+.entry-content .course-register-button a:hover,
+.entry-content .course-register-button a:focus {
+  color: @white;
+  text-decoration: none;
+  background: @green-lighter;
+}
+
+.entry-content .course-register-button a:active {
+  border-bottom: none;
+  background: @green;
+  margin-top: 4px;
+}
+
+.post-meta table,
+.post-meta table tbody,
+.post-meta table tr,
+.post-meta table tr td {
+  display: block;
+  width: 100%;
+  border-left: none;
+  border-right: none;
+}
+
+.post-meta table {
+  background: transparent;
+  width: 100%;
+}
+
+.post-meta table td {
+  padding: 14px 5px;
+  text-align: center;
+  border: 1px solid @table-border-color;
+  border-top: none;
+  width: 100%;
+}
+
+.post-meta table td .twitter,
+.post-meta table td .facebook {
+  vertical-align: top;
+}
+
+.post-meta td > ul,
+.post-meta td > ul > li,
+.post-meta td > span,
+.post-meta td > a,
+.post-meta td > div {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.post-meta {
+  overflow: hidden;
+  margin-bottom: 100px;
+  font-family: @font-family-small-text;
+}
+
+.post-meta td > span,
+.post-meta td > span {
+  color: @gray-medium-light;
+  font-size: 11px;
+  margin-right: 10px;
+}
+
+.post-meta td a,
+.post-meta td a {
+  color: @gray-dark;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+@media (min-width: 600px) {
+  .post-meta table {
+    display: table;
+  }
+
+  .post-meta table tbody {
+    display: table-row-group;
+  }
+
+  .post-meta table tr {
+    display: table-row;
+  }
+  .post-meta table tr td {
+    display: table-cell;
+    border: 1px solid @table-border-color;
+    border-top: none;
+    width: 45%;
+  }
+
+  .post-meta table tr td:first-child {
+    border-left: none;
+    width: 27%;
+  }
+
+  .post-meta table tr td:last-child {
+    border-right: none;
+    width: 28%;
+  }
+
+  .single .entry-content > * {
+    padding: 0 40px;
+  }
+
+  .single .entry-content > iframe {
+    margin: 0 50px !important;
+  }
+
+  .single .entry-content > p {
+    font-size: 18px;
+  }
+
+  .single .entry-content > .wideBlock {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+}
+
+@media (min-width: @screen-md-min) {
+  .single .entry-content > .video-description {
+    font-size: 16px;
+  }
+
+}
+
+
+@media (min-width: @screen-lg-min) {
+  .single .entry-content > * {
+    padding: 0 60px;
+  }
+
+  .single .entry-content > .wideBlock {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+
+  .single .entry-content > iframe {
+    margin: 0 80px !important;
+  }
+}
+
+/* =Blockquotes
+----------------------------------------------------------------------------- */
+
+.cc-blockquote {
+  display: block;
+  position: relative;
+  padding: 20px !important;
+  width: auto;
+  color: @blue !important;
+  font-family: @font-family-large-text !important;
+  line-height: 1.8;
+  font-size: 18px;
+  border-left: none;
+  margin: 0;
+}
+
+.cc-blockquote-text p > * {
+  color: @blue !important;
+}
+
+.cc-blockquote-text.cc-blockquote-left,
+.cc-blockquote-text.cc-blockquote-right {
+  width: 100%;
+}
+
+.cc-blockquote-text em {
+  font-style: normal;
+}
+
+.cc-blockquote-text.cc-blockquote-left {
+  float: left;
+}
+
+.cc-blockquote-text.cc-blockquote-right {
+  float: right;
+  text-align: right;
+}
+
+.cc-blockquote-text .cc-blockquote-border {
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 5px;
+  height: 100%;
+  padding: 30px 0;
+  left: 0;
+}
+
+.cc-blockquote-text.cc-blockquote-right .cc-blockquote-border {
+  right: 0;
+  left: auto;
+}
+
+.cc-blockquote-text .cc-blockquote-border:before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: @blue;
+}
+
+.cc-blockquote-image {
+  text-align: center;
+  width: auto !important;
+}
+
+.cc-blockquote-image.cc-blockquote-left {
+  text-align: left;
+}
+
+.cc-blockquote-image.cc-blockquote-right {
+  text-align: right;
+}
+
+.cc-blockquote-image.cc-blockquote-left img {
+  border-left: 5px solid @blue;
+}
+
+.cc-blockquote-image.cc-blockquote-right img {
+  border-right: 5px solid @blue;
+}
+
+@media (min-width: 560px) {
+  .cc-blockquote-text.cc-blockquote-left,
+  .cc-blockquote-text.cc-blockquote-right {
+    width: 280px;
+  }
+
+  .cc-blockquote-image.cc-blockquote-left {
+    float: left;
+  }
+
+  .cc-blockquote-image.cc-blockquote-right {
+    float: right;
+  }
+}
+
+
+@media (min-width: @screen-lg-min) {
+
+  .cc-blockquote-text,
+  blockquote {
+    font-size: 26px;
+  }
+
+  .cc-blockquote-text.cc-blockquote-left,
+  .cc-blockquote-text.cc-blockquote-right {
+    width: 400px;
+  }
+}
+
+/* =Youtube video overlay
+----------------------------------------------------------------------------- */
+
+.cc-youtube-wrapper {
+  position: relative;
+}
+
+.cc-youtube-wrapper .youtube-thumbnail {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1000;
+}
+
+.cc-youtube-wrapper .youtube-thumbnail:before {
+  content:"";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(39, 44, 46, 0.5);
+}
+
+.cc-youtube-wrapper .youtube-thumbnail:hover {
+  cursor: pointer;
+}
+
+.cc-youtube-wrapper .cc-play-button {
+  display: block;
+  width: 100px;
+  height: 100px;
+  .border-radius(50%);
+  border: 3px solid @white;
+  margin-top: -50px;
+  margin-left: -50px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.cc-youtube-wrapper .cc-play-button:before {
+  content: "";
+  display: block;
+  border: 30px solid transparent;
+  border-left: 30px solid @white;
+  margin-top: 17px;
+  margin-left: 38px;
+}
+
+.cc-youtube-wrapper .entry-content-asset {
+  //visibility: hidden;
+}

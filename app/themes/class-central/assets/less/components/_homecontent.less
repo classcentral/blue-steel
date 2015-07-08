@@ -1,0 +1,170 @@
+/* ==========================================================================
+   =Home content
+   ========================================================================== */
+
+
+.col-single-post {
+   min-height: 400px;
+   margin-bottom: 40px;
+}
+
+.col-single-post article {
+   border: 1px solid @table-border-color;
+   -webkit-box-shadow: 0px 0px 3px 1px rgba(232,232,232,1);
+   -moz-box-shadow: 0px 0px 3px 1px rgba(232,232,232,1);
+   box-shadow: 0px 0px 3px 1px rgba(232,232,232,1);
+   max-width: 400px;
+}
+
+.col-single-post article header {
+   background-color: @gray-beige-light;
+   background-size: cover;
+   height: 265px;
+   overflow: hidden;
+   position: relative;
+}
+
+.col-single-post article header h2 {
+  display: inline;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: @font-family-small-text;
+  color: @white-dark;
+  margin: 0;
+  background: rgba(6,98,161,0.9);
+  line-height: 38px;
+  padding: 7px 0;
+  box-shadow: 15px 0 0 rgba(6,98,161,0.9), -15px 0 0 rgba(6,98,161,0.9);
+}
+
+.post-heading-wrap {
+  position: absolute;
+  bottom: 40px;
+  padding-left: 15px;
+  padding-right: 30px;
+}
+
+.col-single-post article .entry-summary p {
+   font-size: 13px;
+   color: @gray-text;
+   margin: 0;
+   padding: 18px;
+   font-family: @font-family-small-text;
+   line-height: 1.6;
+   height: 130px;
+   overflow: hidden;
+}
+
+.col-single-post article .entry-summary {
+  min-height: 130px;
+}
+
+.col-single-post article a header h2 {
+   color: @white;
+   font-size: 18px;
+}
+
+.col-single-post .entry-summary,
+.col-single-post footer {
+   background: @white;
+}
+
+.col-single-post footer {
+   border-top: 1px solid @gray-ultra-light;
+   overflow: hidden;
+}
+
+.col-single-post footer .entry-link,
+.col-single-post footer .entry-meta {
+   width: 100%;
+   float: left;
+}
+
+.col-single-post footer .entry-link {
+   border-right: 1px solid @gray-ultra-light;
+   text-align: center;
+}
+
+.col-single-post footer .entry-link a,
+.col-single-post footer .entry-meta {
+   display: block;
+   text-transform: uppercase;
+   font-size: 11px;
+   line-height: 51px;
+}
+
+.col-single-post footer .entry-link a {
+   padding: 0 18px;
+}
+
+.col-single-post footer .entry-meta {
+   color: @gray-sand;
+   border-top: 1px solid @gray-ultra-light;
+   text-align: center;
+}
+
+.col-single-post .icon-calendar-icon {
+   display: block;
+   fill: @gray-sand;
+   width: 18px;
+   height: 18px;
+}
+
+.col-single-post .time-icon {
+   display: inline-block;
+   width: 18px;
+   height: 18px;
+   margin: 16px 10px 16px 0;
+   vertical-align: top;
+}
+
+@media (min-width: 460px) {
+   .col-single-post footer .entry-link,
+   .col-single-post footer .entry-meta {
+      width: 50%;
+   }
+
+   .col-single-post footer .entry-meta {
+      border-top: none;
+   }
+
+}
+
+@media (min-width: @screen-md-min) {
+    .col-single-post footer .entry-link,
+    .col-single-post footer .entry-meta {
+      width: 100%;
+    }
+
+    .col-single-post footer .entry-meta {
+      border-top: 1px solid @gray-ultra-light;
+    }
+
+    .col-single-post article .entry-summary p {
+      height: 170px;
+    }
+
+    .col-single-post article .entry-summary {
+      min-height: 170px;
+    }
+
+}
+
+@media (min-width: @screen-lg-min) {
+    .col-single-post footer .entry-link,
+    .col-single-post footer .entry-meta {
+      width: 50%;
+    }
+
+    .col-single-post footer .entry-meta {
+      border-top: none;
+    }
+
+    .col-single-post article .entry-summary p {
+      height: 130px;
+    }
+
+    .col-single-post article .entry-summary {
+      min-height: 130px;
+    }
+}

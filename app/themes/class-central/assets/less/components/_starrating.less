@@ -1,0 +1,179 @@
+/* =starRating
+----------------------------------------------------------------------------- */
+@blank-star-fill:               #121415;
+@star-fill:                     #fff;
+
+.starRating {
+  display: inline-block;
+  .clearfix;
+}
+
+.starRating_star {
+  display: block;
+  position: relative;
+  float: left;
+  margin: 0 2px;
+}
+
+.starRating_starShape {
+  height: 20px;
+  width: 22px;
+  display: block;
+  position: relative;
+  fill: @blank-star-fill;
+}
+
+.starRating_starShape-full {
+  fill: @star-fill;
+  display: none;
+}
+
+.starRating_starShape-right {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+.starRating_starShape-left {
+  display: none;
+  fill: @star-fill;
+}
+
+.starRating_starShape-right {
+  fill: @blank-star-fill;
+}
+
+.starRating.rating05 {
+  .starRating_star:first-child .starRating_starShape-half {
+    display: block;
+  }
+  .starRating_star:first-child .starRating_starShape-full,
+  .starRating_star:first-child .starRating_starShape-blank {
+    display: none;
+  }
+}
+
+.starRating.rating10 {
+  .starRating_star:first-child .starRating_starShape-full {
+    display: block;
+  }
+  .starRating_star:first-child .starRating_starShape-blank {
+    display: none;
+  }
+}
+
+.starRating.rating15 {
+  .starRating_star:first-child .starRating_starShape-full,
+  .starRating_star:nth-child(2) .starRating_starShape-half {
+    display: block;
+  }
+  .starRating_star:first-child .starRating_starShape-blank,
+  .starRating_star:nth-child(2) .starRating_starShape-blank {
+    display: none;
+  }
+}
+
+.starRating.rating20 {
+  .starRating_star:first-child .starRating_starShape-full,
+  .starRating_star:nth-child(2) .starRating_starShape-full {
+    display: block;
+  }
+  .starRating_star:first-child .starRating_starShape-blank,
+  .starRating_star:nth-child(2) .starRating_starShape-blank {
+    display: none;
+  }
+}
+
+.starRating.rating25 {
+  .starRating_star:first-child .starRating_starShape-full,
+  .starRating_star:nth-child(2) .starRating_starShape-full,
+  .starRating_star:nth-child(3) .starRating_starShape-half {
+    display: block;
+  }
+  .starRating_star:first-child .starRating_starShape-blank,
+  .starRating_star:nth-child(2) .starRating_starShape-blank,
+  .starRating_star:nth-child(3) .starRating_starShape-blank {
+    display: none;
+  }
+}
+
+.starRating.rating30 {
+  .starRating_star:first-child .starRating_starShape-full,
+  .starRating_star:nth-child(2) .starRating_starShape-full,
+  .starRating_star:nth-child(3) .starRating_starShape-full {
+    display: block;
+  }
+  .starRating_star:first-child .starRating_starShape-blank,
+  .starRating_star:nth-child(2) .starRating_starShape-blank,
+  .starRating_star:nth-child(3) .starRating_starShape-blank {
+    display: none;
+  }
+}
+
+.starRating.rating35 {
+  .starRating_star:first-child .starRating_starShape-full,
+  .starRating_star:nth-child(2) .starRating_starShape-full,
+  .starRating_star:nth-child(3) .starRating_starShape-full,
+  .starRating_star:nth-child(4) .starRating_starShape-half {
+    display: block;
+  }
+  .starRating_star:first-child .starRating_starShape-blank,
+  .starRating_star:nth-child(2) .starRating_starShape-blank,
+  .starRating_star:nth-child(3) .starRating_starShape-blank,
+  .starRating_star:nth-child(4) .starRating_starShape-blank {
+    display: none;
+  }
+}
+
+.starRating.rating40 {
+  .starRating_star:first-child .starRating_starShape-full,
+  .starRating_star:nth-child(2) .starRating_starShape-full,
+  .starRating_star:nth-child(3) .starRating_starShape-full,
+  .starRating_star:nth-child(4) .starRating_starShape-full {
+    display: block;
+  }
+  .starRating_star:first-child .starRating_starShape-blank,
+  .starRating_star:nth-child(2) .starRating_starShape-blank,
+  .starRating_star:nth-child(3) .starRating_starShape-blank,
+  .starRating_star:nth-child(4) .starRating_starShape-blank {
+    display: none;
+  }
+}
+
+.starRating.rating45 {
+  .starRating_starShape-full,
+  .starRating_star:last-child .starRating_starShape-half {
+    display: block;
+  }
+  .starRating_star .starRating_starShape-blank,
+  .starRating_star:last-child .starRating_starShape-full {
+    display: none;
+  }
+
+}
+
+.starRating.rating50 {
+  .starRating_starShape-full {
+    display: block;
+  }
+  .starRating_starShape-blank {
+    display: none;
+  }
+}
+
+// small starrating
+
+.starRating-small .starRating_star {
+  margin: 0 1px;
+}
+
+.starRating-small .starRating_starShape {
+  height: 13px;
+  width: 14px;
+}
+
+.starRating-gray .starRating_starShape-full,
+.starRating-gray .starRating_starShape-left {
+  fill: #d0cec7;
+}

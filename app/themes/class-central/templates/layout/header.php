@@ -28,6 +28,7 @@
                         </b>
                     </a>
                     <ul class="dropdown-menu">
+                        <li><a href="/trending" title="Trending free online courses - MOOCs" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Courses', 'Trending'])">Trending</a></li>
                         <li><a href="/courses/recent" title="Recently started or starting soon - MOOCs" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Courses', 'recent'])">Recently started or starting soon</a></li>
                         <li><a href="/courses/recent" title="Just Announced - MOOCs" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Courses', 'recentlyAdded'])">Just Announced</a></li>
                         <li><a href="/courses/ongoing" title="Courses in Progress - MOOCs" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Courses', 'ongoing'])">Courses in Progress</a></li>
