@@ -38,6 +38,7 @@
                     </ul>
                 </li>
                 <li><a href="/subjects" class="nav-title" title="Subjects" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Subjects'])">Subjects</a></li>
+                <li><a href="/credentials" class="nav-title" title="Subjects" onclick="_gaq.push(['_trackEvent', 'navbar-clicks', 'Credentials'])">Credentials</a></li>
                 <li><a href="/report" class="nav-title" title="MOOC News, Interviews, and Analysis" onClick="_gaq.push(['_trackEvent', 'navbar-clicks', 'MOOC Report'])">MOOC Report</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
