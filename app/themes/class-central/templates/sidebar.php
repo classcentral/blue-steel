@@ -14,6 +14,18 @@
       <?php dynamic_sidebar('sidebar-primary'); ?>
     <?php endif; ?>
 
+    <div class="ad-wrap">
+      <div class="ad-box">
+
+          <a class="ad-box__link" href="http://Canvas.net" target="_blank" onmousedown="ga('send','event', 'Text Ad', 'Canvas Network', 'subject')" rel="nofollow">
+              <img class="ad-box__img" src="http://lorempixel.com/output/technics-q-c-130-100-1.jpg" alt="ad">
+          </a>
+          <p class="ad-box__text">The most versatile to-do app UI kit you've ever seem. Yours, For Free.</p>
+
+          <span class="ad-box__note">Ads via the deck</span>
+      </div>
+    </div>
+
     <!--
     <div class="ad-wrap">
       <div class="ad-content">
