@@ -17,10 +17,10 @@
     <div class="ad-wrap">
       <div class="ad-box">
 
-          <a class="ad-box__link" rel="nofollow" href="https://www.canvas.net/pages/offer-a-course/?utm_source=Class-Central&utm_medium=BannerAd&utm_campaign=CN+Banner+Ad&utm_content=Square" target="_blank" onmousedown="ga('send','event', 'MOOC Report Sidebar', 'Canvas Network', 'Are you a teacher?')" rel="nofollow">
+          <a class="ad-box__link" rel="nofollow" href="https://info.canvas.net/offer-a-course?utm_source=Class-Central&utm_medium=BannerAd&utm_campaign=Canvas+Network+About+Us&utm_content=" target="_blank" onmousedown="ga('send','event', 'MOOC Report Sidebar', 'Canvas Network', 'Are you a teacher?')" rel="nofollow">
               <img class="ad-box__img" src="https://d3r3mog6nu8pt4.cloudfront.net/ads/2016_01_ClassCentral_130x100_CanvasNet.jpg">
           </a>
-          <p class="ad-box__text">Are you a teacher? Canvas Network is here for your professional development.</p>
+          <p class="ad-box__text">Passionate about teaching? Get your global classroom here.</p>
 
           <span class="ad-box__note">Ads via Class Central</span>
       </div>
