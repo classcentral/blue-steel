@@ -9,15 +9,20 @@
                   <li><a href="/universities" onmousedown="_gaq.push(['_trackEvent', 'Footer', 'Browse by - Universities'])">Universities</a></li>
                   <li><a href="/institutions" onmousedown="_gaq.push(['_trackEvent', 'Footer', 'Browse by - Institutions'])">Institutions</a></li>
                   <li><a href="/subjects" onmousedown="_gaq.push(['_trackEvent', 'Footer', 'Browse by - Subjects'])">Subjects</a></li>
+                  <li><a href="/careers" onmousedown="ga('send','event', 'Footer', 'Browse by - Careers')">Careers</a></li>
                   <li><a href="/languages" onmousedown="_gaq.push(['_trackEvent', 'Footer', 'Browse by - Languages'])">Languages</a></li>
               </ul>
           </div>
           <div class="col-md-2 col-sm-4 col-xs-4 link-column">
               <h5 class="list-heading">More</h5>
               <ul>
+                  <li><a href="https://www.class-central.com/report/moocs-for-credit/" onmousedown="ga('send','event', 'Footer', 'MOOCs for Credit')">MOOCs for Credit</a></li>
+                  <li><a href="/credentials" onmousedown="ga('send','event', 'Footer', 'Earn a Credential')">Earn A Credential</a></li>
+                  <li><a href="https://www.class-central.com/report/follow-button-for-education/" onmousedown="ga('send','event', 'Footer', 'Follow Button')">Follow Button</a></li>
                   <li><a href="/report" onmousedown="_gaq.push(['_trackEvent', 'Footer', 'MOOC Report'])">MOOC Report</a></li>
                   <li><a href="/faq" title="Frequently asked questions about MOOCs" onmousedown="_gaq.push(['_trackEvent', 'Footer', 'FAQ'])">FAQ</a></li>
                   <li><a href="/privacy-policy" onmousedown="_gaq.push(['_trackEvent', 'Footer', 'Privacy Policy'])"> Privacy Policy</a></li>
+                  <li><a href="/moocwatch" onmousedown="ga('send','event', 'Footer', 'MOOCWatch')">MOOCWatch</a></li>
                   <li><a href="https://www.class-central.com/report/mooc-tracker/" onmousedown="_gaq.push(['_trackEvent', 'Footer', 'What is MOOC Tracker?'])">What is MOOC Tracker?</a></li>
               </ul>
           </div>
