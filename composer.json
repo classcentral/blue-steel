@@ -136,11 +136,11 @@
      {
         "type": "package",
         "package": {
-          "name": "mailchimp/wpMandrill",
+          "name": "ibericode/mailchimp-for-wp",
           "type": "wordpress-plugin",
-          "version": "1.33",
+          "version": "3.1.5",
           "dist": {
-            "url": "https://downloads.wordpress.org/plugin/wpmandrill.zip",
+            "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.3.1.5.zip",
             "type": "zip"
           }
       }
@@ -169,7 +169,7 @@
     "DesignsAndCode/forget-about-shortcode-buttons" : "1.1.0",
     "AddThis/addThis" : "4.0.5",
     "sumome/sumome": "1.10",
-    "mailchimp/wpMandrill": "1.33"
+    "ibericode/mailchimp-for-wp": "^3.1"
   },
   "extra": {
     "webroot-dir": "wordpress",

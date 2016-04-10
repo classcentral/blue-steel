@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a2da7406b5db3e1f5ea4de06ecbc381a",
-    "content-hash": "f4e7d20368e9862e25cedf87d92f95d4",
+    "hash": "711a33c953ccdd556183a960916d9071",
+    "content-hash": "d2a29a558e1cf968a17e6c4115f5c449",
     "packages": [
         {
             "name": "AddThis/addThis",
@@ -194,6 +194,17 @@
             "description": "A composer installer for libraries that live in an application webroot.",
             "homepage": "http://fancyguy.github.com/webroot-installer/",
             "time": "2013-01-29 22:51:45"
+        },
+        {
+            "name": "ibericode/mailchimp-for-wp",
+            "version": "3.1.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.3.1.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "mailchimp/wpMandrill",
