@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "996cbbd5027a422a2d25e720da551bbe",
-    "content-hash": "8a439d43879703765ca11b60654039c9",
+    "hash": "2068cec3e0c837f4416920bceadf4dfc",
+    "content-hash": "0a1e246e87255f77d9e4dae4ae77a41f",
     "packages": [
         {
             "name": "AddThis/addThis",
@@ -196,17 +196,6 @@
             "type": "wordpress-plugin"
         },
         {
-            "name": "mailchimp/wpMandrill",
-            "version": "1.33",
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wpmandrill.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "type": "wordpress-plugin"
-        },
-        {
             "name": "roots/wp-stage-switcher",
             "version": "1.0.1",
             "source": {
@@ -308,15 +297,15 @@
         },
         {
             "name": "wpackagist-plugin/ewww-image-optimizer",
-            "version": "2.7.2",
+            "version": "2.8.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ewww-image-optimizer/",
-                "reference": "tags/2.7.2"
+                "reference": "tags/2.8.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.2.7.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.2.8.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -367,6 +356,26 @@
             "homepage": "https://wordpress.org/plugins/json-rest-api/"
         },
         {
+            "name": "wpackagist-plugin/segmentio",
+            "version": "1.0.13",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/segmentio/",
+                "reference": "tags/1.0.13"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/segmentio.1.0.13.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/segmentio/"
+        },
+        {
             "name": "wpackagist-plugin/w3-total-cache",
             "version": "0.9.4.1",
             "source": {
@@ -388,15 +397,15 @@
         },
         {
             "name": "wpackagist-plugin/wordfence",
-            "version": "6.1.3",
+            "version": "6.1.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordfence/",
-                "reference": "tags/6.1.3"
+                "reference": "tags/6.1.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordfence.6.1.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordfence.6.1.4.zip",
                 "reference": null,
                 "shasum": null
             },

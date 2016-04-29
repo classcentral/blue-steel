@@ -162,6 +162,7 @@
     "wpackagist-plugin/wordfence": "*",
     "wpackagist-plugin/wp-resized-image-quality": "*",
     "wpackagist-plugin/json-rest-api": "*",
+    "wpackagist-plugin/segmentio": "*",
     "roots/wp-stage-switcher": "1.0.1",
     "yoast/clicky" : "1.4.2.4",
     "yoast/wordpress-seo" : "1.5.4.2",
