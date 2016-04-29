@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2068cec3e0c837f4416920bceadf4dfc",
-    "content-hash": "0a1e246e87255f77d9e4dae4ae77a41f",
+    "hash": "d3bf7241cc57e7638f526b701f623612",
+    "content-hash": "434e80c33aa7a8d53b322e01930f7af5",
     "packages": [
         {
             "name": "AddThis/addThis",
@@ -185,6 +185,16 @@
             "time": "2013-01-29 22:51:45"
         },
         {
+            "name": "georgestephanis/application-passwords",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/georgestephanis/application-passwords.git",
+                "reference": "master"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
             "name": "ibericode/mailchimp-for-wp",
             "version": "3.1.5",
             "dist": {
@@ -274,6 +284,26 @@
                 "shasum": null
             },
             "type": "wordpress-plugin"
+        },
+        {
+            "name": "wpackagist-plugin/advanced-custom-fields",
+            "version": "4.4.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/advanced-custom-fields/",
+                "reference": "tags/4.4.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.7.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
         },
         {
             "name": "wpackagist-plugin/debug-bar",
@@ -397,15 +427,15 @@
         },
         {
             "name": "wpackagist-plugin/wordfence",
-            "version": "6.1.4",
+            "version": "6.1.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordfence/",
-                "reference": "tags/6.1.4"
+                "reference": "tags/6.1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordfence.6.1.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordfence.6.1.5.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -434,26 +464,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-resized-image-quality/"
-        },
-        {
-            "name": "wpackagist/advanced-custom-fields",
-            "version": "4.3.8",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/advanced-custom-fields/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/advanced-custom-fields.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/advanced-custom-fields/"
         },
         {
             "name": "yoast/clicky",

@@ -1,152 +1,165 @@
 {
-  "repositories": [
+"repositories": [
     {
-      "type":"composer",
-      "url":"http://wpackagist.org"
+        "type": "composer",
+        "url": "http://wpackagist.org"
     },
     {
-      "type": "package",
-      "package": {
-        "name": "wordpress",
-        "type": "webroot",
-        "version": "4.5",
-        "dist": {
-          "type": "zip",
-          "url": "https://github.com/WordPress/WordPress/archive/4.5.zip"
-        },
-        "require" : {
-          "fancyguy/webroot-installer": "1.0.0"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
-        "name": "codelight-eu/wp-cleanup",
-        "type": "wordpress-plugin",
-        "version": "1.0.0",
-        "dist": {
-          "type": "zip",
-          "url": "https://github.com/codelight-eu/wp-cleanup/archive/master.zip"
-        },
-        "require" : {
-          "fancyguy/webroot-installer": "1.*"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
-        "name": "codelight-eu/tinymce-advanced-blockquote",
-        "type": "wordpress-plugin",
-        "version": "1.0.1",
-        "dist": {
-          "type": "zip",
-          "url": "https://github.com/codelight-eu/tinymce-advanced-blockquote/archive/master.zip"
-        },
-        "require" : {
-          "fancyguy/webroot-installer": "1.*"
-        }
-      }
-    },
-      {
-          "type": "package",
-          "package": {
-              "name": "yoast/clicky",
-              "version": "1.4.2.4",
-              "type": "wordpress-plugin",
-              "dist": {
-                  "type": "zip",
-                  "url": "http://downloads.wordpress.org/plugin/clicky.1.4.2.4.zip"
-              }
-          }
-      },
-      {
-          "type": "package",
-          "package": {
-              "name": "disqus/disqus",
-              "version": "2.75",
-              "type": "wordpress-plugin",
-              "dist": {
-                  "type": "zip",
-                  "url": "http://downloads.wordpress.org/plugin/disqus-comment-system.zip"
-              }
-          }
-      },
-      {
-          "type": "package",
-          "package": {
-              "name": "wp-buddy/gplus-author",
-              "version": "0.75",
-              "type": "wordpress-plugin",
-              "dist": {
-                  "type": "zip",
-                  "url": "http://downloads.wordpress.org/plugin/google-author-information-in-search-results-wordpress-plugin.0.7.5.zip"
-              }
-          }
-      },
-      {
-          "type": "package",
-          "package": {
-              "name": "yoast/wordpress-seo",
-              "version": "1.5.4.2",
-              "type": "wordpress-plugin",
-              "dist": {
-                  "type": "zip",
-                  "url": "http://downloads.wordpress.org/plugin/wordpress-seo.1.5.4.2.zip"
-              }
-          }
-      },
-      {
-          "type": "package",
-          "package": {
-              "name": "DesignsAndCode/forget-about-shortcode-buttons",
-              "version": "1.1.0",
-              "type": "wordpress-plugin",
-              "dist": {
-                  "type": "zip",
-                  "url": "https://downloads.wordpress.org/plugin/forget-about-shortcode-buttons.1.1.0.zip"
-              }
-          }
-      },
-      {
-          "type": "package",
-          "package": {
-              "name": "AddThis/addThis",
-              "version": "4.0.5",
-              "type": "wordpress-plugin",
-              "dist": {
-                  "type": "zip",
-                  "url": "https://downloads.wordpress.org/plugin/addthis.4.0.5.zip"
-              }
-          }
-      },
-      {
-          "type": "package",
-          "package": {
-              "name": "sumome/sumome",
-              "type": "wordpress-plugin",
-              "version": "1.10",
-              "dist": {
-                  "url": "https://downloads.wordpress.org/plugin/sumome.zip",
-                  "type": "zip"
-              }
-          }
-      },
-     {
         "type": "package",
         "package": {
-          "name": "ibericode/mailchimp-for-wp",
+            "name": "wordpress",
+            "type": "webroot",
+            "version": "4.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/WordPress/WordPress/archive/4.5.zip"
+            },
+            "require": {
+                "fancyguy/webroot-installer": "1.0.0"
+            }
+        }
+    },
+    {
+        "type": "package",
+        "package": {
+            "name": "codelight-eu/wp-cleanup",
+            "type": "wordpress-plugin",
+            "version": "1.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/codelight-eu/wp-cleanup/archive/master.zip"
+            },
+            "require": {
+                "fancyguy/webroot-installer": "1.*"
+            }
+        }
+    },
+    {
+        "type": "package",
+        "package": {
+            "name": "codelight-eu/tinymce-advanced-blockquote",
+            "type": "wordpress-plugin",
+            "version": "1.0.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/codelight-eu/tinymce-advanced-blockquote/archive/master.zip"
+            },
+            "require": {
+                "fancyguy/webroot-installer": "1.*"
+            }
+        }
+    },
+    {
+        "type": "package",
+        "package": {
+            "name": "yoast/clicky",
+            "version": "1.4.2.4",
+            "type": "wordpress-plugin",
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/clicky.1.4.2.4.zip"
+            }
+        }
+    },
+    {
+        "type": "package",
+        "package": {
+            "name": "disqus/disqus",
+            "version": "2.75",
+            "type": "wordpress-plugin",
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/disqus-comment-system.zip"
+            }
+        }
+    },
+    {
+        "type": "package",
+        "package": {
+            "name": "wp-buddy/gplus-author",
+            "version": "0.75",
+            "type": "wordpress-plugin",
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/google-author-information-in-search-results-wordpress-plugin.0.7.5.zip"
+            }
+        }
+    },
+    {
+        "type": "package",
+        "package": {
+            "name": "yoast/wordpress-seo",
+            "version": "1.5.4.2",
+            "type": "wordpress-plugin",
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/wordpress-seo.1.5.4.2.zip"
+            }
+        }
+    },
+    {
+        "type": "package",
+        "package": {
+            "name": "DesignsAndCode/forget-about-shortcode-buttons",
+            "version": "1.1.0",
+            "type": "wordpress-plugin",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/forget-about-shortcode-buttons.1.1.0.zip"
+            }
+        }
+    },
+    {
+        "type": "package",
+        "package": {
+            "name": "AddThis/addThis",
+            "version": "4.0.5",
+            "type": "wordpress-plugin",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/addthis.4.0.5.zip"
+            }
+        }
+    },
+    {
+        "type": "package",
+        "package": {
+            "name": "sumome/sumome",
+            "type": "wordpress-plugin",
+            "version": "1.10",
+            "dist": {
+                "url": "https://downloads.wordpress.org/plugin/sumome.zip",
+                "type": "zip"
+            }
+        }
+    },
+    {
+        "type":"package",
+        "package": {
+          "name": "georgestephanis/application-passwords",
+          "version":"1.0.0",
           "type": "wordpress-plugin",
-          "version": "3.1.5",
-          "dist": {
-            "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.3.1.5.zip",
-            "type": "zip"
-          }
-      }
+          "source": {
+              "url": "https://github.com/georgestephanis/application-passwords.git",
+              "type": "git",
+              "reference":"master"
+            }
+        }
+    },
+    {
+        "type": "package",
+        "package": {
+            "name": "ibericode/mailchimp-for-wp",
+            "type": "wordpress-plugin",
+            "version": "3.1.5",
+            "dist": {
+                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.3.1.5.zip",
+                "type": "zip"
+            }
+        }
     }
+],
 
-  ],
   "require": {
     "php": ">=5.3.0",
     "wordpress": "4.5",
@@ -154,7 +167,7 @@
     "codelight-eu/wp-cleanup": "*",
     "codelight-eu/tinymce-advanced-blockquote": "*",
     "fancyguy/webroot-installer": "1.0.0",
-    "wpackagist/advanced-custom-fields": "*",
+    "wpackagist-plugin/advanced-custom-fields": "*",
     "wpackagist-plugin/debug-bar": "*",
     "wpackagist-plugin/ewww-image-optimizer": "*",
     "wpackagist-plugin/google-sitemap-generator": "*",
@@ -171,7 +184,8 @@
     "DesignsAndCode/forget-about-shortcode-buttons" : "1.1.0",
     "AddThis/addThis" : "4.0.5",
     "sumome/sumome": "1.10",
-    "ibericode/mailchimp-for-wp": "^3.1"
+    "ibericode/mailchimp-for-wp": "^3.1",
+    "georgestephanis/application-passwords": "*"
   },
   "extra": {
     "webroot-dir": "wordpress",
