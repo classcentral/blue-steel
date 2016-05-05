@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d3bf7241cc57e7638f526b701f623612",
+    "hash": "11e62fa8b8b00a7bcb1fd8e192da960c",
     "content-hash": "434e80c33aa7a8d53b322e01930f7af5",
     "packages": [
         {
@@ -98,7 +98,7 @@
                 {
                     "name": "Kyle Robinson Young",
                     "email": "kyle@dontkry.com",
-                    "homepage": "https://github.com/shama",
+                    "homepage": "http://dontkry.com",
                     "role": "Developer"
                 }
             ],

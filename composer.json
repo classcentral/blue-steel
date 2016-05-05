@@ -195,5 +195,8 @@
         "app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
         "app/themes/{$name}/": ["type:wordpress-theme"]
     }
+  },
+  "config": {
+   "secure-http": false
   }
 }
