@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "11e62fa8b8b00a7bcb1fd8e192da960c",
-    "content-hash": "434e80c33aa7a8d53b322e01930f7af5",
+    "hash": "bc48d3ed178e0b4e4cda0c0235e44e04",
+    "content-hash": "753d4ee12186c660332ed2ac6363ad1e",
     "packages": [
         {
             "name": "AddThis/addThis",
@@ -286,6 +286,26 @@
             "type": "wordpress-plugin"
         },
         {
+            "name": "wpackagist-plugin/acf-to-wp-api",
+            "version": "1.3.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/acf-to-wp-api/",
+                "reference": "tags/1.3.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/acf-to-wp-api.1.3.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/acf-to-wp-api/"
+        },
+        {
             "name": "wpackagist-plugin/advanced-custom-fields",
             "version": "4.4.7",
             "source": {
@@ -366,16 +386,16 @@
             "homepage": "https://wordpress.org/plugins/google-sitemap-generator/"
         },
         {
-            "name": "wpackagist-plugin/json-rest-api",
-            "version": "1.2.5",
+            "name": "wpackagist-plugin/rest-api",
+            "version": "2.0-beta13",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/json-rest-api/",
-                "reference": "tags/1.2.5"
+                "url": "https://plugins.svn.wordpress.org/rest-api/",
+                "reference": "tags/2.0-beta13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/json-rest-api.1.2.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/rest-api.2.0-beta13.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -383,7 +403,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/json-rest-api/"
+            "homepage": "https://wordpress.org/plugins/rest-api/"
         },
         {
             "name": "wpackagist-plugin/segmentio",
@@ -491,7 +511,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "wpackagist-plugin/rest-api": 10
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
