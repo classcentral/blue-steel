@@ -11,6 +11,7 @@
           </span>
           <span class="read-length"><?php echo cc_get_reading_time(); ?> read&nbsp;</span>
           <span class="written-by">written by&nbsp;</span>
+            . Published on <?php the_date(); ?>
           <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>" class="cc-post-author"><?php echo cc_get_author_name(); ?></a>
         </div>
 
