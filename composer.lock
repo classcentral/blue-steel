@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bc48d3ed178e0b4e4cda0c0235e44e04",
-    "content-hash": "753d4ee12186c660332ed2ac6363ad1e",
+    "hash": "cd922c33493dd86a1941134fa9c41277",
+    "content-hash": "4a702d11f59c497336f831a57b8d35c7",
     "packages": [
         {
             "name": "AddThis/addThis",
@@ -98,7 +98,7 @@
                 {
                     "name": "Kyle Robinson Young",
                     "email": "kyle@dontkry.com",
-                    "homepage": "http://dontkry.com",
+                    "homepage": "https://github.com/shama",
                     "role": "Developer"
                 }
             ],
@@ -195,6 +195,17 @@
             "type": "wordpress-plugin"
         },
         {
+            "name": "getsitecontrol/getsitecontrol",
+            "version": "1.2.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/getsitecontrol.1.2.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "wordpress-plugin"
+        },
+        {
             "name": "ibericode/mailchimp-for-wp",
             "version": "3.1.5",
             "dist": {
@@ -262,10 +273,10 @@
         },
         {
             "name": "wordpress",
-            "version": "4.5",
+            "version": "4.6",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/WordPress/WordPress/archive/4.5.zip",
+                "url": "https://wordpress.org/wordpress-4.6.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -296,7 +307,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/acf-to-wp-api.1.3.3.zip",
-                "reference": null,
+                "reference": "tags/1.3.3",
                 "shasum": null
             },
             "require": {
@@ -307,15 +318,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
-            "version": "4.4.7",
+            "version": "4.4.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-custom-fields/",
-                "reference": "tags/4.4.7"
+                "reference": "tags/4.4.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.7.zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.8.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -336,7 +347,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/debug-bar.0.8.4.zip",
-                "reference": null,
+                "reference": "tags/0.8.4",
                 "shasum": null
             },
             "require": {
@@ -347,15 +358,15 @@
         },
         {
             "name": "wpackagist-plugin/ewww-image-optimizer",
-            "version": "2.8.0",
+            "version": "2.9.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ewww-image-optimizer/",
-                "reference": "tags/2.8.0"
+                "reference": "tags/2.9.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.2.8.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.2.9.8.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -376,7 +387,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/google-sitemap-generator.4.0.8.zip",
-                "reference": null,
+                "reference": "tags/4.0.8",
                 "shasum": null
             },
             "require": {
@@ -396,7 +407,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/rest-api.2.0-beta13.zip",
-                "reference": null,
+                "reference": "tags/2.0-beta13",
                 "shasum": null
             },
             "require": {
@@ -416,7 +427,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/segmentio.1.0.13.zip",
-                "reference": null,
+                "reference": "tags/1.0.13",
                 "shasum": null
             },
             "require": {
@@ -436,7 +447,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/w3-total-cache.0.9.4.1.zip",
-                "reference": null,
+                "reference": "tags/0.9.4.1",
                 "shasum": null
             },
             "require": {
@@ -447,15 +458,15 @@
         },
         {
             "name": "wpackagist-plugin/wordfence",
-            "version": "6.1.5",
+            "version": "6.1.15",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordfence/",
-                "reference": "tags/6.1.5"
+                "reference": "tags/6.1.15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordfence.6.1.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordfence.6.1.15.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -476,7 +487,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-resized-image-quality.2.1.2.zip",
-                "reference": null,
+                "reference": "tags/2.1.2",
                 "shasum": null
             },
             "require": {
