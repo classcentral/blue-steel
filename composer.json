@@ -169,6 +169,18 @@
           "type": "zip"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "automattic/amp",
+        "type": "wordpress-plugin",
+        "version": "0.3.3",
+        "dist": {
+          "url": "https://downloads.wordpress.org/plugin/amp.0.3.3.zip",
+          "type": "zip"
+        }
+      }
     }
 ],
 
@@ -199,7 +211,8 @@
     "sumome/sumome": "1.10",
     "ibericode/mailchimp-for-wp": "^3.1",
     "georgestephanis/application-passwords": "*",
-                "getsitecontrol/getsitecontrol": "1.2.1"
+                "getsitecontrol/getsitecontrol": "1.2.1",
+                "automattic/amp": "0.3.3"
   },
   "extra": {
     "webroot-dir": "wordpress",

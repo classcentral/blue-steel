@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cd922c33493dd86a1941134fa9c41277",
-    "content-hash": "4a702d11f59c497336f831a57b8d35c7",
+    "hash": "f2528ab17bac494a030d54ec47bff279",
+    "content-hash": "06cb2512877a2e742ea473d3a1d59958",
     "packages": [
         {
             "name": "AddThis/addThis",
@@ -24,6 +24,17 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/forget-about-shortcode-buttons.1.1.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "automattic/amp",
+            "version": "0.3.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/amp.0.3.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -327,7 +338,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.8.zip",
-                "reference": null,
+                "reference": "tags/4.4.8",
                 "shasum": null
             },
             "require": {
@@ -367,7 +378,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.2.9.8.zip",
-                "reference": null,
+                "reference": "tags/2.9.8",
                 "shasum": null
             },
             "require": {
@@ -467,7 +478,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wordfence.6.1.15.zip",
-                "reference": null,
+                "reference": "tags/6.1.15",
                 "shasum": null
             },
             "require": {
