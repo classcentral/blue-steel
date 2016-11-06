@@ -181,7 +181,19 @@
           "type": "zip"
         }
       }
+    },
+  {
+    "type": "package",
+    "package": {
+      "name": "twinpictures/query-collapse-o-matic",
+      "type": "wordpress-plugin",
+      "version": "0.3.3",
+      "dist": {
+        "url": "https://downloads.wordpress.org/plugin/jquery-collapse-o-matic.1.7.3.zip",
+        "type": "zip"
+      }
     }
+  }
 ],
 
   "require": {
@@ -212,7 +224,8 @@
     "ibericode/mailchimp-for-wp": "^3.1",
     "georgestephanis/application-passwords": "*",
                 "getsitecontrol/getsitecontrol": "1.2.1",
-                "automattic/amp": "0.3.3"
+                "automattic/amp": "0.3.3",
+                "twinpictures/query-collapse-o-matic": "^0.3.3"
   },
   "extra": {
     "webroot-dir": "wordpress",

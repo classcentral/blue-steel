@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f2528ab17bac494a030d54ec47bff279",
-    "content-hash": "06cb2512877a2e742ea473d3a1d59958",
+    "hash": "270a80edba6b634c5f3ce00fb76c0e3f",
+    "content-hash": "1b7867812a05aca6873dfa6831d7ccf2",
     "packages": [
         {
             "name": "AddThis/addThis",
@@ -277,6 +277,17 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/sumome.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "twinpictures/query-collapse-o-matic",
+            "version": "0.3.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/jquery-collapse-o-matic.1.7.3.zip",
                 "reference": null,
                 "shasum": null
             },
