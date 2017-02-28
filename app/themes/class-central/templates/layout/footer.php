@@ -17,7 +17,7 @@
               <h5 class="list-heading">More</h5>
               <ul>
                   <li><a href="https://www.class-central.com/report/moocs-for-credit/" onmousedown="ga('send','event', 'Footer', 'MOOCs for Credit')">MOOCs for Credit</a></li>
-                  <li><a href="/credentials" onmousedown="ga('send','event', 'Footer', 'Earn a Credential')">Earn A Credential</a></li>
+                  <li><a href="/certificate" onmousedown="ga('send','event', 'Footer', 'Earn a Credential')">Earn A Credential</a></li>
                   <li><a href="https://www.class-central.com/report/follow-button-for-education/" onmousedown="ga('send','event', 'Footer', 'Follow Button')">Follow Button</a></li>
                   <li><a href="/report" onmousedown="_gaq.push(['_trackEvent', 'Footer', 'MOOC Report'])">MOOC Report</a></li>
                   <li><a href="/faq" title="Frequently asked questions about MOOCs" onmousedown="_gaq.push(['_trackEvent', 'Footer', 'FAQ'])">FAQ</a></li>
