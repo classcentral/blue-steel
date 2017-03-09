@@ -53,11 +53,11 @@
         "type": "package",
         "package": {
             "name": "yoast/clicky",
-            "version": "1.4.2.4",
+            "version": "1.6",
             "type": "wordpress-plugin",
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/clicky.1.4.2.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/clicky.1.6.zip"
             }
         }
     },
@@ -89,11 +89,11 @@
         "type": "package",
         "package": {
             "name": "yoast/wordpress-seo",
-            "version": "1.5.4.2",
+            "version": "4.4",
             "type": "wordpress-plugin",
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/wordpress-seo.1.5.4.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.4.4.zip"
             }
         }
     },
@@ -106,30 +106,6 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/forget-about-shortcode-buttons.1.1.0.zip"
-            }
-        }
-    },
-    {
-        "type": "package",
-        "package": {
-            "name": "AddThis/addThis",
-            "version": "4.0.5",
-            "type": "wordpress-plugin",
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/addthis.4.0.5.zip"
-            }
-        }
-    },
-    {
-        "type": "package",
-        "package": {
-            "name": "sumome/sumome",
-            "type": "wordpress-plugin",
-            "version": "1.10",
-            "dist": {
-                "url": "https://downloads.wordpress.org/plugin/sumome.zip",
-                "type": "zip"
             }
         }
     },
@@ -175,9 +151,9 @@
       "package": {
         "name": "automattic/amp",
         "type": "wordpress-plugin",
-        "version": "0.3.3",
+        "version": "0.4.2",
         "dist": {
-          "url": "https://downloads.wordpress.org/plugin/amp.0.3.3.zip",
+          "url": "https://downloads.wordpress.org/plugin/amp.0.4.2.zip",
           "type": "zip"
         }
       }
@@ -214,17 +190,15 @@
     "wpackagist-plugin/rest-api": "2.0-beta13",
     "wpackagist-plugin/acf-to-wp-api": "*",
     "roots/wp-stage-switcher": "1.0.1",
-    "yoast/clicky" : "1.4.2.4",
-    "yoast/wordpress-seo" : "1.5.4.2",
+    "yoast/clicky" : "1.6",
+    "yoast/wordpress-seo" : "4.4",
     "disqus/disqus" : "2.75",
     "DesignsAndCode/forget-about-shortcode-buttons" : "1.1.0",
-    "AddThis/addThis" : "4.0.5",
-    "sumome/sumome": "1.10",
     "ibericode/mailchimp-for-wp": "^3.1",
     "georgestephanis/application-passwords": "*",
-                "getsitecontrol/getsitecontrol": "1.2.1",
-                "automattic/amp": "0.3.3",
-                "twinpictures/query-collapse-o-matic": "^0.3.3"
+    "getsitecontrol/getsitecontrol": "1.2.1",
+    "automattic/amp": "0.4.2",
+    "twinpictures/query-collapse-o-matic": "^0.3.3"
   },
   "extra": {
     "webroot-dir": "wordpress",

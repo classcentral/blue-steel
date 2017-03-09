@@ -4,19 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "fddcef7dfdbd6df167a475583fed70d6",
+    "content-hash": "373da2e85a70469c9fc8984dab55e0e6",
     "packages": [
-        {
-            "name": "AddThis/addThis",
-            "version": "4.0.5",
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/addthis.4.0.5.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "type": "wordpress-plugin"
-        },
         {
             "name": "DesignsAndCode/forget-about-shortcode-buttons",
             "version": "1.1.0",
@@ -30,10 +19,10 @@
         },
         {
             "name": "automattic/amp",
-            "version": "0.3.3",
+            "version": "0.4.2",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/amp.0.3.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/amp.0.4.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -271,17 +260,6 @@
             "time": "2014-04-07T23:12:11+00:00"
         },
         {
-            "name": "sumome/sumome",
-            "version": "1.10",
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/sumome.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "type": "wordpress-plugin"
-        },
-        {
             "name": "twinpictures/query-collapse-o-matic",
             "version": "0.3.3",
             "dist": {
@@ -508,10 +486,10 @@
         },
         {
             "name": "yoast/clicky",
-            "version": "1.4.2.4",
+            "version": "1.6",
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/clicky.1.4.2.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/clicky.1.6.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -519,10 +497,10 @@
         },
         {
             "name": "yoast/wordpress-seo",
-            "version": "1.5.4.2",
+            "version": "4.4",
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/wordpress-seo.1.5.4.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.4.4.zip",
                 "reference": null,
                 "shasum": null
             },
