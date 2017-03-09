@@ -4,8 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "270a80edba6b634c5f3ce00fb76c0e3f",
-    "content-hash": "1b7867812a05aca6873dfa6831d7ccf2",
+    "content-hash": "fddcef7dfdbd6df167a475583fed70d6",
     "packages": [
         {
             "name": "AddThis/addThis",
@@ -140,7 +139,7 @@
                 "wordpress",
                 "zend"
             ],
-            "time": "2013-10-24 16:13:49"
+            "time": "2013-10-24T16:13:49+00:00"
         },
         {
             "name": "disqus/disqus",
@@ -193,7 +192,7 @@
             ],
             "description": "A composer installer for libraries that live in an application webroot.",
             "homepage": "http://fancyguy.github.com/webroot-installer/",
-            "time": "2013-01-29 22:51:45"
+            "time": "2013-01-29T22:51:45+00:00"
         },
         {
             "name": "georgestephanis/application-passwords",
@@ -269,7 +268,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2014-04-07 23:12:11"
+            "time": "2014-04-07T23:12:11+00:00"
         },
         {
             "name": "sumome/sumome",
@@ -295,10 +294,10 @@
         },
         {
             "name": "wordpress",
-            "version": "4.6",
+            "version": "4.7.3",
             "dist": {
                 "type": "zip",
-                "url": "https://wordpress.org/wordpress-4.6.zip",
+                "url": "https://wordpress.org/wordpress-4.7.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -306,17 +305,6 @@
                 "fancyguy/webroot-installer": "1.0.0"
             },
             "type": "webroot"
-        },
-        {
-            "name": "wp-buddy/gplus-author",
-            "version": "0.75",
-            "dist": {
-                "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/google-author-information-in-search-results-wordpress-plugin.0.7.5.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "type": "wordpress-plugin"
         },
         {
             "name": "wpackagist-plugin/acf-to-wp-api",
@@ -340,16 +328,16 @@
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
-            "version": "4.4.8",
+            "version": "4.4.11",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-custom-fields/",
-                "reference": "tags/4.4.8"
+                "reference": "tags/4.4.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.8.zip",
-                "reference": "tags/4.4.8",
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.11.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -380,16 +368,16 @@
         },
         {
             "name": "wpackagist-plugin/ewww-image-optimizer",
-            "version": "2.9.8",
+            "version": "3.2.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ewww-image-optimizer/",
-                "reference": "tags/2.9.8"
+                "reference": "tags/3.2.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.2.9.8.zip",
-                "reference": "tags/2.9.8",
+                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.3.2.7.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -460,16 +448,16 @@
         },
         {
             "name": "wpackagist-plugin/w3-total-cache",
-            "version": "0.9.4.1",
+            "version": "0.9.5.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/w3-total-cache/",
-                "reference": "tags/0.9.4.1"
+                "reference": "tags/0.9.5.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/w3-total-cache.0.9.4.1.zip",
-                "reference": "tags/0.9.4.1",
+                "url": "https://downloads.wordpress.org/plugin/w3-total-cache.0.9.5.2.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -480,16 +468,16 @@
         },
         {
             "name": "wpackagist-plugin/wordfence",
-            "version": "6.1.15",
+            "version": "6.3.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordfence/",
-                "reference": "tags/6.1.15"
+                "reference": "tags/6.3.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordfence.6.1.15.zip",
-                "reference": "tags/6.1.15",
+                "url": "https://downloads.wordpress.org/plugin/wordfence.6.3.3.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
