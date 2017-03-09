@@ -9,10 +9,10 @@
         "package": {
             "name": "wordpress",
             "type": "webroot",
-            "version": "4.6",
+            "version": "4.7.3",
             "dist": {
                 "type": "zip",
-                "url": "https://wordpress.org/wordpress-4.6.zip"
+                "url": "https://wordpress.org/wordpress-4.7.3.zip"
             },
             "require": {
                 "fancyguy/webroot-installer": "1.0.0"
@@ -198,7 +198,7 @@
 
   "require": {
     "php": ">=5.3.0",
-    "wordpress": "4.6",
+    "wordpress": "4.7.3",
     "composer/installers": "v1.0.7",
     "codelight-eu/wp-cleanup": "*",
     "codelight-eu/tinymce-advanced-blockquote": "*",
@@ -217,7 +217,6 @@
     "yoast/clicky" : "1.4.2.4",
     "yoast/wordpress-seo" : "1.5.4.2",
     "disqus/disqus" : "2.75",
-    "wp-buddy/gplus-author": "0.75",
     "DesignsAndCode/forget-about-shortcode-buttons" : "1.1.0",
     "AddThis/addThis" : "4.0.5",
     "sumome/sumome": "1.10",
