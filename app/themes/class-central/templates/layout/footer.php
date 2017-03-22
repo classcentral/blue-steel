@@ -52,9 +52,7 @@
 
       <div class="row">
           <div class="col-lg-12">
-              <span class="copyright">©Class Central 2011-2014</span>
-              <iframe src="/githubbtn?user=dhawalhshah&repo=class-central&type=watch&count=true"
-                      allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
+              <span class="copyright">©Class Central 2011-2017</span>
           </div>
       </div>
   </div>
