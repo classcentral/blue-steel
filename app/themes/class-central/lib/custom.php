@@ -85,6 +85,8 @@ add_filter('widget_title', 'cc_wrap_widget_title');
  */
 function get_course_date( $attr ) {
 
+    return '';
+
     $defaultDate = 'TBA';
     if(empty($attr) || empty($attr['id']) )
     {
