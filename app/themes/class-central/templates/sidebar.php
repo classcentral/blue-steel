@@ -17,10 +17,10 @@
     <div class="ad-wrap">
       <div class="ad-box">
 
-          <a class="ad-box__link" rel="nofollow" href="https://info.canvas.net/offer-a-course?utm_source=Class-Central&utm_medium=BannerAd&utm_campaign=Canvas+Network+About+Us&utm_content=" target="_blank" onmousedown="ga('send','event', 'MOOC Report Sidebar', 'Canvas Network', 'Are you a teacher?')" rel="nofollow">
-              <img class="ad-box__img" src="https://d3r3mog6nu8pt4.cloudfront.net/ads/2016_01_ClassCentral_130x100_CanvasNet.jpg">
+          <a class="ad-box__link" rel="nofollow" href="https://itunes.apple.com/gb/podcast/the-edtech-podcast/id1107282759?mt=2&ls=1" target="_blank" onmousedown="ga('send','event', 'MOOC Report Sidebar', 'Canvas Network', 'Are you a teacher?')" rel="nofollow">
+              <img class="ad-box__img" src="https://d3r3mog6nu8pt4.cloudfront.net/ads/edtech_podcast_130.jpg">
           </a>
-          <p class="ad-box__text">Passionate about teaching? Get your global classroom here.</p>
+          <p class="ad-box__text">Improving the dialogue between 'ed' and 'tech'.</p>
 
           <span class="ad-box__note">Ads via Class Central</span>
       </div>
