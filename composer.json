@@ -186,8 +186,6 @@
     "wpackagist-plugin/w3-total-cache": "*",
     "wpackagist-plugin/wordfence": "*",
     "wpackagist-plugin/wp-resized-image-quality": "*",
-    "wpackagist-plugin/segmentio": "*",
-    "wpackagist-plugin/rest-api": "2.0-beta13",
     "wpackagist-plugin/acf-to-wp-api": "*",
     "roots/wp-stage-switcher": "1.0.1",
     "yoast/clicky" : "1.6",

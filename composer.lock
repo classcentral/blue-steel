@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5a26b7a5976faff0c751d6a0123fea3b",
+    "content-hash": "fc46c6318e5279b42b0f9d40c79b0e82",
     "packages": [
         {
             "name": "DesignsAndCode/forget-about-shortcode-buttons",
@@ -385,46 +385,6 @@
             "homepage": "https://wordpress.org/plugins/google-sitemap-generator/"
         },
         {
-            "name": "wpackagist-plugin/rest-api",
-            "version": "2.0-beta13",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/rest-api/",
-                "reference": "tags/2.0-beta13"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/rest-api.2.0-beta13.zip",
-                "reference": "tags/2.0-beta13",
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/rest-api/"
-        },
-        {
-            "name": "wpackagist-plugin/segmentio",
-            "version": "1.0.13",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/segmentio/",
-                "reference": "tags/1.0.13"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/segmentio.1.0.13.zip",
-                "reference": "tags/1.0.13",
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/segmentio/"
-        },
-        {
             "name": "wpackagist-plugin/w3-total-cache",
             "version": "0.9.5.4",
             "source": {
@@ -510,9 +470,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "wpackagist-plugin/rest-api": 10
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
