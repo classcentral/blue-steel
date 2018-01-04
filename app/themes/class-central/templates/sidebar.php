@@ -13,7 +13,7 @@
         <?php endif; ?>
       <?php dynamic_sidebar('sidebar-primary'); ?>
     <?php endif; ?>
-
+    <!--
     <div class="ad-wrap">
       <div class="ad-box">
 
@@ -25,6 +25,7 @@
           <span class="ad-box__note">Ads via Class Central</span>
       </div>
     </div>
+    -->
 
     <!--
     <div class="ad-wrap">
