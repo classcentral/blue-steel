@@ -13,49 +13,49 @@
         <?php endif; ?>
       <?php dynamic_sidebar('sidebar-primary'); ?>
     <?php endif; ?>
-    <!--
-    <div class="ad-wrap">
-      <div class="ad-box">
+      <!--
+      <div class="ad-wrap">
+        <div class="ad-box">
 
-          <a class="ad-box__link" rel="nofollow" href="http://www.mooc-maker.org/moocs17" target="_blank" onmousedown="ga('send','event', 'MOOC Report Sidebar', 'Canvas Network', 'Are you a teacher?')" rel="nofollow">
-              <img class="ad-box__img" src="https://d3r3mog6nu8pt4.cloudfront.net/ads/intmoocmaker-130.jpg">
-          </a>
-          <p class="ad-box__text">The reference MOOC conference for Latin America. Apply by 1st September.</p>
+            <a class="ad-box__link" rel="nofollow" href="https://con.openedx.org/" target="_blank" rel="nofollow">
+                <img class="ad-box__img" src="https://d3r3mog6nu8pt4.cloudfront.net/ads/intmoocmaker-130.jpg">
+            </a>
+            <p class="ad-box__text">The reference MOOC conference for Latin America. Apply by 1st September.</p>
 
-          <span class="ad-box__note">Ads via Class Central</span>
+            <span class="ad-box__note">Ads via Class Central</span>
+        </div>
       </div>
-    </div>
     -->
 
-    <!--
-    <div class="ad-wrap">
-      <div class="ad-content">
+      <!--
+      <div class="ad-wrap">
+        <div class="ad-content">
 
-        <a class="ad-title" href="#">
-        Lorem ipsum dolor
-        </a>
-
-        <a class="ad-link" href="#">
-          https://loremipsumdolor.lorem
-        </a>
-        <p class="ad-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-      </div>
-      <span class="ad-note">Advertisement</span>
-    </div>
-    <div class="ad-wrap">
-      <div class="ad-content">
-        <a class="ad-title" href="#">
+          <a class="ad-title" href="#">
           Lorem ipsum dolor
-        </a>
+          </a>
 
-        <a class="ad-link" href="#">
+          <a class="ad-link" href="#">
             https://loremipsumdolor.lorem
-        </a>
-        <p class="ad-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+          </a>
+          <p class="ad-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+        </div>
+        <span class="ad-note">Advertisement</span>
       </div>
-      <span class="ad-note">Advertisement</span>
-    </div>
-    -->
+      <div class="ad-wrap">
+        <div class="ad-content">
+          <a class="ad-title" href="#">
+            Lorem ipsum dolor
+          </a>
+
+          <a class="ad-link" href="#">
+              https://loremipsumdolor.lorem
+          </a>
+          <p class="ad-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+        </div>
+        <span class="ad-note">Advertisement</span>
+      </div>
+      -->
 
 
 
