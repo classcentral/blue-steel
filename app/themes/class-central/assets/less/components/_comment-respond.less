@@ -1,6 +1,11 @@
 .comment-respond {
   .comment-reply-title {
     margin: 2.1154em 0 .3846em;
+
+    small {
+      display: block;
+      margin-top: .5917em;
+    }
   }
 
   p {
@@ -59,5 +64,20 @@
     max-width: 22em;
     width: 100%;
     resize: none;
+  }
+}
+
+.children .comment-respond {
+  border-left: .0667em solid #e8e8e8;
+  padding-left: 1em;
+  margin-left: .3333em;
+}
+
+@media (min-width: @grid-float-breakpoint) {
+
+  .children .comment-respond {
+    border-left: .0667em solid #e8e8e8;
+    padding-left: 2em;
+    margin-left: .6667em;
   }
 }
