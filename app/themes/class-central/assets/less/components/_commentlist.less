@@ -1,0 +1,51 @@
+.commentlist {
+  padding-left: 0;
+  margin: 3em 0 0;
+
+  .comment {
+    display: block;
+    margin-bottom: 1.3333em;
+
+    &:not(:first-of-type) {
+      border-top: 1px solid #e8e8e8;
+      padding-top: 1.3333em;
+    }
+  }
+
+  .avatar {
+    margin-right: .6667em;
+    margin-bottom: .6667em;
+  }
+
+  cite {
+    font-weight: bold;
+  }
+
+  .commentmetadata {
+    margin-bottom: .6667em;
+  }
+
+  .children {
+    margin: 2em 0 0 .3333em;
+    padding-left: .6667em;
+    border-left: .0667em solid #e8e8e8;
+
+    .comment {
+      border-top: none;
+    }
+  }
+}
+
+@media (min-width: @grid-float-breakpoint) {
+  .commentlist {
+    .children {
+      margin-left: .6667em;
+      padding-left: 1.3333em;
+      border-left: .0667em solid #e8e8e8;
+
+      .comment {
+        border-top: none;
+      }
+    }
+  }
+}
