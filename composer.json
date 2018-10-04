@@ -196,7 +196,8 @@
     "georgestephanis/application-passwords": "*",
     "getsitecontrol/getsitecontrol": "1.2.1",
     "automattic/amp": "0.4.2",
-    "twinpictures/query-collapse-o-matic": "^0.3.3"
+    "twinpictures/query-collapse-o-matic": "^0.3.3",
+    "wpackagist-plugin/akismet": "*"
   },
   "extra": {
     "webroot-dir": "wordpress",
