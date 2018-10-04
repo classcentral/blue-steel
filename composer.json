@@ -179,7 +179,7 @@
     "codelight-eu/wp-cleanup": "*",
     "codelight-eu/tinymce-advanced-blockquote": "*",
     "fancyguy/webroot-installer": "1.0.0",
-    "wpackagist-plugin/advanced-custom-fields": "*",
+    "wpackagist-plugin/advanced-custom-fields": "4.4.11",
     "wpackagist-plugin/debug-bar": "*",
     "wpackagist-plugin/ewww-image-optimizer": "*",
     "wpackagist-plugin/google-sitemap-generator": "*",
